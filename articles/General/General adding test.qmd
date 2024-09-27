@@ -16,7 +16,7 @@ Inside the GitHub repository find the "articles" folder. Inside the articles fol
 
 After choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.
 
-![Adding a file in GitHub](tutorialimg3.png)
+![Adding a file in GitHub. You can either create a new file or import a pre-made .qmd file. ](tutorialimg3.png)
 
 To add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:
 
@@ -28,7 +28,8 @@ date: "25.9.2024" ## date and time format is MM.DD.YYY
 ---
 ```
 
-The wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as [stackedit](https://stackedit.io/).
-![Editing a file](tutorialimg4.png)
+The wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as [stackedit](https://stackedit.io/). The orange area in the image shown below is your "article" section. This section **has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won't be rendered to the wiki)!** After you have included the metadata section, you are free to write and format whatever you wish in the main article.
+
+![Editing a file. RED section is your .qmd files name. YELLOW section is the main article section. ](tutorialimg4.png)
 
 When you feel like your article is ready to publish, simply press the green "Commit Changes" button in github. feel free to select the "push changes to main" button. Be sure to add a short description about your article into the commit comment in GitHub. **Your article will be pushed to the wiki automatically. *it might take a minute or two for your article to show up correctly.***
