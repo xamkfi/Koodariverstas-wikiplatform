@@ -2,6 +2,7 @@
 title: "Adding and Editing pages"
 categories: [General]
 date: "9.25.2024"
+author: Niko Laurila
 ---
 
 # Adding and Editing pages
@@ -24,7 +25,8 @@ To add a .qmd file simply add .qmd in the file name when finalizing your file (R
 ---
 title: "Example title (This is the title you want the reader to see and "interact" with)"
 categories: [example_category]
-date: "25.9.2024" ## date and time format is MM.DD.YYY
+date: "25.9.2024" ## date and time format is MM.DD.YYYY
+author: Author/authors of the article. 
 ---
 ```
 
