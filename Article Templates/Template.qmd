@@ -1,7 +1,0 @@
----
-title: "Template .qmd file" ##enter your articles title here
-categories: [] ##enter the category here
-date: "9.25.2024" ##enter the date here
----
-
-This part is where your content goes.
