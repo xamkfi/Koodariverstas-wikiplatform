@@ -1,0 +1,7 @@
+---
+title: "Ending a project"
+format: html
+categories: [Ending a project]
+---
+
+This is a test post in the "Ending a project" category

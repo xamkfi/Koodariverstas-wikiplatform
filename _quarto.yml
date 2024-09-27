@@ -1,0 +1,64 @@
+project:
+  type: website
+
+editor:
+  edit: true
+  branch: "gh-pages"
+  repo: "NikoLaurila1/Quarto-Wikiplatform-test"
+ 
+
+
+execute:
+  freeze: auto
+
+website:
+  back-to-top-navigation: true
+  
+  title: Koodariverstas Wiki
+      [![](EU.png){fig-alt="Co-funded by the european union" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
+      [![](ELY.png){fig-alt="ELY-center" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
+      [![](XAMK.png){fig-alt="XAMK" width=145px height=80px margin=10px}](https://www.xamk.fi/en/)
+  
+    
+  favicon: Logo.png
+  
+  navbar: 
+    background: '#593196'
+    right:
+      - icon: github
+        href: https://github.com/NikoLaurila1/Quarto-Wikiplatform-test
+      - icon: twitter
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://linkedin.com
+  sidebar:
+    style: "floating"
+    text: "Articles"
+    contents: auto
+    repo-actions: edit
+  
+
+  page-footer: 
+    left: |
+      [![](EUalt.png){fig-alt="Co-funded by the european union" width=220px height=50px}](https://european-union.europa.eu/index_en)
+    center: |
+      [![](Logo.png){fig-alt="Koodariverstas logo" width=100px height=100px}](index.qmd)
+      Koodariverstas 2024
+    right: 
+      - icon: patch-question
+      - text: About Us
+        href: about.qmd
+      - icon: file-earmark-text
+      - text: Privacy Policy
+        href: https://www.xamk.fi/en/data-privacy/
+  
+format: 
+  html:
+    theme:
+      light: pulse
+      dark: darkly
+     
+    css: styles.css
+
+
+

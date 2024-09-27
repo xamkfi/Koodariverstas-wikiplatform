@@ -1,0 +1,30 @@
+---
+project:
+  type: website
+  output-dir: docs
+listing:
+  contents: 
+   - articles
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: Koodariverstas wiki platform
+margin-top: 20px
+title-block-style: plain
+title: Koodariverstas Wiki platform
+date: 9.9.2024
+date-format: short
+---
+
+# Welcome to the Wiki!
+
+This site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. **You can also use the search located in the top right of the wiki.**
+
+There are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.
+
+### Happy Coding!
+
+*-Koodariverstas staff*

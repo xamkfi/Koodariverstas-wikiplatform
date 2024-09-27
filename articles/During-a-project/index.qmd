@@ -1,0 +1,7 @@
+---
+title: "During a project"
+format: html
+categories: [During a project]
+---
+
+This is a test post in the "During a project" category

@@ -1,0 +1,8 @@
+---
+title: "General articles"
+format: html
+categories: [General]
+date: "2.24.2024"
+---
+
+This is a test post to test adding posts and filtering
