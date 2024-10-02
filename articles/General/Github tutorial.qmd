@@ -1,0 +1,32 @@
+---
+title: "Joining xamk organizational github"
+categories: [General]
+date: "10.2.2024"
+author: Niko Laurila
+---
+
+Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our [GitHub](https://github.com/xamkfi).
+
+Our GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on in fact even this Wiki is fully hosted through GitHub pages and all of the source code is available at our [repository](https://github.com/xamkfi/Koodariverstas-wikiplatform).
+
+Your first step is to create your own GitHub account [here](https://github.com/).
+
+When you have created your GitHub account, you can request access to the GitHub organization through [Xinfo](https://xinfo.xamk.fi/customerui).
+
+**Please note:** only **one** member of a team needs to send a request to Xinfo **(Read inviting others into a repository from below).**
+
+![This is the main page of Xinfo. You want to leave an ICT service request for access to GitHub](images/Github%20tut1.png)
+
+![This is the main page of Xinfo. You want to leave an ICT service request for access to GitHub](images/Github%20tut1.png)
+
+When sending a request to access the organization, **please attach your exact GitHub username to the ticket**.
+
+![Fill your information here. Be sure to add a description where you clearly state requesting access to GitHub](images/Github%20tut2.png)
+
+When you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. **One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.**
+
+![You can manage access to your repository from the repository access settings. ](images/Github tut3.png)
+
+We hope this helps you begin development in Koodariverstas.
+
+*Happy Coding!*
