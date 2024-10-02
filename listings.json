@@ -1,10 +1,14 @@
 [
   {
-    "listing": "/articles/General/index.html",
+    "listing": "/articles/During-a-project/index.html",
     "items": [
-      "/articles/General/Tools.html",
-      "/articles/General/Github tutorial.html",
-      "/articles/General/General adding test.html"
+      "/articles/During-a-project/managing a workflow.html"
+    ]
+  },
+  {
+    "listing": "/articles/Ending-a-project/index.html",
+    "items": [
+      "/articles/Ending-a-project/Gathering feedback.html"
     ]
   },
   {
@@ -15,15 +19,12 @@
     ]
   },
   {
-    "listing": "/articles/Ending-a-project/index.html",
+    "listing": "/articles/General/index.html",
     "items": [
-      "/articles/Ending-a-project/Gathering feedback.html"
-    ]
-  },
-  {
-    "listing": "/articles/During-a-project/index.html",
-    "items": [
-      "/articles/During-a-project/managing a workflow.html"
+      "/articles/General/Tools.html",
+      "/articles/General/Github tutorial.html",
+      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/General adding test.html"
     ]
   },
   {

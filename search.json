@@ -22,83 +22,27 @@
     ]
   },
   {
-    "objectID": "articles/General/index.html",
-    "href": "articles/General/index.html",
-    "title": "General articles",
+    "objectID": "articles/General/Github tutorial.html",
+    "href": "articles/General/Github tutorial.html",
+    "title": "Joining xamk organizational github",
     "section": "",
-    "text": "This is a test post to test adding posts and filtering\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTools of trade\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoining xamk organizational github\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\n\n\n\nNiko Laurila\n\n\nSep 25, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.\nOur GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on. Even this Wiki is fully hosted through GitHub pages and automated through GitHub actions. All of the source code is available at our repository.\nYour first step is to create your own GitHub account here.\nWhen you have created your GitHub account, you can request access to the GitHub organization through Xinfo.\nPlease note: only one member of a team needs to send a request to Xinfo (Read inviting others into a repository from below).\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\nWhen sending a request to access the organization, please attach your exact GitHub username to the ticket.\n\n\n\nFill your information here. Be sure to add a description where you clearly state requesting access to GitHub\n\n\nWhen you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.\n\n\n\nYou can manage access to your repository from the repository access settings.\n\n\nWe hope this helps you begin development in Koodariverstas.\nHappy Coding!\n\n\n\n Back to top",
     "crumbs": [
       "Articles",
-      "General articles"
+      "General articles",
+      "Joining xamk organizational github"
     ]
   },
   {
-    "objectID": "articles/Beginning-a-project/tips for beginning.html",
-    "href": "articles/Beginning-a-project/tips for beginning.html",
-    "title": "Tips for beginning a project",
+    "objectID": "articles/General/General adding test.html",
+    "href": "articles/General/General adding test.html",
+    "title": "Adding and Editing pages",
     "section": "",
-    "text": "This is a test page for the “beginning” category\n\n\n\n Back to top",
+    "text": "Adding and Editing pages\nIf you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).\n\n\n\nGithub link location\n\n\nInside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article.\n\n\n\nGithub articles folder\n\n\nAfter choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.\n\n\n\nAdding a file in GitHub. You can either create a new file or import a pre-made .qmd file.\n\n\nTo add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:\n---\ntitle: \"Example title (This is the title you want the reader to see and \"interact\" with)\"\ncategories: [example_category]\ndate: \"25.9.2024\" ## date and time format is MM.DD.YYYY\nauthor: Author/authors of the article. \n---\nThe wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as stackedit. The orange area in the image shown below is your “article” section. This section has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)! After you have included the metadata section, you are free to write and format whatever you wish in the main article.\n\n\n\nEditing a file. RED section is your .qmd files name. YELLOW section is the main article section.\n\n\nWhen you feel like your article is ready to publish, simply press the green “Commit Changes” button in github. feel free to select the “push changes to main” button. Be sure to add a short description about your article into the commit comment in GitHub. Your article will be pushed to the wiki automatically. it might take a minute or two for your article to show up correctly.\n\n\n\n\n Back to top",
     "crumbs": [
       "Articles",
-      "Beginning a project",
-      "Tips for beginning a project"
-    ]
-  },
-  {
-    "objectID": "articles/Beginning-a-project/index.html",
-    "href": "articles/Beginning-a-project/index.html",
-    "title": "Beginning a project",
-    "section": "",
-    "text": "This is a test post in the “Beginning a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTips for beginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Beginning a project"
-    ]
-  },
-  {
-    "objectID": "articles/Ending-a-project/index.html",
-    "href": "articles/Ending-a-project/index.html",
-    "title": "Ending a project",
-    "section": "",
-    "text": "This is a test post in the “Ending a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Ending a project"
-    ]
-  },
-  {
-    "objectID": "articles/During-a-project/index.html",
-    "href": "articles/During-a-project/index.html",
-    "title": "During a project",
-    "section": "",
-    "text": "This is a test post in the “During a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "During a project"
-    ]
-  },
-  {
-    "objectID": "articles/During-a-project/managing a workflow.html",
-    "href": "articles/During-a-project/managing a workflow.html",
-    "title": "Managing a workflow",
-    "section": "",
-    "text": "This is a page about managing a workflow during a project\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "During a project",
-      "Managing a workflow"
-    ]
-  },
-  {
-    "objectID": "articles/Ending-a-project/Gathering feedback.html",
-    "href": "articles/Ending-a-project/Gathering feedback.html",
-    "title": "Gathering feedback",
-    "section": "",
-    "text": "This post is about gathering feedback when ending a project\ntesting updating in real time\nEdit this page\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Ending a project",
-      "Gathering feedback"
+      "General articles",
+      "Adding and Editing pages"
     ]
   },
   {
@@ -294,27 +238,275 @@
     ]
   },
   {
-    "objectID": "articles/General/General adding test.html",
-    "href": "articles/General/General adding test.html",
-    "title": "Adding and Editing pages",
+    "objectID": "articles/Ending-a-project/Gathering feedback.html",
+    "href": "articles/Ending-a-project/Gathering feedback.html",
+    "title": "Gathering feedback",
     "section": "",
-    "text": "Adding and Editing pages\nIf you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).\n\n\n\nGithub link location\n\n\nInside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article.\n\n\n\nGithub articles folder\n\n\nAfter choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.\n\n\n\nAdding a file in GitHub. You can either create a new file or import a pre-made .qmd file.\n\n\nTo add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:\n---\ntitle: \"Example title (This is the title you want the reader to see and \"interact\" with)\"\ncategories: [example_category]\ndate: \"25.9.2024\" ## date and time format is MM.DD.YYYY\nauthor: Author/authors of the article. \n---\nThe wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as stackedit. The orange area in the image shown below is your “article” section. This section has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)! After you have included the metadata section, you are free to write and format whatever you wish in the main article.\n\n\n\nEditing a file. RED section is your .qmd files name. YELLOW section is the main article section.\n\n\nWhen you feel like your article is ready to publish, simply press the green “Commit Changes” button in github. feel free to select the “push changes to main” button. Be sure to add a short description about your article into the commit comment in GitHub. Your article will be pushed to the wiki automatically. it might take a minute or two for your article to show up correctly.\n\n\n\n\n Back to top",
+    "text": "This post is about gathering feedback when ending a project\ntesting updating in real time\nEdit this page\n\n\n\n Back to top",
     "crumbs": [
       "Articles",
-      "General articles",
-      "Adding and Editing pages"
+      "Ending a project",
+      "Gathering feedback"
     ]
   },
   {
-    "objectID": "articles/General/Github tutorial.html",
-    "href": "articles/General/Github tutorial.html",
-    "title": "Joining xamk organizational github",
+    "objectID": "articles/During-a-project/managing a workflow.html",
+    "href": "articles/During-a-project/managing a workflow.html",
+    "title": "Managing a workflow",
     "section": "",
-    "text": "Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.\nOur GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on. Even this Wiki is fully hosted through GitHub pages and automated through GitHub actions. All of the source code is available at our repository.\nYour first step is to create your own GitHub account here.\nWhen you have created your GitHub account, you can request access to the GitHub organization through Xinfo.\nPlease note: only one member of a team needs to send a request to Xinfo (Read inviting others into a repository from below).\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\nWhen sending a request to access the organization, please attach your exact GitHub username to the ticket.\n\n\n\nFill your information here. Be sure to add a description where you clearly state requesting access to GitHub\n\n\nWhen you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.\n\n\n\nYou can manage access to your repository from the repository access settings.\n\n\nWe hope this helps you begin development in Koodariverstas.\nHappy Coding!\n\n\n\n Back to top",
+    "text": "This is a page about managing a workflow during a project\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "During a project",
+      "Managing a workflow"
+    ]
+  },
+  {
+    "objectID": "articles/During-a-project/index.html",
+    "href": "articles/During-a-project/index.html",
+    "title": "During a project",
+    "section": "",
+    "text": "This is a test post in the “During a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "During a project"
+    ]
+  },
+  {
+    "objectID": "articles/Ending-a-project/index.html",
+    "href": "articles/Ending-a-project/index.html",
+    "title": "Ending a project",
+    "section": "",
+    "text": "This is a test post in the “Ending a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "Ending a project"
+    ]
+  },
+  {
+    "objectID": "articles/Beginning-a-project/index.html",
+    "href": "articles/Beginning-a-project/index.html",
+    "title": "Beginning a project",
+    "section": "",
+    "text": "This is a test post in the “Beginning a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTips for beginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "Beginning a project"
+    ]
+  },
+  {
+    "objectID": "articles/Beginning-a-project/tips for beginning.html",
+    "href": "articles/Beginning-a-project/tips for beginning.html",
+    "title": "Tips for beginning a project",
+    "section": "",
+    "text": "This is a test page for the “beginning” category\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "Beginning a project",
+      "Tips for beginning a project"
+    ]
+  },
+  {
+    "objectID": "articles/General/index.html",
+    "href": "articles/General/index.html",
+    "title": "General articles",
+    "section": "",
+    "text": "This is a test post to test adding posts and filtering\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTools of trade\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoining xamk organizational github\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\n\n\n\nNiko Laurila\n\n\nSep 25, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "General articles"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html",
+    "href": "articles/General/StackEditFormatGuide.html",
+    "title": "StackEdit Format guide",
+    "section": "",
+    "text": "Hi! I’m your first Markdown file in StackEdit. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the file explorer on the left corner of the navigation bar.",
     "crumbs": [
       "Articles",
       "General articles",
-      "Joining xamk organizational github"
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#create-files-and-folders",
+    "href": "articles/General/StackEditFormatGuide.html#create-files-and-folders",
+    "title": "StackEdit Format guide",
+    "section": "Create files and folders",
+    "text": "Create files and folders\nThe file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the New file button in the file explorer. You can also create folders by clicking the New folder button.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#switch-to-another-file",
+    "href": "articles/General/StackEditFormatGuide.html#switch-to-another-file",
+    "title": "StackEdit Format guide",
+    "section": "Switch to another file",
+    "text": "Switch to another file\nAll your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#rename-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#rename-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Rename a file",
+    "text": "Rename a file\nYou can rename the current file by clicking the file name in the navigation bar or by clicking the Rename button in the file explorer.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#delete-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#delete-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Delete a file",
+    "text": "Delete a file\nYou can delete the current file by clicking the Remove button in the file explorer. The file will be moved into the Trash folder and automatically deleted after 7 days of inactivity.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#export-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#export-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Export a file",
+    "text": "Export a file\nYou can export the current file by clicking Export to disk in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#open-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#open-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Open a file",
+    "text": "Open a file\nYou can open a file from Google Drive, Dropbox or GitHub by opening the Synchronize sub-menu and clicking Open from. Once opened in the workspace, any modification in the file will be automatically synced.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#save-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#save-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Save a file",
+    "text": "Save a file\nYou can save any file of the workspace to Google Drive, Dropbox or GitHub by opening the Synchronize sub-menu and clicking Save on. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#synchronize-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#synchronize-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Synchronize a file",
+    "text": "Synchronize a file\nOnce your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.\nIf you just have modified your file and you want to force syncing, click the Synchronize now button in the navigation bar.\n\nNote: The Synchronize now button is disabled if you have no file to synchronize.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#manage-file-synchronization",
+    "href": "articles/General/StackEditFormatGuide.html#manage-file-synchronization",
+    "title": "StackEdit Format guide",
+    "section": "Manage file synchronization",
+    "text": "Manage file synchronization\nSince one file can be synced with multiple locations, you can list and manage synchronized locations by clicking File synchronization in the Synchronize sub-menu. This allows you to list and remove synchronized locations that are linked to your file.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#publish-a-file",
+    "href": "articles/General/StackEditFormatGuide.html#publish-a-file",
+    "title": "StackEdit Format guide",
+    "section": "Publish a File",
+    "text": "Publish a File\nYou can publish your file by opening the Publish sub-menu and by clicking Publish to. For some locations, you can choose between the following formats:\n\nMarkdown: publish the Markdown text on a website that can interpret it (GitHub for instance),\nHTML: publish the file converted to HTML via a Handlebars template (on a blog for example).",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#update-a-publication",
+    "href": "articles/General/StackEditFormatGuide.html#update-a-publication",
+    "title": "StackEdit Format guide",
+    "section": "Update a publication",
+    "text": "Update a publication\nAfter publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the Publish now button in the navigation bar.\n\nNote: The Publish now button is disabled if your file has not been published yet.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#manage-file-publication",
+    "href": "articles/General/StackEditFormatGuide.html#manage-file-publication",
+    "title": "StackEdit Format guide",
+    "section": "Manage file publication",
+    "text": "Manage file publication\nSince one file can be published to multiple locations, you can list and manage publish locations by clicking File publication in the Publish sub-menu. This allows you to list and remove publication locations that are linked to your file.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#smartypants",
+    "href": "articles/General/StackEditFormatGuide.html#smartypants",
+    "title": "StackEdit Format guide",
+    "section": "SmartyPants",
+    "text": "SmartyPants\nSmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:\n\n\n\n\n\n\n\n\n\nASCII\nHTML\n\n\n\n\nSingle backticks\n'Isn't this fun?'\n‘Isn’t this fun?’\n\n\nQuotes\n\"Isn't this fun?\"\n“Isn’t this fun?”\n\n\nDashes\n-- is en-dash, --- is em-dash\n– is en-dash, — is em-dash",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#katex",
+    "href": "articles/General/StackEditFormatGuide.html#katex",
+    "title": "StackEdit Format guide",
+    "section": "KaTeX",
+    "text": "KaTeX\nYou can render LaTeX mathematical expressions using KaTeX:\nThe Gamma function satisfying \\(\\Gamma(n) = (n-1)!\\quad\\forall n\\in\\mathbb N\\) is via the Euler integral\n\\[\n\\Gamma(z) = \\int_0^\\infty t^{z-1}e^{-t}dt\\,.\n\\]\n\nYou can find more information about LaTeX mathematical expressions here.",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
+    ]
+  },
+  {
+    "objectID": "articles/General/StackEditFormatGuide.html#uml-diagrams",
+    "href": "articles/General/StackEditFormatGuide.html#uml-diagrams",
+    "title": "StackEdit Format guide",
+    "section": "UML diagrams",
+    "text": "UML diagrams\nYou can render UML diagrams using Mermaid. For example, this will produce a sequence diagram:\nsequenceDiagram\nAlice -&gt;&gt; Bob: Hello Bob, how are you?\nBob--&gt;&gt;John: How about you John?\nBob--x Alice: I am good thanks!\nBob-x John: I am good thanks!\nNote right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.\n\nBob--&gt;Alice: Checking with John...\nAlice-&gt;John: Yes... John, how are you?\nAnd this will produce a flow chart:\n```mermaid graph LR A[Square Rect] – Link text –&gt; B((Circle)) A –&gt; C(Round Rect) B –&gt; D{Rhombus} C –&gt; D",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "StackEdit Format guide"
     ]
   },
   {

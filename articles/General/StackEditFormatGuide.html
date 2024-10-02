@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Niko Laurila">
-<meta name="dcterms.date" content="2024-09-25">
+<meta name="author" content="Terhi Patja">
+<meta name="dcterms.date" content="2024-10-02">
 
-<title>Adding and Editing pages – Koodariverstas Wiki   </title>
+<title>StackEdit Format guide – Koodariverstas Wiki   </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -106,6 +72,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -154,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/General adding test.html">Adding and Editing pages</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/StackEditFormatGuide.html">StackEdit Format guide</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -163,10 +158,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/General adding test.html">Adding and Editing pages</a></li></ol></nav>
-      <h1 class="title">Adding and Editing pages</h1>
+    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">Articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/StackEditFormatGuide.html">StackEdit Format guide</a></li></ol></nav>
+      <h1 class="title">StackEdit Format guide</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">General</div>
+                <div class="quarto-category">general</div>
               </div>
                   </div>
   </div>
@@ -177,14 +172,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Niko Laurila </p>
+               <p>Terhi Patja </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 25, 2024</p>
+        <p class="date">October 2, 2024</p>
       </div>
     </div>
     
@@ -280,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/General/General adding test.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../articles/General/General adding test.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Adding and Editing pages</span></a>
   </div>
 </li>
@@ -292,7 +287,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/General/StackEditFormatGuide.html" class="sidebar-item-text sidebar-link">
+  <a href="../../articles/General/StackEditFormatGuide.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">StackEdit Format guide</span></a>
   </div>
 </li>
@@ -319,46 +314,158 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="adding-and-editing-pages" class="level1">
-<h1>Adding and Editing pages</h1>
-<p>If you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="tutorialimg1.png" class="img-fluid figure-img"></p>
-<figcaption>Github link location</figcaption>
-</figure>
-</div>
-<p>Inside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="tutorialimg2.png" class="img-fluid figure-img" width="900"></p>
-<figcaption>Github articles folder</figcaption>
-</figure>
-</div>
-<p>After choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="tutorialimg3.png" class="img-fluid figure-img"></p>
-<figcaption>Adding a file in GitHub. You can either create a new file or import a pre-made .qmd file.</figcaption>
-</figure>
-</div>
-<p>To add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:</p>
-<div class="sourceCode" id="metadata"><pre class="sourceCode HTML code-with-copy"><code class="sourceCode html"><span id="metadata-1"><a href="#metadata-1" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="metadata-2"><a href="#metadata-2" aria-hidden="true" tabindex="-1"></a>title: "Example title (This is the title you want the reader to see and "interact" with)"</span>
-<span id="metadata-3"><a href="#metadata-3" aria-hidden="true" tabindex="-1"></a>categories: [example_category]</span>
-<span id="metadata-4"><a href="#metadata-4" aria-hidden="true" tabindex="-1"></a>date: "25.9.2024" ## date and time format is MM.DD.YYYY</span>
-<span id="metadata-5"><a href="#metadata-5" aria-hidden="true" tabindex="-1"></a>author: Author/authors of the article. </span>
-<span id="metadata-6"><a href="#metadata-6" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as <a href="https://stackedit.io/">stackedit</a>. The orange area in the image shown below is your “article” section. This section <strong>has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)!</strong> After you have included the metadata section, you are free to write and format whatever you wish in the main article.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="tutorialimg4.png" class="img-fluid figure-img"></p>
-<figcaption>Editing a file. RED section is your .qmd files name. YELLOW section is the main article section.</figcaption>
-</figure>
-</div>
-<p>When you feel like your article is ready to publish, simply press the green “Commit Changes” button in github. feel free to select the “push changes to main” button. Be sure to add a short description about your article into the commit comment in GitHub. <strong>Your article will be pushed to the wiki automatically. <em>it might take a minute or two for your article to show up correctly.</em></strong></p>
+<section id="welcome-to-stackedit" class="level1">
+<h1>Welcome to StackEdit!</h1>
+<p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+</section>
+<section id="files" class="level1">
+<h1>Files</h1>
+<p>StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible <strong>offline!</strong></p>
+<section id="create-files-and-folders" class="level2">
+<h2 class="anchored" data-anchor-id="create-files-and-folders">Create files and folders</h2>
+<p>The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the <strong>New file</strong> button in the file explorer. You can also create folders by clicking the <strong>New folder</strong> button.</p>
+</section>
+<section id="switch-to-another-file" class="level2">
+<h2 class="anchored" data-anchor-id="switch-to-another-file">Switch to another file</h2>
+<p>All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.</p>
+</section>
+<section id="rename-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="rename-a-file">Rename a file</h2>
+<p>You can rename the current file by clicking the file name in the navigation bar or by clicking the <strong>Rename</strong> button in the file explorer.</p>
+</section>
+<section id="delete-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="delete-a-file">Delete a file</h2>
+<p>You can delete the current file by clicking the <strong>Remove</strong> button in the file explorer. The file will be moved into the <strong>Trash</strong> folder and automatically deleted after 7 days of inactivity.</p>
+</section>
+<section id="export-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="export-a-file">Export a file</h2>
+<p>You can export the current file by clicking <strong>Export to disk</strong> in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.</p>
+</section>
+</section>
+<section id="synchronization" class="level1">
+<h1>Synchronization</h1>
+<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+<p>There are two types of synchronization and they can complement each other:</p>
+<ul>
+<li><p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device. &gt; To start syncing your workspace, just sign in with Google in the menu.</p></li>
+<li><p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong>. &gt; Before starting to sync files, you must link an account in the <strong>Synchronize</strong> sub-menu.</p></li>
+</ul>
+<section id="open-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="open-a-file">Open a file</h2>
+<p>You can open a file from <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Open from</strong>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
+</section>
+<section id="save-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="save-a-file">Save a file</h2>
+<p>You can save any file of the workspace to <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Save on</strong>. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.</p>
+</section>
+<section id="synchronize-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="synchronize-a-file">Synchronize a file</h2>
+<p>Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.</p>
+<p>If you just have modified your file and you want to force syncing, click the <strong>Synchronize now</strong> button in the navigation bar.</p>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> The <strong>Synchronize now</strong> button is disabled if you have no file to synchronize.</p>
+</blockquote>
+</section>
+<section id="manage-file-synchronization" class="level2">
+<h2 class="anchored" data-anchor-id="manage-file-synchronization">Manage file synchronization</h2>
+<p>Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking <strong>File synchronization</strong> in the <strong>Synchronize</strong> sub-menu. This allows you to list and remove synchronized locations that are linked to your file.</p>
+</section>
+</section>
+<section id="publication" class="level1">
+<h1>Publication</h1>
+<p>Publishing in StackEdit makes it simple for you to publish online your files. Once you’re happy with a file, you can publish it to different hosting platforms like <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>WordPress</strong> and <strong>Zendesk</strong>. With <a href="http://handlebarsjs.com/">Handlebars templates</a>, you have full control over what you export.</p>
+<blockquote class="blockquote">
+<p>Before starting to publish, you must link an account in the <strong>Publish</strong> sub-menu.</p>
+</blockquote>
+<section id="publish-a-file" class="level2">
+<h2 class="anchored" data-anchor-id="publish-a-file">Publish a File</h2>
+<p>You can publish your file by opening the <strong>Publish</strong> sub-menu and by clicking <strong>Publish to</strong>. For some locations, you can choose between the following formats:</p>
+<ul>
+<li>Markdown: publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).</li>
+</ul>
+</section>
+<section id="update-a-publication" class="level2">
+<h2 class="anchored" data-anchor-id="update-a-publication">Update a publication</h2>
+<p>After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the <strong>Publish now</strong> button in the navigation bar.</p>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> The <strong>Publish now</strong> button is disabled if your file has not been published yet.</p>
+</blockquote>
+</section>
+<section id="manage-file-publication" class="level2">
+<h2 class="anchored" data-anchor-id="manage-file-publication">Manage file publication</h2>
+<p>Since one file can be published to multiple locations, you can list and manage publish locations by clicking <strong>File publication</strong> in the <strong>Publish</strong> sub-menu. This allows you to list and remove publication locations that are linked to your file.</p>
+</section>
+</section>
+<section id="markdown-extensions" class="level1">
+<h1>Markdown extensions</h1>
+<p>StackEdit extends the standard Markdown syntax by adding extra <strong>Markdown extensions</strong>, providing you with some nice features.</p>
+<blockquote class="blockquote">
+<p><strong>ProTip:</strong> You can disable any <strong>Markdown extension</strong> in the <strong>File properties</strong> dialog.</p>
+</blockquote>
+<section id="smartypants" class="level2">
+<h2 class="anchored" data-anchor-id="smartypants">SmartyPants</h2>
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 40%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>ASCII</th>
+<th>HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Single backticks</td>
+<td><code>'Isn't this fun?'</code></td>
+<td>‘Isn’t this fun?’</td>
+</tr>
+<tr class="even">
+<td>Quotes</td>
+<td><code>"Isn't this fun?"</code></td>
+<td>“Isn’t this fun?”</td>
+</tr>
+<tr class="odd">
+<td>Dashes</td>
+<td><code>-- is en-dash, --- is em-dash</code></td>
+<td>– is en-dash, — is em-dash</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="katex" class="level2">
+<h2 class="anchored" data-anchor-id="katex">KaTeX</h2>
+<p>You can render LaTeX mathematical expressions using <a href="https://khan.github.io/KaTeX/">KaTeX</a>:</p>
+<p>The <em>Gamma function</em> satisfying <span class="math inline">\(\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N\)</span> is via the Euler integral</p>
+<p><span class="math display">\[
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+\]</span></p>
+<blockquote class="blockquote">
+<p>You can find more information about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>.</p>
+</blockquote>
+</section>
+<section id="uml-diagrams" class="level2">
+<h2 class="anchored" data-anchor-id="uml-diagrams">UML diagrams</h2>
+<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+<pre class="mermaid"><code>sequenceDiagram
+Alice -&gt;&gt; Bob: Hello Bob, how are you?
+Bob--&gt;&gt;John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.
+
+Bob--&gt;Alice: Checking with John...
+Alice-&gt;John: Yes... John, how are you?</code></pre>
+<p>And this will produce a flow chart:</p>
+<p>```mermaid graph LR A[Square Rect] – Link text –&gt; B((Circle)) A –&gt; C(Round Rect) B –&gt; D{Rhombus} C –&gt; D</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
