@@ -4,9 +4,9 @@ project:
   output-dir: docs
 listing:
   contents: 
-   - _site\articles\beginning-a-project\index.html
-   - _site\articles\during-a-project\index.html
-   - _site\articles\ending-a-project\index.html
+   - articles\beginning-a-project\index.html
+   - articles\during-a-project\index.html
+   - ending-a-project\index.html
   sort: "date desc"
   type: grid
   categories: false
