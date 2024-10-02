@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -269,6 +269,12 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../articles/Beginning-a-project/StackEditFormat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">StackEdit Format guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../articles/Beginning-a-project/tips for beginning.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tips for beginning a project</span></a>
   </div>
@@ -334,6 +340,12 @@ window.Quarto = {
          <option value="listing-title" data-direction="asc">
           Title
         </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
          <option value="listing-author" data-direction="asc">
           Author
         </option>
@@ -341,7 +353,7 @@ window.Quarto = {
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Beginning a project" data-listing-file-modified-sort="1727863421766" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="0" data-categories="Beginning a project" data-listing-file-modified-sort="1727863911071" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="../../articles/Beginning-a-project/tips for beginning.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -355,6 +367,29 @@ This is a test page for the “beginning” category
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="general" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1727863911070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
+<a href="../../articles/Beginning-a-project/StackEditFormat.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+StackEdit Format guide
+</h5>
+<div class="card-text listing-description">
+Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have…<strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Terhi Patja
+</div>
+<div class="listing-date">
+Oct 2, 2024
 </div>
 </div>
 </div>

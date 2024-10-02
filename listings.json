@@ -8,9 +8,10 @@
     ]
   },
   {
-    "listing": "/articles/During-a-project/index.html",
+    "listing": "/articles/Beginning-a-project/index.html",
     "items": [
-      "/articles/During-a-project/managing a workflow.html"
+      "/articles/Beginning-a-project/tips for beginning.html",
+      "/articles/Beginning-a-project/StackEditFormat.html"
     ]
   },
   {
@@ -20,9 +21,9 @@
     ]
   },
   {
-    "listing": "/articles/Beginning-a-project/index.html",
+    "listing": "/articles/During-a-project/index.html",
     "items": [
-      "/articles/Beginning-a-project/tips for beginning.html"
+      "/articles/During-a-project/managing a workflow.html"
     ]
   },
   {
