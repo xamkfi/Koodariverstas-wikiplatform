@@ -1,6 +1,6 @@
 ---
 title: "StackEdit Format guide"
-categories: [general]
+categories: [General]
 date: "10.2.2024" ## date and time format is MM.DD.YYYY
 author: Terhi Patja
 ---
