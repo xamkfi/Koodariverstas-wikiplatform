@@ -17,8 +17,6 @@ When you have created your GitHub account, you can request access to the GitHub 
 
 ![This is the main page of Xinfo. You want to leave an ICT service request for access to GitHub](images/Github%20tut1.png)
 
-![This is the main page of Xinfo. You want to leave an ICT service request for access to GitHub](images/Github%20tut1.png)
-
 When sending a request to access the organization, **please attach your exact GitHub username to the ticket**.
 
 ![Fill your information here. Be sure to add a description where you clearly state requesting access to GitHub](images/Github%20tut2.png)
