@@ -3,6 +3,15 @@ title: "General articles"
 format: html
 categories: [General]
 date: "2.24.2024"
+
+listing:
+  contents: 
+   - "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: false
 ---
 
 This is a test post to test adding posts and filtering

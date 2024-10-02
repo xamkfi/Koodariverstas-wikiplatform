@@ -2,6 +2,16 @@
 title: "Ending a project"
 format: html
 categories: [Ending a project]
+
+listing:
+  contents: 
+   - "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: false
 ---
 
 This is a test post in the "Ending a project" category
+

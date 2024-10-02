@@ -2,6 +2,15 @@
 title: "Beginning a project"
 format: html
 categories: [Beginning a project]
+
+listing:
+  contents: 
+   - "*.qmd"
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: false
 ---
 
 This is a test post in the "Beginning a project" category

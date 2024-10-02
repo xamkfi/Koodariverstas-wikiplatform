@@ -4,12 +4,14 @@ project:
   output-dir: docs
 listing:
   contents: 
-   - articles
+   - articles\Beginning-a-project\index.qmd
+   - articles\During-a-project\index.qmd
+   - articles\Ending-a-project\index.qmd
   sort: "date desc"
   type: grid
-  categories: true
-  sort-ui: true
-  filter-ui: true
+  categories: false
+  sort-ui: false
+  filter-ui: false
 page-layout: full
 title-block-banner: Koodariverstas wiki platform
 margin-top: 20px
