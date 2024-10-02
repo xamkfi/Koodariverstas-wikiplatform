@@ -4,9 +4,9 @@ project:
   output-dir: docs
 listing:
   contents: 
-   - "articles\beginning-a-project\index.qmd"
-   - "articles\during-a-project\index.qmd"
-   - "articles\ending-a-project\index.qmd"
+   - articles\beginning-a-project\index.qmd
+   - articles\during-a-project\index.qmd
+   - articles\ending-a-project\index.qmd
   sort: "date desc"
   type: grid
   categories: false
