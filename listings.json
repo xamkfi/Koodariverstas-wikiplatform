@@ -1,17 +1,32 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/articles/General/index.html",
     "items": [
-      "/articles/During-a-project/index.html",
-      "/articles/During-a-project/managing a workflow.html",
-      "/articles/Ending-a-project/index.html",
-      "/articles/Ending-a-project/Gathering feedback.html",
-      "/articles/Beginning-a-project/index.html",
-      "/articles/Beginning-a-project/tips for beginning.html",
       "/articles/General/Tools.html",
       "/articles/General/Github tutorial.html",
-      "/articles/General/General adding test.html",
-      "/articles/General/index.html"
+      "/articles/General/General adding test.html"
     ]
+  },
+  {
+    "listing": "/articles/During-a-project/index.html",
+    "items": [
+      "/articles/During-a-project/managing a workflow.html"
+    ]
+  },
+  {
+    "listing": "/articles/Ending-a-project/index.html",
+    "items": [
+      "/articles/Ending-a-project/Gathering feedback.html"
+    ]
+  },
+  {
+    "listing": "/articles/Beginning-a-project/index.html",
+    "items": [
+      "/articles/Beginning-a-project/tips for beginning.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
