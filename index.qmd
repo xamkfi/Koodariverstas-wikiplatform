@@ -7,9 +7,9 @@ listing:
    - articles
   sort: "date desc"
   type: grid
-  categories: false
+  categories: true
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
 page-layout: full
 title-block-banner: Koodariverstas wiki platform
 margin-top: 20px
