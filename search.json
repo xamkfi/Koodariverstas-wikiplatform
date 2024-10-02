@@ -22,72 +22,14 @@
     ]
   },
   {
-    "objectID": "articles/General/General adding test.html",
-    "href": "articles/General/General adding test.html",
-    "title": "Adding and Editing pages",
+    "objectID": "articles/General/index.html",
+    "href": "articles/General/index.html",
+    "title": "General articles",
     "section": "",
-    "text": "Adding and Editing pages\nIf you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).\n\n\n\nGithub link location\n\n\nInside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article.\n\n\n\nGithub articles folder\n\n\nAfter choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.\n\n\n\nAdding a file in GitHub. You can either create a new file or import a pre-made .qmd file.\n\n\nTo add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:\n---\ntitle: \"Example title (This is the title you want the reader to see and \"interact\" with)\"\ncategories: [example_category]\ndate: \"25.9.2024\" ## date and time format is MM.DD.YYYY\nauthor: Author/authors of the article. \n---\nThe wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as stackedit. The orange area in the image shown below is your “article” section. This section has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)! After you have included the metadata section, you are free to write and format whatever you wish in the main article.\n\n\n\nEditing a file. RED section is your .qmd files name. YELLOW section is the main article section.\n\n\nWhen you feel like your article is ready to publish, simply press the green “Commit Changes” button in github. feel free to select the “push changes to main” button. Be sure to add a short description about your article into the commit comment in GitHub. Your article will be pushed to the wiki automatically. it might take a minute or two for your article to show up correctly.\n\n\n\n\n Back to top",
+    "text": "This is a test post to test adding posts and filtering\n\n\n\n Back to top",
     "crumbs": [
       "Articles",
-      "General articles",
-      "Adding and Editing pages"
-    ]
-  },
-  {
-    "objectID": "articles/Beginning-a-project/index.html",
-    "href": "articles/Beginning-a-project/index.html",
-    "title": "Beginning a project",
-    "section": "",
-    "text": "This is a test post in the “Beginning a project” category\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Beginning a project"
-    ]
-  },
-  {
-    "objectID": "articles/Ending-a-project/index.html",
-    "href": "articles/Ending-a-project/index.html",
-    "title": "Ending a project",
-    "section": "",
-    "text": "This is a test post in the “Ending a project” category\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Ending a project"
-    ]
-  },
-  {
-    "objectID": "articles/During-a-project/index.html",
-    "href": "articles/During-a-project/index.html",
-    "title": "During a project",
-    "section": "",
-    "text": "This is a test post in the “During a project” category\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "During a project"
-    ]
-  },
-  {
-    "objectID": "articles/During-a-project/managing a workflow.html",
-    "href": "articles/During-a-project/managing a workflow.html",
-    "title": "Managing a workflow",
-    "section": "",
-    "text": "This is a page about managing a workflow during a project\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "During a project",
-      "Managing a workflow"
-    ]
-  },
-  {
-    "objectID": "articles/Ending-a-project/Gathering feedback.html",
-    "href": "articles/Ending-a-project/Gathering feedback.html",
-    "title": "Gathering feedback",
-    "section": "",
-    "text": "This post is about gathering feedback when ending a project\ntesting updating in real time\nEdit this page\n\n\n\n Back to top",
-    "crumbs": [
-      "Articles",
-      "Ending a project",
-      "Gathering feedback"
+      "General articles"
     ]
   },
   {
@@ -103,14 +45,84 @@
     ]
   },
   {
-    "objectID": "articles/General/index.html",
-    "href": "articles/General/index.html",
-    "title": "General articles",
+    "objectID": "articles/Ending-a-project/Gathering feedback.html",
+    "href": "articles/Ending-a-project/Gathering feedback.html",
+    "title": "Gathering feedback",
     "section": "",
-    "text": "This is a test post to test adding posts and filtering\n\n\n\n Back to top",
+    "text": "This post is about gathering feedback when ending a project\ntesting updating in real time\nEdit this page\n\n\n\n Back to top",
     "crumbs": [
       "Articles",
-      "General articles"
+      "Ending a project",
+      "Gathering feedback"
+    ]
+  },
+  {
+    "objectID": "articles/During-a-project/managing a workflow.html",
+    "href": "articles/During-a-project/managing a workflow.html",
+    "title": "Managing a workflow",
+    "section": "",
+    "text": "This is a page about managing a workflow during a project\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "During a project",
+      "Managing a workflow"
+    ]
+  },
+  {
+    "objectID": "articles/During-a-project/index.html",
+    "href": "articles/During-a-project/index.html",
+    "title": "During a project",
+    "section": "",
+    "text": "This is a test post in the “During a project” category\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "During a project"
+    ]
+  },
+  {
+    "objectID": "articles/Ending-a-project/index.html",
+    "href": "articles/Ending-a-project/index.html",
+    "title": "Ending a project",
+    "section": "",
+    "text": "This is a test post in the “Ending a project” category\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "Ending a project"
+    ]
+  },
+  {
+    "objectID": "articles/Beginning-a-project/index.html",
+    "href": "articles/Beginning-a-project/index.html",
+    "title": "Beginning a project",
+    "section": "",
+    "text": "This is a test post in the “Beginning a project” category\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "Beginning a project"
+    ]
+  },
+  {
+    "objectID": "articles/General/General adding test.html",
+    "href": "articles/General/General adding test.html",
+    "title": "Adding and Editing pages",
+    "section": "",
+    "text": "Adding and Editing pages\nIf you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).\n\n\n\nGithub link location\n\n\nInside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article.\n\n\n\nGithub articles folder\n\n\nAfter choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.\n\n\n\nAdding a file in GitHub. You can either create a new file or import a pre-made .qmd file.\n\n\nTo add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:\n---\ntitle: \"Example title (This is the title you want the reader to see and \"interact\" with)\"\ncategories: [example_category]\ndate: \"25.9.2024\" ## date and time format is MM.DD.YYYY\nauthor: Author/authors of the article. \n---\nThe wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as stackedit. The orange area in the image shown below is your “article” section. This section has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)! After you have included the metadata section, you are free to write and format whatever you wish in the main article.\n\n\n\nEditing a file. RED section is your .qmd files name. YELLOW section is the main article section.\n\n\nWhen you feel like your article is ready to publish, simply press the green “Commit Changes” button in github. feel free to select the “push changes to main” button. Be sure to add a short description about your article into the commit comment in GitHub. Your article will be pushed to the wiki automatically. it might take a minute or two for your article to show up correctly.\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "Adding and Editing pages"
+    ]
+  },
+  {
+    "objectID": "articles/General/Github tutorial.html",
+    "href": "articles/General/Github tutorial.html",
+    "title": "Joining xamk organizational github",
+    "section": "",
+    "text": "Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.\nOur GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on in fact even this Wiki is fully hosted through GitHub pages and all of the source code is available at our repository.\nYour first step is to create your own GitHub account here.\nWhen you have created your GitHub account, you can request access to the GitHub organization through Xinfo.\nPlease note: only one member of a team needs to send a request to Xinfo (Read inviting others into a repository from below).\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\nWhen sending a request to access the organization, please attach your exact GitHub username to the ticket.\n\n\n\nFill your information here. Be sure to add a description where you clearly state requesting access to GitHub\n\n\nWhen you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.\n\n\n\nYou can manage access to your repository from the repository access settings.\n\n\nWe hope this helps you begin development in Koodariverstas.\nHappy Coding!\n\n\n\n Back to top",
+    "crumbs": [
+      "Articles",
+      "General articles",
+      "Joining xamk organizational github"
     ]
   },
   {
@@ -118,6 +130,6 @@
     "href": "index.html",
     "title": "Koodariverstas Wiki platform",
     "section": "",
-    "text": "Welcome to the Wiki!\nThis site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. You can also use the search located in the top right of the wiki.\nThere are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.\n\nHappy Coding!\n-Koodariverstas staff\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDuring a project\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnding a project\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTips for beginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTools of trade\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\n9/25/24\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral articles\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n2/24/24\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome to the Wiki!\nThis site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. You can also use the search located in the top right of the wiki.\nThere are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.\n\nHappy Coding!\n-Koodariverstas staff\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDuring a project\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnding a project\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTips for beginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTools of trade\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoining xamk organizational github\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\n10/2/24\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\n9/25/24\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral articles\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n2/24/24\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   }
 ]
