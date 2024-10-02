@@ -7,7 +7,7 @@ author: Niko Laurila
 
 Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our [GitHub](https://github.com/xamkfi).
 
-Our GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on in fact even this Wiki is fully hosted through GitHub pages and all of the source code is available at our [repository](https://github.com/xamkfi/Koodariverstas-wikiplatform).
+Our GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on. Even this Wiki is fully hosted through GitHub pages and automated through GitHub actions. All of the source code is available at our [repository](https://github.com/xamkfi/Koodariverstas-wikiplatform).
 
 Your first step is to create your own GitHub account [here](https://github.com/).
 
