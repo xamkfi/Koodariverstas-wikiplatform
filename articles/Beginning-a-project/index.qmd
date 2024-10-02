@@ -2,6 +2,7 @@
 title: "Beginning a project"
 format: html
 categories: [Beginning a project]
+order: 1
 
 listing:
   contents: 

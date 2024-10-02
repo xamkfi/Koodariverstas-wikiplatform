@@ -2,6 +2,7 @@
 title: "Ending a project"
 format: html
 categories: [Ending a project]
+order: 3
 
 listing:
   contents: 
