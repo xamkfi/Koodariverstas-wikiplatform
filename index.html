@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -193,13 +193,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-right">
+    <div class="quarto-title column-body">
       <h1 class="title">Koodariverstas Wiki platform</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-right">
+  <div class="quarto-title-meta column-body">
 
       
       <div>
@@ -326,9 +326,11 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Beginning a project">Beginning a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="During a project">During a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ending a project">Ending a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="General">General <span class="quarto-category-count">(4)</span></div><div class="category" data-category="general">general <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-right" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
 
 
@@ -348,8 +350,14 @@ window.Quarto = {
 </section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="During a project" data-listing-file-modified-sort="1727864417036" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="0" data-categories="During a project" data-listing-file-modified-sort="1727864819335" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./articles/During-a-project/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -357,6 +365,11 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 During a project
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('During a project'); return false;">
+During a project
+</div>
+</div>
 <div class="card-text listing-description">
 This is a test post in the “During a project” category
 </div>
@@ -369,7 +382,7 @@ This is a test post in the “During a project” category
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="During a project" data-listing-file-modified-sort="1727864417037" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="1" data-categories="During a project" data-listing-file-modified-sort="1727864819336" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./articles/During-a-project/managing a workflow.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -377,6 +390,11 @@ This is a test post in the “During a project” category
 <h5 class="no-anchor card-title listing-title">
 Managing a workflow
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('During a project'); return false;">
+During a project
+</div>
+</div>
 <div class="card-text listing-description">
 This is a page about managing a workflow during a project
 </div>
@@ -389,7 +407,7 @@ This is a page about managing a workflow during a project
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Ending a project" data-listing-file-modified-sort="1727864417038" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="2" data-categories="Ending a project" data-listing-file-modified-sort="1727864819337" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./articles/Ending-a-project/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -397,6 +415,11 @@ This is a page about managing a workflow during a project
 <h5 class="no-anchor card-title listing-title">
 Ending a project
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ending a project'); return false;">
+Ending a project
+</div>
+</div>
 <div class="card-text listing-description">
 This is a test post in the “Ending a project” category
 </div>
@@ -409,7 +432,7 @@ This is a test post in the “Ending a project” category
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Ending a project" data-listing-file-modified-sort="1727864417038" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="g-col-1" data-index="3" data-categories="Ending a project" data-listing-file-modified-sort="1727864819337" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <a href="./articles/Ending-a-project/Gathering feedback.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -417,6 +440,11 @@ This is a test post in the “Ending a project” category
 <h5 class="no-anchor card-title listing-title">
 Gathering feedback
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ending a project'); return false;">
+Ending a project
+</div>
+</div>
 <div class="card-text listing-description">
 This post is about gathering feedback when ending a project
 </div>
@@ -429,7 +457,7 @@ This post is about gathering feedback when ending a project
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Beginning a project" data-listing-file-modified-sort="1727864417035" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="4" data-categories="Beginning a project" data-listing-file-modified-sort="1727864819334" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./articles/Beginning-a-project/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -437,6 +465,11 @@ This post is about gathering feedback when ending a project
 <h5 class="no-anchor card-title listing-title">
 Beginning a project
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beginning a project'); return false;">
+Beginning a project
+</div>
+</div>
 <div class="card-text listing-description">
 This is a test post in the “Beginning a project” category
 </div>
@@ -449,7 +482,7 @@ This is a test post in the “Beginning a project” category
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Beginning a project" data-listing-file-modified-sort="1727864417035" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="5" data-categories="Beginning a project" data-listing-file-modified-sort="1727864819334" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./articles/Beginning-a-project/tips for beginning.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -457,6 +490,11 @@ This is a test post in the “Beginning a project” category
 <h5 class="no-anchor card-title listing-title">
 Tips for beginning a project
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beginning a project'); return false;">
+Beginning a project
+</div>
+</div>
 <div class="card-text listing-description">
 This is a test page for the “beginning” category
 </div>
@@ -469,7 +507,7 @@ This is a test page for the “beginning” category
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="General" data-listing-file-modified-sort="1727864417040" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="g-col-1" data-index="6" data-categories="General" data-listing-file-modified-sort="1727864819339" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="./articles/General/Tools.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -477,6 +515,11 @@ This is a test page for the “beginning” category
 <h5 class="no-anchor card-title listing-title">
 Tools of trade
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
 <div class="card-text listing-description">
 Here you can find out more about the tools we use to help our work in koodariverstas.
 </div>
@@ -489,7 +532,7 @@ Here you can find out more about the tools we use to help our work in koodariver
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="General" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1727864417040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
+<div class="g-col-1" data-index="7" data-categories="General" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1727864819339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
 <a href="./articles/General/Github tutorial.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="articles/General/images/Github tut1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -497,6 +540,11 @@ Here you can find out more about the tools we use to help our work in koodariver
 <h5 class="no-anchor card-title listing-title">
 Joining xamk organizational github
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
 <div class="card-text listing-description">
 Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.
 </div>
@@ -512,7 +560,7 @@ Niko Laurila
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="general" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1727864417040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
+<div class="g-col-1" data-index="8" data-categories="general" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1727864819339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
 <a href="./articles/General/StackEditFormatGuide.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -520,6 +568,11 @@ Niko Laurila
 <h5 class="no-anchor card-title listing-title">
 StackEdit Format guide
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('general'); return false;">
+general
+</div>
+</div>
 <div class="card-text listing-description">
 Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have…<strong></strong>
 </div>
@@ -535,7 +588,7 @@ Terhi Patja
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="General" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1727864417040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="350">
+<div class="g-col-1" data-index="9" data-categories="General" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1727864819338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="350">
 <a href="./articles/General/General adding test.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="articles/General/tutorialimg1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -543,6 +596,11 @@ Terhi Patja
 <h5 class="no-anchor card-title listing-title">
 Adding and Editing pages
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
 <div class="card-text listing-description">
 If you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).
 </div>
@@ -558,7 +616,7 @@ Niko Laurila
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="General" data-listing-date-sort="1708732800000" data-listing-file-modified-sort="1727864417043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="10" data-categories="General" data-listing-date-sort="1708732800000" data-listing-file-modified-sort="1727864819342" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="./articles/General/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="articles/General/images/Github tut1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -566,6 +624,11 @@ Niko Laurila
 <h5 class="no-anchor card-title listing-title">
 General articles
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
 <div class="card-text listing-description">
 This is a test post to test adding posts and filtering
 </div>
