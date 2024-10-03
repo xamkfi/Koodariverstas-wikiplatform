@@ -16,7 +16,8 @@ margin-top: 20px
 title-block-style: plain
 title: Koodariverstas Wiki platform
 date: 9.9.2024
-date-format: short
+date-format: long
+date-modified: last-modified
 ---
 
 # Welcome to the Wiki!
