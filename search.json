@@ -130,7 +130,7 @@
     "href": "articles/General/StackEditFormatGuide.html",
     "title": "StackEdit Format guide",
     "section": "",
-    "text": "Hi! I’m your first Markdown file in StackEdit. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the file explorer on the left corner of the navigation bar.",
+    "text": "StackEdit is an open source browser based markdown editor. Your display is split between two different views. The panel on the left is your markdown side, where you can write in markdown and use the provided tools to create content, the right side is your preview side that shows you what your content looks like. This article is a modified version of the StackEdit guide document provided in StackEdit.",
     "crumbs": [
       "Articles",
       "General articles",
@@ -258,30 +258,6 @@
     ]
   },
   {
-    "objectID": "articles/General/StackEditFormatGuide.html#update-a-publication",
-    "href": "articles/General/StackEditFormatGuide.html#update-a-publication",
-    "title": "StackEdit Format guide",
-    "section": "Update a publication",
-    "text": "Update a publication\nAfter publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the Publish now button in the navigation bar.\n\nNote: The Publish now button is disabled if your file has not been published yet.",
-    "crumbs": [
-      "Articles",
-      "General articles",
-      "StackEdit Format guide"
-    ]
-  },
-  {
-    "objectID": "articles/General/StackEditFormatGuide.html#manage-file-publication",
-    "href": "articles/General/StackEditFormatGuide.html#manage-file-publication",
-    "title": "StackEdit Format guide",
-    "section": "Manage file publication",
-    "text": "Manage file publication\nSince one file can be published to multiple locations, you can list and manage publish locations by clicking File publication in the Publish sub-menu. This allows you to list and remove publication locations that are linked to your file.",
-    "crumbs": [
-      "Articles",
-      "General articles",
-      "StackEdit Format guide"
-    ]
-  },
-  {
     "objectID": "articles/General/StackEditFormatGuide.html#smartypants",
     "href": "articles/General/StackEditFormatGuide.html#smartypants",
     "title": "StackEdit Format guide",
@@ -306,11 +282,11 @@
     ]
   },
   {
-    "objectID": "articles/General/StackEditFormatGuide.html#uml-diagrams",
-    "href": "articles/General/StackEditFormatGuide.html#uml-diagrams",
+    "objectID": "articles/General/StackEditFormatGuide.html#section",
+    "href": "articles/General/StackEditFormatGuide.html#section",
     "title": "StackEdit Format guide",
-    "section": "UML diagrams",
-    "text": "UML diagrams\nYou can render UML diagrams using Mermaid. For example, this will produce a sequence diagram:\nsequenceDiagram\nAlice -&gt;&gt; Bob: Hello Bob, how are you?\nBob--&gt;&gt;John: How about you John?\nBob--x Alice: I am good thanks!\nBob-x John: I am good thanks!\nNote right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.\n\nBob--&gt;Alice: Checking with John...\nAlice-&gt;John: Yes... John, how are you?\nAnd this will produce a flow chart:\n```mermaid graph LR A[Square Rect] – Link text –&gt; B((Circle)) A –&gt; C(Round Rect) B –&gt; D{Rhombus} C –&gt; D",
+    "section": "",
+    "text": "This document is directly based on the original StackEdit welcome guide found in every new StackEdit document. XAMK is not affiliated with StackEdit and has no connections to the team developing StackEdit. StackEdit is an open source project licensed under the apache 2.0 license.",
     "crumbs": [
       "Articles",
       "General articles",
