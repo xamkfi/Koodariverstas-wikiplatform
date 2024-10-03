@@ -2,5 +2,7 @@
 title: "Tools of trade"
 format: html
 categories: [General]
+author: Niko Laurila
+date-modified: last-modified
 ---
 Here you can find out more about the tools we use to help our work in koodariverstas.

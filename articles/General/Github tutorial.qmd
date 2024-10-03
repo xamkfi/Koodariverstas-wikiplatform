@@ -3,7 +3,10 @@ title: "Joining xamk organizational github"
 categories: [General]
 date: "10.2.2024"
 author: Niko Laurila
+date-modified: last-modified 
 ---
+
+## Guide on joining the XAMK GitHub organization
 
 Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our [GitHub](https://github.com/xamkfi).
 
@@ -23,7 +26,7 @@ When sending a request to access the organization, **please attach your exact Gi
 
 When you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. **One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.**
 
-![You can manage access to your repository from the repository access settings. ](images/Github tut3.png)
+![You can manage access to your repository from the repository access settings.](images/Github%20tut3.png)
 
 We hope this helps you begin development in Koodariverstas.
 
