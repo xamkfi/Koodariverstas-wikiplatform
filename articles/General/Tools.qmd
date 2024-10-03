@@ -2,6 +2,7 @@
 title: "Tools of trade"
 format: html
 categories: [General]
+date: 10.3.2024
 author: Niko Laurila
 date-modified: last-modified
 ---
