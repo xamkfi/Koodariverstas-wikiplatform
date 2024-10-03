@@ -32,7 +32,7 @@ date-modified: last-modified ## This adds an automatic last modified field to th
 ---
 ```
 
-The wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as [stackedit](https://stackedit.io/). The orange area in the image shown below is your "article" section. This section **has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won't be rendered to the wiki)!** After you have included the metadata section, you are free to write and format whatever you wish in the main article.
+The wiki supports full markdown/html and lets you have total control over the content of your article. We recommend using a simple markdown editor such as [StackEdit](https://stackedit.io/) (You can also read our article on the basics of StackEdit [here](https://xamkfi.github.io/Koodariverstas-wikiplatform/articles/General/StackEditFormatGuide.html)). The orange area in the image shown below is your "article" section. This section **has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won't be rendered to the wiki)!** After you have included the metadata section, you are free to write and format whatever you wish in the main article.
 
 ![Editing a file. RED section is your .qmd files name. YELLOW section is the main article section.](tutorialimg4.png)
 
