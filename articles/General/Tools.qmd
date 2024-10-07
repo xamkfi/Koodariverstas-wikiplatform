@@ -17,4 +17,4 @@ This article acts as a compiled list of different tools we use/recommend using i
 
 ### Tools we recommend
 
-[VS code](https://code.visualstudio.com/). VS-code is a robust IDE that fits almost every need. VS code has a massive library of extensions for almost every development need and want.
+-   [VS code](https://code.visualstudio.com/). VS-code is a robust IDE that fits almost every need. VS code has a massive library of extensions for almost every development need and want.
