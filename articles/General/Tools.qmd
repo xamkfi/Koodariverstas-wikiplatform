@@ -6,4 +6,15 @@ date: 10.3.2024
 author: Niko Laurila
 date-modified: last-modified
 ---
-Here you can find out more about the tools we use to help our work in koodariverstas.
+
+# Tools of the trade
+
+This article acts as a compiled list of different tools we use/recommend using in Koodariverstas. We use different tools for different parts of our work here in Koodariverstas, this means that there are some tools you will have to learn when working in a project inside Koodariverstas. We have also gathered some recommended tools for different use-cases you might want to get to know.
+
+### Tools we use
+
+-   [Taiga](https://taiga.io/). Taiga is our preferred project management solution we use it to track the progress of projects and it helps everyone keep track of the tasks that are done and need to be done next. Taiga is completely free and open-source
+
+### Tools we recommend
+
+[VS code](https://code.visualstudio.com/). VS-code is a robust IDE that fits almost every need. VS code has a massive library of extensions for almost every development need and want.
