@@ -1,5 +1,5 @@
 ---
-title: "Joining xamk organizational github"
+title: "GitHub in Koodariverstas"
 categories: [General]
 date: "10.2.2024"
 author: Niko Laurila
