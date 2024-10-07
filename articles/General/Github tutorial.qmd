@@ -16,7 +16,7 @@ Your first step is to create your own GitHub account [here](https://github.com/)
 
 When you have created your GitHub account, you can request access to the GitHub organization through [Xinfo](https://xinfo.xamk.fi/customerui).
 
-**Please note:** only **one** member of a team needs to send a request to Xinfo **(Read inviting others into a repository from below).**
+> **Please note:** only **one** member of a team needs to send a request to Xinfo **(Read inviting others into a repository from below).**
 
 ![This is the main page of Xinfo. You want to leave an ICT service request for access to GitHub](images/Github%20tut1.png)
 
