@@ -8,6 +8,8 @@ date-modified: last-modified
 
 # Welcome to the StackEdit formatting guide!
 
+![](images/paste-4.png){fig-align="center" width="647"}
+
 [StackEdit](https://stackedit.io) is an open source browser based markdown editor. Your display is split between two different views. The panel on the left is your markdown side, where you can write in markdown and use the provided tools to create content, the right side is your preview side that shows you what your content looks like. This article is a modified version of the StackEdit guide document provided in StackEdit.
 
 # Files
