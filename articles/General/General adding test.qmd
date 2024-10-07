@@ -8,11 +8,15 @@ date-modified: last-modified
 
 # Adding and Editing pages
 
-If you want to add a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).
+This article will teach you how to add pages and edit existing pages in our Wiki. This might be useful when you want to document your findings or want to add a component you made to the library of components that everyone can freely use.
+
+When adding a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).
 
 ![Github link location](tutorialimg1.png)
 
-Inside the GitHub repository find the "articles" folder. Inside the articles folder find the category folder where you want to add your article.
+Inside the GitHub repository find the "articles" folder. Inside the articles folder find the category folder where you want to add your article. If you want to edit an article instead, simply head to the article you want to edit, and edit the .qmd file of the article.
+
+> Note: You will not have permissions to edit articles written by others, if you want to add or modify an article please ask for permission to the article file from the user through GitHub.
 
 ![Github articles folder](tutorialimg2.png){fig-align="center" width="900"}
 
@@ -36,6 +40,16 @@ The wiki supports full markdown and lets you have total control over the content
 
 The orange area in the image shown below is your "article" section. This section **has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won't be rendered to the wiki)!** After you have included the metadata section, you are free to write and format whatever you wish in the main article.
 
+> Note: **You** are responsible for the content you write in your article. It is **your** responsibility to fact check and reference others work correctly. **All articles are moderated and checked for disruptive content before they are published in the wiki.**
+
 ![Editing a file. RED section is your .qmd files name. YELLOW section is the main article section.](tutorialimg4.png)
 
-When you feel like your article is ready to publish, simply press the green "Commit Changes" button in github. feel free to select the "push changes to main" button. Be sure to add a short description about your article into the commit comment in GitHub. **Your article will be pushed to the wiki automatically. *it might take a minute or two for your article to show up correctly.***
+When you feel like your article is ready to publish, simply press the green "Commit Changes" button in github.
+
+**If you are a part of Koodariverstas staff, you have the permissions to directly push changes to main.**
+
+> Note: When a staff member is pushing their changes GitHub will give you the option to bypass the rules and push **directly to main**.
+
+If you are a **student** working in a project and want to edit or publish an article, you need to **create a your own branch** for the changes you have made. Your branch will be **sent automatically for review when you push your changes.** When your changes are approved by an administrator your changes will be automatically updated to the wiki and your branch will be deleted.
+
+> ***In both cases when your push is completed your article will be pushed to the wiki automatically. it will take a minute or two for your article to show up correctly on the webpage.***
