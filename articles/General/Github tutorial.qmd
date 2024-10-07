@@ -30,4 +30,4 @@ When you gain access to the organization inside GitHub, you can create your own 
 
 We hope this helps you begin development in Koodariverstas.
 
-*Happy Coding!!*
+*Happy Coding!*
