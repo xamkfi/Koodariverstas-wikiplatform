@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/articles/Beginning-a-project/index.html",
-    "items": [
-      "/articles/Beginning-a-project/testitiedosto-heba.html",
-      "/articles/Beginning-a-project/tips for beginning.html"
-    ]
-  },
-  {
     "listing": "/articles/During-a-project/index.html",
     "items": [
       "/articles/During-a-project/managing a workflow.html"
@@ -16,6 +9,13 @@
     "listing": "/articles/Ending-a-project/index.html",
     "items": [
       "/articles/Ending-a-project/Gathering feedback.html"
+    ]
+  },
+  {
+    "listing": "/articles/Beginning-a-project/index.html",
+    "items": [
+      "/articles/Beginning-a-project/testitiedosto.html",
+      "/articles/Beginning-a-project/tips for beginning.html"
     ]
   },
   {
@@ -34,9 +34,9 @@
       "/articles/During-a-project/managing a workflow.html",
       "/articles/Ending-a-project/index.html",
       "/articles/Ending-a-project/Gathering feedback.html",
-      "/articles/Beginning-a-project/testitiedosto-heba.html",
       "/articles/Beginning-a-project/index.html",
       "/articles/Beginning-a-project/tips for beginning.html",
+      "/articles/Beginning-a-project/testitiedosto.html",
       "/articles/General/Tools.html",
       "/articles/General/Github tutorial.html",
       "/articles/General/StackEditFormatGuide.html",
