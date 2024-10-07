@@ -50,6 +50,30 @@ When you feel like your article is ready to publish, simply press the green "Com
 
 > **Note:** When a staff member is pushing their changes GitHub will give you the option to bypass the rules and push **directly to main**.
 
+### Adding and editing pages as a student
+
 If you are a **student** working in a project and want to edit or publish an article, you need to **create your own branch** for the changes you have made. Your branch will be **sent automatically for review when you push your changes.** When your changes are approved by an administrator your changes will be automatically updated to the wiki and your branch will be deleted.
 
-> ***In both cases when your push is completed your article will be pushed to the wiki automatically. it will take a minute or two for your article to show up correctly on the webpage.***
+There are a few ways of managing your branches. Here are two options we recommend for everyone regardless of their technical knowledge and experience with GitHub.
+
+#### Direct GitHub
+
+When adding directly through GitHub you will be prompted when committing to create a new branch for your changes.
+
+![Proposing a change in GitHub](images/GH%20adding%201.png){fig-align="center"}
+
+Select the "create a new branch" option from the selection. This will make a new branch for your changes and send an automatic request for review for administrators.
+
+> **Note:** You will not be able to commit directly to main as a student. **Even if you get the option to commit to main, you will get an error message saying that your commit has been blocked.**
+
+#### GitHub Desktop
+
+Alternatively you can use the [GitHub desktop app](https://github.com/apps/desktop) for creating a new branch. GitHub desktop lets you create and manage you branches directly in the app making it easy to keep track of your branches and changes.
+
+![Creating a branch in GH desktop app](images/GH adding 2.png){fig-align="center"}
+
+GitHub desktop lets you manage your branches and the cloned repository with ease. These are the options we recommend you use when adding or editing content. There are other ways of managing your branches, but these are the ones we recommend for everyone.
+
+Managing branches directly through VS codes version control is also an option, but we have noticed that VS code has some trouble with sending requests directly to GitHub causing some pull requests to simply never show up to the administrators.
+
+> ***Note: In both cases (Staff and Student) when your push is completed your article will be pushed to the wiki automatically. it will take a minute or two for your article to show up correctly on the web page.***
