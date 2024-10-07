@@ -2,7 +2,7 @@
 title: "General articles"
 format: html
 categories: [General]
-date: "2.24.2024"
+date: "9.24.2024"
 order: 4
 
 listing:
@@ -15,4 +15,6 @@ listing:
   filter-ui: false
 ---
 
-This is a test post to test adding posts and filtering
+# Welcome to General articles!
+
+These articles cover miscellaneous subjects and are designed for you to learn more about various topics. Here we cover the basics of various topics you might find useful when working in Koodariverstas. Feel free to browse the selection of articles below.
