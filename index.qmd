@@ -11,10 +11,8 @@ listing:
   sort-ui: true
   filter-ui: false
 page-layout: full
-title-block-banner: Koodariverstas wiki platform
-margin-top: 5px
-title-block-style: plain
-title: Koodariverstas Wiki platform
+margin-top: 10px
+title-block-style: default
 date: 9.9.2024
 date-format: long
 date-modified: last-modified

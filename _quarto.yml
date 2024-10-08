@@ -23,7 +23,7 @@ website:
   favicon: Logo.png
   
   navbar: 
-    background: '#593196'
+    background: '#7141fd'
     right:
       - icon: github
         href: https://github.com/xamkfi/Koodariverstas-wikiplatform
@@ -51,11 +51,13 @@ website:
       - icon: file-earmark-text
       - text: Privacy Policy
         href: https://www.xamk.fi/en/data-privacy/
+      - text: This Wiki utilizes Quarto
+        href: https://quarto.org/
   
 format: 
   html:
     theme:
-      light: pulse
+      light: flatly
       dark: darkly
      
     css: styles.css
