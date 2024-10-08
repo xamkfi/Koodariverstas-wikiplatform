@@ -1,7 +1,0 @@
----
-title: "Tips for beginning a project"
-format: html
-categories: [Beginning a project]
----
-
-This is a test page for the "beginning" category
