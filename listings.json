@@ -1,21 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/articles/During-a-project/managing a workflow.html",
-      "/articles/During-a-project/index.html",
-      "/articles/Ending-a-project/Gathering feedback.html",
-      "/articles/Ending-a-project/index.html",
-      "/articles/Beginning-a-project/tips for beginning.html",
-      "/articles/Beginning-a-project/index.html",
-      "/articles/General/Tools.html",
-      "/articles/General/StackEditFormatGuide.html",
-      "/articles/General/Github tutorial.html",
-      "/articles/General/General adding test.html",
-      "/articles/General/index.html"
-    ]
-  },
-  {
     "listing": "/articles/Beginning-a-project/index.html",
     "items": [
       "/articles/Beginning-a-project/tips for beginning.html"
@@ -40,6 +24,22 @@
       "/articles/General/Github tutorial.html",
       "/articles/General/StackEditFormatGuide.html",
       "/articles/General/General adding test.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/articles/During-a-project/index.html",
+      "/articles/During-a-project/managing a workflow.html",
+      "/articles/Ending-a-project/index.html",
+      "/articles/Ending-a-project/Gathering feedback.html",
+      "/articles/Beginning-a-project/index.html",
+      "/articles/Beginning-a-project/tips for beginning.html",
+      "/articles/General/Tools.html",
+      "/articles/General/Github tutorial.html",
+      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/General adding test.html",
+      "/articles/General/index.html"
     ]
   }
 ]
