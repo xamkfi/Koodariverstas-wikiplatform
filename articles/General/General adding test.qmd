@@ -22,7 +22,7 @@ Inside the GitHub repository find the "articles" folder. Inside the articles fol
 
 After choosing a folder suitable for your article, you can add a **.qmd** file directly in GitHub. A **.qmd** file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.
 
-> Note: **Quarto MarkDown (.qmd)** and **regular MarkDown (.md)** are **different** file formats. If you have imported a file from a markdown editor, please make sure to **change the file to .qmd** before adding it to the wiki.
+> **Note:** **Quarto MarkDown (.qmd)** and **regular MarkDown (.md)** are **different** file formats. If you have imported a file from a markdown editor, please make sure to **change the file to .qmd** before adding it to the wiki.
 
 ![Adding a file in GitHub. You can either create a new file or import a pre-made .qmd file.](tutorialimg3.png)
 
