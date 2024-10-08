@@ -16,15 +16,17 @@ When adding a new page to the wiki, head to the GitHub repository (Link located 
 
 Inside the GitHub repository find the "articles" folder. Inside the articles folder find the category folder where you want to add your article. If you want to edit an article instead, simply head to the article you want to edit, and edit the .qmd file of the article.
 
-> **Note:** You will not have permissions to edit articles written by others, if you want to add or modify an article please ask for permission to the article file from the user through GitHub.
+> **Note:** Please refrain from modifying articles written by other people. If you still think that an article requires modifications, please ask the user in the articles "author" section for permission to modify their work, if you make changes, add yourself to the authors list of the article. You can find other users in the repository user list.
 
 ![Github articles folder](tutorialimg2.png){fig-align="center" width="900"}
 
-After choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.
+After choosing a folder suitable for your article, you can add a **.qmd** file directly in GitHub. A **.qmd** file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.
+
+> Note: **Quarto MarkDown (.qmd)** and **regular MarkDown (.md)** are **different** file formats. If you have imported a file from a markdown editor, please make sure to **change the file to .qmd** before adding it to the wiki.
 
 ![Adding a file in GitHub. You can either create a new file or import a pre-made .qmd file.](tutorialimg3.png)
 
-To add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:
+To add a **.qmd** file simply add **.qmd** in the **file name** when finalizing your file (Red box in the image below). When adding content be sure to **integrate required metadata** from the following code block:
 
 ``` {#metadata .HTML}
 ---
@@ -70,10 +72,10 @@ Select the "create a new branch" option from the selection. This will make a new
 
 Alternatively you can use the [GitHub desktop app](https://github.com/apps/desktop) for creating a new branch. GitHub desktop lets you create and manage you branches directly in the app making it easy to keep track of your branches and changes.
 
-![Creating a branch in GH desktop app](images/GH adding 2.png){fig-align="center"}
+![Creating a branch in GH desktop app](images/GH%20adding%202.png){fig-align="center"}
 
 GitHub desktop lets you manage your branches and the cloned repository with ease. These are the options we recommend you use when adding or editing content. There are other ways of managing your branches, but these are the ones we recommend for everyone.
 
 Managing branches directly through VS codes version control is also an option, but we have noticed that VS code has some trouble with sending requests directly to GitHub causing some pull requests to simply never show up to the administrators.
 
-> ***Note: In both cases (Staff and Student) when your push is completed your article will be pushed to the wiki automatically. it will take a minute or two for your article to show up correctly on the web page.***
+> ***Note: In both cases (Staff and Student) when your push is completed your article will be pushed to the wiki automatically. It will take a minute or two for your article to show up correctly on the web page.***
