@@ -6,6 +6,7 @@
     "section": "",
     "text": "Welcome to koodariverstas! Our mission is to bridge the gap between education and corporations. We believe that everyone has the right to prove their skills and be recognized for their work, that’s why we want to provide students the opportunity to work in real projects for companies.\n\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "About koodariverstas"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "",
     "text": "Tools in Koodariverstas\nThis article acts as a compiled list of different tools we use/recommend using in Koodariverstas. We use different tools for different parts of our work here in Koodariverstas, this means that there are some tools you will have to learn when working in a project inside Koodariverstas. We have also gathered some recommended tools for different use-cases you might want to get to know.\n\nTools we use\n\nTaiga. Taiga is our preferred project management solution we use it to track the progress of projects and it helps everyone keep track of the tasks that are done and need to be done next. Taiga is completely free and open-source\n\n\n\nTools we recommend\n\nVS code. VS-code is a robust IDE that fits almost every need. VS code has a massive library of extensions for almost every development need and want.\n\n\n\n\n\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "Tools"
@@ -28,6 +30,7 @@
     "section": "",
     "text": "Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.\nOur GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on. Even this Wiki is fully hosted through GitHub pages and automated through GitHub actions. All of the source code is available at our repository.\nYour first step is to create your own GitHub account here.\nWhen you have created your GitHub account, you can request access to the GitHub organization through Xinfo.\n\nPlease note: only one member of a team needs to send a request to Xinfo (Read inviting others into a repository from below).\n\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\nWhen sending a request to access the organization, please attach your exact GitHub username to the ticket.\n\n\n\nFill your information here. Be sure to add a description where you clearly state requesting access to GitHub\n\n\nWhen you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.\n\n\n\nYou can manage access to your repository from the repository access settings.\n\n\nWe hope this helps you begin development in Koodariverstas.\nHappy Coding!",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "GitHub in Koodariverstas"
@@ -40,6 +43,7 @@
     "section": "",
     "text": "Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.\nOur GitHub is open to everyone and we encourage you to get to know the repositories/projects we are working on. Even this Wiki is fully hosted through GitHub pages and automated through GitHub actions. All of the source code is available at our repository.\nYour first step is to create your own GitHub account here.\nWhen you have created your GitHub account, you can request access to the GitHub organization through Xinfo.\n\nPlease note: only one member of a team needs to send a request to Xinfo (Read inviting others into a repository from below).\n\n\n\n\nThis is the main page of Xinfo. You want to leave an ICT service request for access to GitHub\n\n\nWhen sending a request to access the organization, please attach your exact GitHub username to the ticket.\n\n\n\nFill your information here. Be sure to add a description where you clearly state requesting access to GitHub\n\n\nWhen you gain access to the organization inside GitHub, you can create your own repositories and invite anyone to collaborate on your own repository. One member inside the organization can directly invite others from outside the organization to collaborate on repositories they own.\n\n\n\nYou can manage access to your repository from the repository access settings.\n\n\nWe hope this helps you begin development in Koodariverstas.\nHappy Coding!",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "GitHub in Koodariverstas"
@@ -52,6 +56,7 @@
     "section": "",
     "text": "Adding and Editing pages\nThis article will teach you how to add pages and edit existing pages in our Wiki. This might be useful when you want to document your findings or want to add a component you made to the library of components that everyone can freely use.\nWhen adding a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).\n\n\n\nGithub link location\n\n\nInside the GitHub repository find the “articles” folder. Inside the articles folder find the category folder where you want to add your article. If you want to edit an article instead, simply head to the article you want to edit, and edit the .qmd file of the article.\n\nNote: Please refrain from modifying articles written by other people. If you still think that an article requires modifications, please ask the user in the articles “author” section for permission to modify their work, if you make changes, add yourself to the authors list of the article. You can find other users in the repository user list.\n\n\n\n\nGithub articles folder\n\n\nAfter choosing a folder suitable for your article, you can add a .qmd file directly in GitHub. A .qmd file is automatically formatted and added to the hosted website, they are also sorted by category and inserted into the websites search function.\n\nNote: Quarto MarkDown (.qmd) and regular MarkDown (.md) are different file formats. If you have imported a file from a markdown editor, please make sure to change the file to .qmd before adding it to the wiki.\n\n\n\n\nAdding a file in GitHub. You can either create a new file or import a pre-made .qmd file.\n\n\nTo add a .qmd file simply add .qmd in the file name when finalizing your file (Red box in the image below). When adding content be sure to integrate required metadata from the following code block:\n---\ntitle: \"Example title (This is the title you want the reader to see and \"interact\" with)\"\ncategories: [example category] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)\ndate: \"9.25.2024\" ## date and time format is MM.DD.YYYY\nauthor: Firstname Lastname, Firstname Lastname ## Author/authors of the article. \ndate-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.\n---\nThe wiki supports full markdown and lets you have total control over the content of your article. We recommend using a simple markdown editor such as StackEdit (You can also read our article on the basics of StackEdit here).\nThe orange area in the image shown below is your “article” section. This section has to include the metadata at the top of the section for the article (Otherwise your article WILL NOT be indexed and won’t be rendered to the wiki)! After you have included the metadata section, you are free to write and format whatever you wish in the main article.\n\nNote: You are responsible for the content you write in your article. It is your responsibility to fact check and reference others work correctly. All articles are moderated and checked for disruptive content before they are published in the wiki.\n\n\n\n\nEditing a file. RED section is your .qmd files name. YELLOW section is the main article section.\n\n\nWhen you feel like your article is ready to publish, simply press the green “Commit Changes” button in github.\nIf you are a part of Koodariverstas staff, you have the permissions to directly push changes to main.\n\nNote: When a staff member is pushing their changes GitHub will give you the option to bypass the rules and push directly to main.\n\n\nAdding and editing pages as a student\nIf you are a student working in a project and want to edit or publish an article, you need to create your own branch for the changes you have made. Your branch will be sent automatically for review when you push your changes. When your changes are approved by an administrator your changes will be automatically updated to the wiki and your branch will be deleted.\nThere are a few ways of managing your branches. Here are two options we recommend for everyone regardless of their technical knowledge and experience with GitHub.\n\nDirect GitHub\nWhen adding directly through GitHub you will be prompted when committing to create a new branch for your changes.\n\n\n\nProposing a change in GitHub\n\n\nSelect the “create a new branch” option from the selection. This will make a new branch for your changes and send an automatic request for review for administrators.\n\nNote: You will not be able to commit directly to main as a student. Even if you get the option to commit to main, you will get an error message saying that your commit has been blocked.\n\n\n\nGitHub Desktop\nAlternatively you can use the GitHub desktop app for creating a new branch. GitHub desktop lets you create and manage you branches directly in the app making it easy to keep track of your branches and changes.\n\n\n\nCreating a branch in GH desktop app\n\n\nGitHub desktop lets you manage your branches and the cloned repository with ease. These are the options we recommend you use when adding or editing content. There are other ways of managing your branches, but these are the ones we recommend for everyone.\nManaging branches directly through VS codes version control is also an option, but we have noticed that VS code has some trouble with sending requests directly to GitHub causing some pull requests to simply never show up to the administrators.\n\nNote: In both cases (Staff and Student) when your push is completed your article will be pushed to the wiki automatically. It will take a minute or two for your article to show up correctly on the web page.\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "Adding and Editing pages"
@@ -64,6 +69,7 @@
     "section": "",
     "text": "This post is about gathering feedback when ending a project\ntesting updating in real time\nEdit this page\n\n\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "Ending a project",
       "Gathering feedback"
@@ -76,6 +82,7 @@
     "section": "",
     "text": "This is a page about managing a workflow during a project\n\n\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "During a project",
       "Managing a workflow"
@@ -88,6 +95,7 @@
     "section": "",
     "text": "This is a test post in the “During a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "During a project"
     ]
@@ -99,6 +107,7 @@
     "section": "",
     "text": "This is a test post in the “Ending a project” category\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "Ending a project"
     ]
@@ -110,6 +119,7 @@
     "section": "",
     "text": "This is a test post in the “Beginning a project” category\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "Beginning a project"
     ]
@@ -121,6 +131,7 @@
     "section": "",
     "text": "Welcome to General articles!\nThese articles cover miscellaneous subjects and are designed for you to learn more about various topics. Here we cover the basics of various topics you might find useful when working in Koodariverstas. Feel free to browse the selection of articles below.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTools\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub in Koodariverstas\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\n\n\n\nNiko Laurila\n\n\nSep 25, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles"
     ]
@@ -132,6 +143,7 @@
     "section": "",
     "text": "StackEdit is an open source browser based markdown editor. Your display is split between two different views. The panel on the left is your markdown side, where you can write in markdown and use the provided tools to create content, the right side is your preview side that shows you what your content looks like. This article is a modified version of the StackEdit guide document provided in StackEdit.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -144,6 +156,7 @@
     "section": "Create files and folders",
     "text": "Create files and folders\nThe file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the New file button in the file explorer. You can also create folders by clicking the New folder button.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -156,6 +169,7 @@
     "section": "Switch to another file",
     "text": "Switch to another file\nAll your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -168,6 +182,7 @@
     "section": "Rename a file",
     "text": "Rename a file\nYou can rename the current file by clicking the file name in the navigation bar or by clicking the Rename button in the file explorer.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -180,6 +195,7 @@
     "section": "Delete a file",
     "text": "Delete a file\nYou can delete the current file by clicking the Remove button in the file explorer. The file will be moved into the Trash folder and automatically deleted after 7 days of inactivity.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -192,6 +208,7 @@
     "section": "Export a file",
     "text": "Export a file\nYou can export the current file by clicking Export to disk in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -204,6 +221,7 @@
     "section": "Open a file",
     "text": "Open a file\nYou can open a file from Google Drive, Dropbox or GitHub by opening the Synchronize sub-menu and clicking Open from. Once opened in the workspace, any modification in the file will be automatically synced.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -216,6 +234,7 @@
     "section": "Save a file",
     "text": "Save a file\nYou can save any file of the workspace to Google Drive, Dropbox or GitHub by opening the Synchronize sub-menu and clicking Save on. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -228,6 +247,7 @@
     "section": "Synchronize a file",
     "text": "Synchronize a file\nOnce your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.\nIf you just have modified your file and you want to force syncing, click the Synchronize now button in the navigation bar.\n\nNote: The Synchronize now button is disabled if you have no file to synchronize.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -240,6 +260,7 @@
     "section": "Manage file synchronization",
     "text": "Manage file synchronization\nSince one file can be synced with multiple locations, you can list and manage synchronized locations by clicking File synchronization in the Synchronize sub-menu. This allows you to list and remove synchronized locations that are linked to your file.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -252,6 +273,7 @@
     "section": "Publish a File",
     "text": "Publish a File\nYou can publish your file by opening the Publish sub-menu and by clicking Publish to. For some locations, you can choose between the following formats:\n\nMarkdown: publish the Markdown text on a website that can interpret it (GitHub for instance),\nHTML: publish the file converted to HTML via a Handlebars template (on a blog for example).",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -264,6 +286,7 @@
     "section": "SmartyPants",
     "text": "SmartyPants\nSmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:\n\n\n\n\n\n\n\n\n\nASCII\nHTML\n\n\n\n\nSingle backticks\n'Isn't this fun?'\n‘Isn’t this fun?’\n\n\nQuotes\n\"Isn't this fun?\"\n“Isn’t this fun?”\n\n\nDashes\n-- is en-dash, --- is em-dash\n– is en-dash, — is em-dash",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -276,6 +299,7 @@
     "section": "KaTeX",
     "text": "KaTeX\nYou can render LaTeX mathematical expressions using KaTeX:\nThe Gamma function satisfying \\(\\Gamma(n) = (n-1)!\\quad\\forall n\\in\\mathbb N\\) is via the Euler integral\n\\[\n\\Gamma(z) = \\int_0^\\infty t^{z-1}e^{-t}dt\\,.\n\\]\n\nYou can find more information about LaTeX mathematical expressions here.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
@@ -288,6 +312,7 @@
     "section": "",
     "text": "This document is directly based on the original StackEdit welcome guide found in every new StackEdit document. XAMK is not affiliated with StackEdit and has no connections to the team developing StackEdit. StackEdit is an open source project licensed under the apache 2.0 license.",
     "crumbs": [
+      "GitHub",
       "Articles",
       "General articles",
       "StackEdit Format guide"
