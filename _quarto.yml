@@ -14,10 +14,11 @@ execute:
 website:
   back-to-top-navigation: true
   
-  title: Koodariverstas Wikiplatform
-      [![](EU.png){fig-alt="Co-funded by the european union" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
-      [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
-      [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile" width=145px height=80px margin=10px}](https://www.xamk.fi/en/)
+  title: Koodariverstas Wiki
+
+      [![](EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
+      [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
+      [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=80px margin=10px}](https://www.xamk.fi/en/)
   
     
   favicon: Logo.png
@@ -25,11 +26,11 @@ website:
   navbar: 
     background: '#7141fd'
     right:
-      - icon: github
+      - text: GitHub
         href: https://github.com/xamkfi/Koodariverstas-wikiplatform
-      - icon: twitter
+      - text: Twitter(X)
         href: https://twitter.com
-      - icon: linkedin
+      - text: LinkedIn
         href: https://linkedin.com
   sidebar:
     style: "floating"

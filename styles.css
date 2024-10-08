@@ -3,3 +3,21 @@
     max-height: 200px;
     max-width: 250px;
   }
+
+  @media (max-width: 990px) {
+    .hide-on-mobile1 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .hide-on-mobile2 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .hide-on-mobile3 {
+      display: none;
+    }
+  }
