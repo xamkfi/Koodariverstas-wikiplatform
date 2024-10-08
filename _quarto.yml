@@ -14,8 +14,7 @@ execute:
 website:
   back-to-top-navigation: true
   
-  title: Koodariverstas Wiki | The open source wikiplatform
-  
+  title: Koodariverstas Wiki
       [![](EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
       [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
       [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=80px margin=10px}](https://www.xamk.fi/en/)
@@ -25,7 +24,6 @@ website:
   
   navbar: 
     background: '#7141fd'
-
     right:
       - text: GitHub
         href: https://github.com/xamkfi/Koodariverstas-wikiplatform
