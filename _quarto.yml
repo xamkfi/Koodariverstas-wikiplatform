@@ -14,11 +14,6 @@ execute:
 
 website:
 
-  repo-actions:
-    - edit
-    - source
-    - issue
-
   reader-mode: true
   cookie-consent: false
   
@@ -29,6 +24,12 @@ website:
       [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
       [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=90px margin=10px}](https://www.xamk.fi/en/)
   
+  repo-url: https://github.com/xamkfi/Koodariverstas-wikiplatform
+  issue-url: https://github.com/xamkfi/Koodariverstas-wikiplatform/issues
+  repo-actions:
+    - edit
+    - issue
+
     
   favicon: Logo.png
   
