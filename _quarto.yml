@@ -2,7 +2,7 @@ project:
   type: website
 
 editor:
-  edit: true
+  edit: false
   branch: "gh-pages"
   repo: "xamkfi/Koodariverstas-wikiplatform"
  
