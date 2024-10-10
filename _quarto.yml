@@ -14,7 +14,7 @@ execute:
 
 website:
 
-  reader-mode: true
+  reader-mode: false
   cookie-consent: false
   
   back-to-top-navigation: true
