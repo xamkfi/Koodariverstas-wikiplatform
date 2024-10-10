@@ -7,5 +7,3 @@ categories: [Ending a project]
 This post is about gathering feedback when ending a project 
 
 testing updating in real time
-
-[Edit this page]({{ edit }})
