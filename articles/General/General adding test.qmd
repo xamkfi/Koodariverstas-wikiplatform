@@ -10,9 +10,19 @@ date-modified: last-modified
 
 This article will teach you how to add pages and edit existing pages in our Wiki. This might be useful when you want to document your findings or want to add a component you made to the library of components that everyone can freely use.
 
+## Editing existing pages and reporting issues.
+
+On the bottom of every page, you will find the "Edit this page" and "Report an issue" buttons. Edit this page lets you edit the current page you are on and Report an issue lets you report any issues you might come across. If you are a **student** "Edit this page" will notify you about the requirement of forking your own branch for modifications. Reporting an issue opens up a new GitHub issue for the team to see.
+
+![Edit this page and Report an issue buttons. These buttons are located at the bottom of every page](images/EditingPNG.png){fig-align="center" width="680"}
+
+------------------------------------------------------------------------
+
+## Adding a new page
+
 When adding a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).
 
-![Github link location](tutorialimg1.png)
+![Github link location](images/img23.png)
 
 Inside the GitHub repository find the "articles" folder. Inside the articles folder find the category folder where you want to add your article. If you want to edit an article instead, simply head to the article you want to edit, and edit the .qmd file of the article.
 
@@ -52,7 +62,9 @@ When you feel like your article is ready to publish, simply press the green "Com
 
 > **Note:** When a staff member is pushing their changes GitHub will give you the option to bypass the rules and push **directly to main**.
 
-### Adding and editing pages as a student
+------------------------------------------------------------------------
+
+## Adding and editing pages as a student
 
 If you are a **student** working in a project and want to edit or publish an article, you need to **create your own branch** for the changes you have made. Your branch will be **sent automatically for review when you push your changes.** When your changes are approved by an administrator your changes will be automatically updated to the wiki and your branch will be deleted.
 
