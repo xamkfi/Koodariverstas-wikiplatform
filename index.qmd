@@ -11,7 +11,6 @@ listing:
   sort-ui: true
   filter-ui: false
 page-layout: full
-margin-top: 10px
 title-block-style: default
 date: 9.9.2024
 date-format: long
