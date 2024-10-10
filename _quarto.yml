@@ -5,6 +5,7 @@ editor:
   edit: false
   branch: "gh-pages"
   repo: "xamkfi/Koodariverstas-wikiplatform"
+  
  
 
 
@@ -12,6 +13,15 @@ execute:
   freeze: auto
 
 website:
+
+  repo-actions:
+    - edit
+    - source
+    - issue
+
+  reader-mode: true
+  cookie-consent: false
+  
   back-to-top-navigation: true
   
   title: Koodariverstas Wiki
@@ -53,6 +63,10 @@ website:
         href: https://www.xamk.fi/en/data-privacy/
       - text: This Wiki utilizes Quarto
         href: https://quarto.org/
+
+
+
+
   
 format: 
   html:
