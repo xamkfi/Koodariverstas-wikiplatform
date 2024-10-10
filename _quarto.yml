@@ -15,9 +15,9 @@ website:
   back-to-top-navigation: true
   
   title: Koodariverstas Wiki
-      [![](EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
-      [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
-      [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=90px margin=10px}](https://www.xamk.fi/en/)
+      [![](PageIMG\EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
+      [![](PageIMG\ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
+      [![](PageIMG\XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=90px margin=10px}](https://www.xamk.fi/en/)
   
     
   favicon: Logo.png
