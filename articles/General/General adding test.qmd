@@ -16,8 +16,6 @@ On the bottom of every page, you will find the "Edit this page" and "Report an i
 
 ![Edit this page and Report an issue buttons. These buttons are located at the bottom of every page](images/EditingPNG.png){fig-align="center" width="680"}
 
-------------------------------------------------------------------------
-
 ## Adding a new page
 
 When adding a new page to the wiki, head to the GitHub repository (Link located at the top right of the page).
@@ -61,8 +59,6 @@ When you feel like your article is ready to publish, simply press the green "Com
 **If you are a part of Koodariverstas staff, you have the permissions to directly push changes to main.**
 
 > **Note:** When a staff member is pushing their changes GitHub will give you the option to bypass the rules and push **directly to main**.
-
-------------------------------------------------------------------------
 
 ## Adding and editing pages as a student
 
