@@ -5,8 +5,6 @@ date: "10.17.2024"
 author: Niko Laurila
 date-modified: last-modified
 image: https://storage-us-gcs.bfldr.com/qi4c28p7/v/357207/original/icon%20taiga%20color.png?Expires=1729242247&KeyName=gcs-bfldr-prod&Signature=WIdt-bZoiktUkBnoUIhwulUgmC4=
-draft-mode: visible
-draft: true
 ---
 
 # Your guide to Taiga.io
@@ -32,3 +30,5 @@ When you login you are thrown directly into the "projects" view. This view will 
 ![This is your project view.](images/TaigaProjectsview.png){fig-align="center"}
 
 This page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don't currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.
+
+> ***This article is currently under construction. Waiting for more content.***
