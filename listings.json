@@ -7,7 +7,6 @@
       "/articles/Ending-a-project/Gathering feedback.html",
       "/articles/Ending-a-project/index.html",
       "/articles/Beginning-a-project/index.html",
-      "/articles/General/Taiga.html",
       "/articles/General/Tools.html",
       "/articles/General/StackEditFormatGuide.html",
       "/articles/General/Github tutorial.html",
@@ -28,7 +27,6 @@
   {
     "listing": "/articles/General/index.html",
     "items": [
-      "/articles/General/Taiga.html",
       "/articles/General/Tools.html",
       "/articles/General/Github tutorial.html",
       "/articles/General/StackEditFormatGuide.html",

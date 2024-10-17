@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Koodariverstas Wiki",
     "section": "",
-    "text": "Welcome to the Wiki!\nThis site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. You can also use the search located in the top right of the wiki.\nThere are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.\n\nHappy Coding!\n-Koodariverstas staff\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDuring a project\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnding a project\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuide to Taiga.io\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nOctober 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nOctober 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\nGeneral\n\n\n\n\n\n\n\nTerhi Patja\n\n\nOctober 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub in Koodariverstas\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nOctober 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nSeptember 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral articles\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\nSeptember 24, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Welcome to the Wiki!\nThis site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. You can also use the search located in the top right of the wiki.\nThere are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.\n\nHappy Coding!\n-Koodariverstas staff\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nManaging a workflow\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDuring a project\n\n\n\nDuring a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGathering feedback\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnding a project\n\n\n\nEnding a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeginning a project\n\n\n\nBeginning a project\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nOctober 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\nGeneral\n\n\n\n\n\n\n\nTerhi Patja\n\n\nOctober 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub in Koodariverstas\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nOctober 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\nGeneral\n\n\n\n\n\n\n\nNiko Laurila\n\n\nSeptember 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral articles\n\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\nSeptember 24, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "articles/Beginning-a-project/index.html",
@@ -29,58 +29,6 @@
       "Articles",
       "Ending a project",
       "Gathering feedback"
-    ]
-  },
-  {
-    "objectID": "articles/General/Taiga.html",
-    "href": "articles/General/Taiga.html",
-    "title": "Guide to Taiga.io",
-    "section": "",
-    "text": "Taiga.io Logo\n\n\n\n\nTaiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas. We recommend that you get to know the platform and its layout when you begin working in your first project.\n\n\n\nTaiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical. You can sign in to GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings. When entering names please use your real legal names so that we know who is who when attributing work and credits.\n\n\n\nWhen you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view. The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.",
-    "crumbs": [
-      "GitHub",
-      "Articles",
-      "General articles",
-      "Guide to Taiga.io"
-    ]
-  },
-  {
-    "objectID": "articles/General/Taiga.html#what-is-taiga.io",
-    "href": "articles/General/Taiga.html#what-is-taiga.io",
-    "title": "Guide to Taiga.io",
-    "section": "",
-    "text": "Taiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas. We recommend that you get to know the platform and its layout when you begin working in your first project.",
-    "crumbs": [
-      "GitHub",
-      "Articles",
-      "General articles",
-      "Guide to Taiga.io"
-    ]
-  },
-  {
-    "objectID": "articles/General/Taiga.html#account-management",
-    "href": "articles/General/Taiga.html#account-management",
-    "title": "Guide to Taiga.io",
-    "section": "",
-    "text": "Taiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical. You can sign in to GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings. When entering names please use your real legal names so that we know who is who when attributing work and credits.",
-    "crumbs": [
-      "GitHub",
-      "Articles",
-      "General articles",
-      "Guide to Taiga.io"
-    ]
-  },
-  {
-    "objectID": "articles/General/Taiga.html#projects",
-    "href": "articles/General/Taiga.html#projects",
-    "title": "Guide to Taiga.io",
-    "section": "",
-    "text": "When you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view. The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.",
-    "crumbs": [
-      "GitHub",
-      "Articles",
-      "General articles",
-      "Guide to Taiga.io"
     ]
   },
   {
@@ -360,7 +308,7 @@
     "href": "articles/General/index.html",
     "title": "General articles",
     "section": "",
-    "text": "Welcome to General articles!\nThese articles cover miscellaneous subjects and are designed for you to learn more about various topics. Here we cover the basics of various topics you might find useful when working in Koodariverstas. Feel free to browse the selection of articles below.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGuide to Taiga.io\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTools\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub in Koodariverstas\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\n\n\n\nNiko Laurila\n\n\nSep 25, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
+    "text": "Welcome to General articles!\nThese articles cover miscellaneous subjects and are designed for you to learn more about various topics. Here we cover the basics of various topics you might find useful when working in Koodariverstas. Feel free to browse the selection of articles below.\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\nTools\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub in Koodariverstas\n\n\n\n\n\n\nNiko Laurila\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nStackEdit Format guide\n\n\n\n\n\n\nTerhi Patja\n\n\nOct 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAdding and Editing pages\n\n\n\n\n\n\nNiko Laurila\n\n\nSep 25, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top",
     "crumbs": [
       "GitHub",
       "Articles",
