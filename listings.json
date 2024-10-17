@@ -19,18 +19,18 @@
     "items": []
   },
   {
+    "listing": "/articles/During-a-project/index.html",
+    "items": [
+      "/articles/During-a-project/managing a workflow.html"
+    ]
+  },
+  {
     "listing": "/articles/General/index.html",
     "items": [
       "/articles/General/Tools.html",
       "/articles/General/Github tutorial.html",
       "/articles/General/StackEditFormatGuide.html",
       "/articles/General/General adding test.html"
-    ]
-  },
-  {
-    "listing": "/articles/During-a-project/index.html",
-    "items": [
-      "/articles/During-a-project/managing a workflow.html"
     ]
   },
   {
