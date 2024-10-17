@@ -5,6 +5,7 @@ date: "10.17.2024"
 author: Niko Laurila
 date-modified: last-modified
 draft: true
+draft-mode: visible
 ---
 
 # Your guide to Taiga.io
