@@ -4,6 +4,7 @@ categories: [General]
 date: "10.17.2024"
 author: Niko Laurila
 date-modified: last-modified
+image: https://storage-us-gcs.bfldr.com/qi4c28p7/v/357207/original/icon%20taiga%20color.png?Expires=1729242247&KeyName=gcs-bfldr-prod&Signature=WIdt-bZoiktUkBnoUIhwulUgmC4=
 ---
 
 # Your guide to Taiga.io
