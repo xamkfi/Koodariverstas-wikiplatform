@@ -6,6 +6,7 @@ editor:
   branch: "gh-pages"
   repo: "xamkfi/Koodariverstas-wikiplatform"
   
+
  
 
 
@@ -13,6 +14,14 @@ execute:
   freeze: auto
 
 website:
+
+
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - This page is currently under construction. Please report any issues through the report an issue button in the footer."
+    type: primary
+    position: below-navbar
 
   reader-mode: false
   cookie-consent: false
