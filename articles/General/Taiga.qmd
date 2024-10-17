@@ -1,0 +1,32 @@
+---
+title: "Guide to Taiga.io"
+categories: [General]
+date: "10.17.2024"
+author: Niko Laurila
+date-modified: last-modified
+draft: true
+---
+
+# Your guide to Taiga.io
+
+![Taiga.io Logo](images/taigaLogo.png){fig-alt="Taiga.io Logo" fig-align="center" width="708"}
+
+## What is Taiga.io?
+
+[Taiga.io](https://taiga.io/) is our preferred project management tool. Taiga is fully **open-source** and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas. We recommend that you get to know the platform and its layout when you begin working in your first project.
+
+## Account management
+
+Taiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical. You can sign in to GitHub directly through the login prompt.
+
+![Taiga.io Login window](images/TaigaLogin.png){fig-align="center"}
+
+After logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings. When entering names **please use your real legal names** so that we know who is who when attributing work and credits.
+
+## Projects
+
+When you login you are thrown directly into the "projects" view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view. The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.
+
+![This is your project view.](images/TaigaProjectsview.png){fig-align="center"}
+
+This page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don't currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.
