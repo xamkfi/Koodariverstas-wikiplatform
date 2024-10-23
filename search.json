@@ -36,7 +36,7 @@
     "href": "articles/General/Taiga.html",
     "title": "Guide to Taiga.io",
     "section": "",
-    "text": "Taiga.io Logo\n\n\n\n\nTaiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas. We recommend that you get to know the platform and its layout when you begin working in your first project.\n\n\n\nTaiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical. You can sign in to GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings. When entering names please use your real legal names so that we know who is who when attributing work and credits.\n\n\n\nWhen you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view. The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.\n\nThis article is currently under construction. Waiting for more content.",
+    "text": "Taiga.io Logo\n\n\n\n\nTaiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas.\nWe recommend that you get to know the platform and its layout when you begin working in your first project.\n\n\n\nTaiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical.\nYou can sign in with GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings.\nWhen entering names please use your real legal names so that we know who is who when attributing work and credits.\n\n\n\nWhen you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view.\nThe project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.\n\n\n\n\n\nWhen clicking on a project you will find a page that looks like this. Here you can see the team assigned to the project, action history, scrum and kanban, project wiki and current Issues.\n\n\n\nScrum is a standard way to follow and plan development processes.\nTaiga has a fully functional scrum management system that lets you follow tasks and check assigned workflows.\nHere you can see which tasks are allocated you or other members in your team. You can also track the progress of all tasks here.\n\n\n\n\n\nDifferent tasks require different amounts of work and resources. Scrum let’s us assign the correct resources per task and track their progress in real time.\nThis also helps developers stay focused on their own work, and eases the workload of big projects by cutting it to bite sized bits.\n\nTL;DR: Scrum makes it easy to follow smaller tasks and assign resources to said tasks. Enabling developers to focus on their own tasks.\n\n\n\n\nKanban works in the same manner as scrum, the difference being that kanban focuses on the “bigger picture”. Where scrum concentrates on tasks as a part of a bigger picture, kanban focuses more on user stories. User stories are bigger sized entities that consist of the smaller scrum tasks.\nYou can think of it as a poster, where different parts of the whole poster consists of smaller parts of the poster to make a complete comprehensive poster.\n\n\n\n\n\nThis is the kanban view. Each user story consists of tasks that are managed in Scrum. When work is started on a task that is a part of a story, the story is updated to reflect the changes.\n\nTL;DR: Kanban enables the following of the bigger picture of the project. This helps in planning for bigger features and keeping track of the entire project.\n\n\n\n\n\n\nHere for example, i have “started working” on a task in user story 1. I have been assigned to the development to tasks for story 1. To reflect this change i have updated the kanban view to reflect the current state of the entire story.\n\n\n\nTaiga has also a built in issues system. We use this to track known issues such as bugs, problems, requests or additional requirements. You can see all the current issues on the projects issues page.\nThe issues page shows you the Type, Severity and priority of the issue listed. You can also see the status, when the issue was posted and who it’s assigned to.\n\n\n\n\n\nThis is the issues page, you can search issues by subject or reference. Here you can also add new issues and see the overall state of issues in the current project.\nWhen you click on an issue, it will open the detailed issue page.\n\n\n\n\n\nThis is the detailed issue page. Here you can see the description of the issue including the status, assigned personnel, possible attachments and comments made by other people in the project.\nUsage of issues helps everyone keep track of the problems that may occur during development.\n\nThis article is currently under construction. Waiting for more content.",
     "crumbs": [
       "GitHub",
       "Articles",
@@ -49,7 +49,7 @@
     "href": "articles/General/Taiga.html#what-is-taiga.io",
     "title": "Guide to Taiga.io",
     "section": "",
-    "text": "Taiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas. We recommend that you get to know the platform and its layout when you begin working in your first project.",
+    "text": "Taiga.io is our preferred project management tool. Taiga is fully open-source and has a generous & unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas.\nWe recommend that you get to know the platform and its layout when you begin working in your first project.",
     "crumbs": [
       "GitHub",
       "Articles",
@@ -62,7 +62,7 @@
     "href": "articles/General/Taiga.html#account-management",
     "title": "Guide to Taiga.io",
     "section": "",
-    "text": "Taiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical. You can sign in to GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings. When entering names please use your real legal names so that we know who is who when attributing work and credits.",
+    "text": "Taiga has multiple ways of logging-in, we recommend using the same GitHub account you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical.\nYou can sign in with GitHub directly through the login prompt.\n\n\n\nTaiga.io Login window\n\n\nAfter logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings.\nWhen entering names please use your real legal names so that we know who is who when attributing work and credits.",
     "crumbs": [
       "GitHub",
       "Articles",
@@ -75,7 +75,46 @@
     "href": "articles/General/Taiga.html#projects",
     "title": "Guide to Taiga.io",
     "section": "",
-    "text": "When you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view. The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.\n\nThis article is currently under construction. Waiting for more content.",
+    "text": "When you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view.\nThe project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.\n\n\n\nThis is your project view.\n\n\nThis page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.\n\n\n\n\n\nWhen clicking on a project you will find a page that looks like this. Here you can see the team assigned to the project, action history, scrum and kanban, project wiki and current Issues.",
+    "crumbs": [
+      "GitHub",
+      "Articles",
+      "General articles",
+      "Guide to Taiga.io"
+    ]
+  },
+  {
+    "objectID": "articles/General/Taiga.html#scrum",
+    "href": "articles/General/Taiga.html#scrum",
+    "title": "Guide to Taiga.io",
+    "section": "",
+    "text": "Scrum is a standard way to follow and plan development processes.\nTaiga has a fully functional scrum management system that lets you follow tasks and check assigned workflows.\nHere you can see which tasks are allocated you or other members in your team. You can also track the progress of all tasks here.\n\n\n\n\n\nDifferent tasks require different amounts of work and resources. Scrum let’s us assign the correct resources per task and track their progress in real time.\nThis also helps developers stay focused on their own work, and eases the workload of big projects by cutting it to bite sized bits.\n\nTL;DR: Scrum makes it easy to follow smaller tasks and assign resources to said tasks. Enabling developers to focus on their own tasks.",
+    "crumbs": [
+      "GitHub",
+      "Articles",
+      "General articles",
+      "Guide to Taiga.io"
+    ]
+  },
+  {
+    "objectID": "articles/General/Taiga.html#kanban",
+    "href": "articles/General/Taiga.html#kanban",
+    "title": "Guide to Taiga.io",
+    "section": "",
+    "text": "Kanban works in the same manner as scrum, the difference being that kanban focuses on the “bigger picture”. Where scrum concentrates on tasks as a part of a bigger picture, kanban focuses more on user stories. User stories are bigger sized entities that consist of the smaller scrum tasks.\nYou can think of it as a poster, where different parts of the whole poster consists of smaller parts of the poster to make a complete comprehensive poster.\n\n\n\n\n\nThis is the kanban view. Each user story consists of tasks that are managed in Scrum. When work is started on a task that is a part of a story, the story is updated to reflect the changes.\n\nTL;DR: Kanban enables the following of the bigger picture of the project. This helps in planning for bigger features and keeping track of the entire project.\n\n\n\n\n\n\nHere for example, i have “started working” on a task in user story 1. I have been assigned to the development to tasks for story 1. To reflect this change i have updated the kanban view to reflect the current state of the entire story.",
+    "crumbs": [
+      "GitHub",
+      "Articles",
+      "General articles",
+      "Guide to Taiga.io"
+    ]
+  },
+  {
+    "objectID": "articles/General/Taiga.html#issues",
+    "href": "articles/General/Taiga.html#issues",
+    "title": "Guide to Taiga.io",
+    "section": "",
+    "text": "Taiga has also a built in issues system. We use this to track known issues such as bugs, problems, requests or additional requirements. You can see all the current issues on the projects issues page.\nThe issues page shows you the Type, Severity and priority of the issue listed. You can also see the status, when the issue was posted and who it’s assigned to.\n\n\n\n\n\nThis is the issues page, you can search issues by subject or reference. Here you can also add new issues and see the overall state of issues in the current project.\nWhen you click on an issue, it will open the detailed issue page.\n\n\n\n\n\nThis is the detailed issue page. Here you can see the description of the issue including the status, assigned personnel, possible attachments and comments made by other people in the project.\nUsage of issues helps everyone keep track of the problems that may occur during development.\n\nThis article is currently under construction. Waiting for more content.",
     "crumbs": [
       "GitHub",
       "Articles",
