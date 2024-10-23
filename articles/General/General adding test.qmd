@@ -15,7 +15,13 @@ This article will teach you how to add pages and edit existing pages in our Wiki
 
 On the bottom of every page, you will find the "Edit this page" and "Report an issue" buttons. Edit this page lets you edit the current page you are on and Report an issue lets you report any issues you might come across. If you are a **student** "Edit this page" will notify you about the requirement of forking your own branch for modifications. Reporting an issue opens up a new GitHub issue for the team to see.
 
-![Edit this page and Report an issue buttons. These buttons are located at the bottom of every page](images/EditingPNG.png){fig-align="center" width="680"}
+![GitHub actions on the right navigation bar](images/EditingPNG2.png){fig-align="center" width="489"}
+
+When a page has the integrated navigation bar on the right. The GitHub actions can be found on the bottom of the navigation element.
+
+![Edit this page and Report an issue buttons. These buttons are located at the bottom when no navigation is present](images/EditingPNG.png){fig-align="center" width="680"}
+
+If a site **doesn't** have the right navigation element, these buttons can be found in the **footer** of the page.
 
 ## Adding a new page
 
