@@ -11,7 +11,7 @@ listing:
   type: grid
   max-items: 3
   categories: true
-  sort-ui: true
+  sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-style: default
