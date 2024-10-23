@@ -3,6 +3,7 @@ title: "Beginning a project"
 format: html
 categories: [Beginning a project]
 order: 1
+date: 09.01.2024
 
 listing:
   contents: 

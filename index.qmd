@@ -4,11 +4,10 @@ project:
   output-dir: docs
 listing:
   contents: 
-   - articles\Beginning-a-project\"index.qmd"
-   - articles\During-a-project\"index.qmd"
-   - articles\General\"index.qmd"
-  sort: "date desc"
+   - articles
+  sort: "date"
   type: grid
+  max-items: 3
   categories: true
   sort-ui: true
   filter-ui: false

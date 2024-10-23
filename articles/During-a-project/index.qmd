@@ -3,7 +3,7 @@ title: "During a project"
 format: html
 categories: [During a project]
 order: 2
-
+date: 09.01.2024
 listing:
   contents: 
    - "*.qmd"
