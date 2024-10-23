@@ -4,6 +4,7 @@ categories: [General]
 date: "9.25.2024"
 author: Niko Laurila
 date-modified: last-modified
+toc: true
 ---
 
 # Adding and Editing pages
@@ -43,6 +44,7 @@ categories: [example category] ## Current categories are: Beginning a project, D
 date: "9.25.2024" ## date and time format is MM.DD.YYYY
 author: Firstname Lastname, Firstname Lastname ## Author/authors of the article. 
 date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
+toc: true ##this adds an automatic Table-Of-Content for your article.
 ---
 ```
 

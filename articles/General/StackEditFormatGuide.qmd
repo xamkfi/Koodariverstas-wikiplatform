@@ -4,6 +4,7 @@ categories: [General]
 date: "10.2.2024" ## date and time format is MM.DD.YYYY
 author: Terhi Patja
 date-modified: last-modified
+toc: true
 ---
 
 # Welcome to the StackEdit formatting guide!

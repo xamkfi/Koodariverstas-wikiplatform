@@ -28,6 +28,6 @@ This site will act as your one-stop-shop to all of your needs during development
 
 There are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.
 
-### Happy Coding!
+**Happy Coding!**
 
 *-Koodariverstas staff*

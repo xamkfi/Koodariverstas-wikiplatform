@@ -4,6 +4,7 @@ categories: [General]
 date: "10.17.2024"
 author: Niko Laurila
 date-modified: last-modified
+toc: true
 ---
 
 # Your guide to Taiga.io
