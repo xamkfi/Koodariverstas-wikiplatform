@@ -68,11 +68,11 @@ You can think of it as a poster, where different parts of the whole poster consi
 
 This is the kanban view. Each user story consists of tasks that are managed in Scrum. When work is started on a task that is a part of a story, the story is updated to reflect the changes.
 
-> **TL;DR:** Kanban enables the following of the bigger picture of the project. This helps in planning for bigger features and keeping track of the entire project.
-
 ![](images/Taiga kanban2.png){fig-align="center"}
 
 Here for example, i have "started working" on a task in user story 1. I have been assigned to the development to tasks for story 1. To reflect this change i have updated the kanban view to reflect the current state of the entire story.
+
+> **TL;DR:** Kanban enables the following of the bigger picture of the project. This helps in planning for bigger features and keeping track of the entire project.
 
 ## Issues
 
