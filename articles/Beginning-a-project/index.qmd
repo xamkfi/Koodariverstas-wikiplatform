@@ -7,7 +7,8 @@ date: 09.01.2024
 image: https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-4/256/rocket-launch-512.png
 listing:
   contents: 
-   - articles
+   - articles\Beginning-a-project
+   - articles\General
   type: grid
   include:
     categories: [Beginning a project]
