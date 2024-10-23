@@ -1,7 +1,19 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/articles/During-a-project/index.html",
+      "/articles/Ending-a-project/index.html",
+      "/articles/Beginning-a-project/index.html",
+      "/articles/General/index.html",
+      "/articles/General/General adding test.html",
+      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/Github tutorial.html",
+      "/articles/General/Tools.html",
+      "/articles/General/Taiga.html",
+      "/articles/During-a-project/managing a workflow.html",
+      "/articles/Ending-a-project/Gathering feedback.html"
+    ]
   },
   {
     "listing": "/articles/Beginning-a-project/index.html",
