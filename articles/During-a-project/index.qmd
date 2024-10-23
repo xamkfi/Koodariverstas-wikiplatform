@@ -4,6 +4,7 @@ format: html
 categories: [During a project]
 order: 2
 date: 09.01.2024
+image: https://cdn3.iconfinder.com/data/icons/seo-and-internet-marketing-12/512/80-512.png
 listing:
   contents: 
    - "*.qmd"
