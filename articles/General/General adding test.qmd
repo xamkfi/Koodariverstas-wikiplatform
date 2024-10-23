@@ -13,7 +13,9 @@ This article will teach you how to add pages and edit existing pages in our Wiki
 
 ## Editing existing pages and reporting issues.
 
-On the bottom of every page, you will find the "Edit this page" and "Report an issue" buttons. Edit this page lets you edit the current page you are on and Report an issue lets you report any issues you might come across. If you are a **student** "Edit this page" will notify you about the requirement of forking your own branch for modifications. Reporting an issue opens up a new GitHub issue for the team to see.
+On every page, you will find the "Edit this page" and "Report an issue" buttons. "Edit this page" lets you edit the current page you are on and "Report an issue" lets you report any issues you might come across.
+
+If you are a **student** "Edit this page" will notify you about the requirement of forking your own branch for modifications. "Report an issue" opens up a new GitHub issue for the team to see.
 
 ![GitHub actions on the right navigation bar](images/EditingPNG2.png){fig-align="center" width="489"}
 
