@@ -14,5 +14,10 @@ listing:
   filter-ui: false
 ---
 
-This is a test post in the "Ending a project" category
+You have finally reached the goal and the development is done! Congratulations on seeing it through with us!
 
+Now that all the hard work is done it's time to check on the client and gather that sweet data.
+
+Feedback helps you develop as a professional, and lets you learn from your past work. Reflecting on ones work is the key to improvement after all!
+
+Here you will find the last steps you should take when wrapping up!

@@ -14,4 +14,8 @@ listing:
   filter-ui: false
 ---
 
-This is a test post in the "During a project" category
+Congratulations on making it through the daunting start! Now you might already have the basics down, good for you!
+
+You might now be thinking "I know the basics, tell me what i need to know in my day to day work". Well worry not, here you will find all the articles you might find useful during your work with us.
+
+Take a look around, who knows what you might find!
