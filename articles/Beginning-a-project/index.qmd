@@ -10,6 +10,8 @@ listing:
    - articles\Beginning-a-project\*.qmd
    - articles\General\*.qmd
   type: grid
+  sort: 
+    - date
   include:
     categories: [Beginning a project]
   categories: false
