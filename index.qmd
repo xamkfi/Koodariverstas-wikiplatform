@@ -10,7 +10,7 @@ listing:
     - "title"
   type: grid
   max-items: 3
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
