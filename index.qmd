@@ -5,7 +5,7 @@ project:
 listing:
   contents: 
    - articles
-  sort: "date desc"
+  sort: "date"
   type: grid
   max-items: 3
   categories: true
