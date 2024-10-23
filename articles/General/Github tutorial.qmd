@@ -1,6 +1,6 @@
 ---
 title: "GitHub in Koodariverstas"
-categories: [General]
+categories: [General, Beginning a project]
 date: "10.2.2024"
 author: Niko Laurila
 date-modified: last-modified 
