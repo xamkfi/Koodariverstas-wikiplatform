@@ -38,7 +38,7 @@ The project view lets you quickly see the issues you are working on and the task
 
 This page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don't currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.
 
-![](images/Taiga img 1.png){fig-align="center"}
+![](images/Taiga%20img%201.png){fig-align="center"}
 
 When clicking on a project you will find a page that looks like this. Here you can see the team assigned to the project, action history, scrum and kanban, project wiki and current Issues.
 
@@ -48,9 +48,9 @@ Scrum is a standard way to follow and plan development processes.
 
 Taiga has a fully functional scrum management system that lets you follow tasks and check assigned workflows.
 
-Here you can see which tasks are allocated you or other members in your team. You can also track the progress of all tasks here.
+Here you can see which tasks are allocated to you or other members in your team. You can also track the progress of all tasks here.
 
-![](images/Taiga scrum.png){fig-align="center"}
+![](images/Taiga%20scrum.png){fig-align="center"}
 
 Different tasks require different amounts of work and resources. Scrum let's us assign the correct resources per task and track their progress in real time.
 
@@ -64,11 +64,11 @@ Kanban works in the same manner as scrum, the difference being that kanban focus
 
 You can think of it as a poster, where different parts of the whole poster consists of smaller parts of the poster to make a complete comprehensive poster.
 
-![](images/Taiga kanban.png){fig-align="center"}
+![](images/Taiga%20kanban.png){fig-align="center"}
 
 This is the kanban view. Each user story consists of tasks that are managed in Scrum. When work is started on a task that is a part of a story, the story is updated to reflect the changes.
 
-![](images/Taiga kanban2.png){fig-align="center"}
+![](images/Taiga%20kanban2.png){fig-align="center"}
 
 Here for example, i have "started working" on a task in user story 1. I have been assigned to the development to tasks for story 1. To reflect this change i have updated the kanban view to reflect the current state of the entire story.
 
@@ -80,13 +80,13 @@ Taiga has also a built in issues system. We use this to track known issues such 
 
 The issues page shows you the Type, Severity and priority of the issue listed. You can also see the status, when the issue was posted and who it's assigned to.
 
-![](images/Taiga issues.png){fig-align="center"}
+![](images/Taiga%20issues.png){fig-align="center"}
 
 This is the issues page, you can search issues by subject or reference. Here you can also add new issues and see the overall state of issues in the current project.
 
 When you click on an issue, it will open the detailed issue page.
 
-![](images/Taiga issue2.png){fig-align="center"}
+![](images/Taiga%20issue2.png){fig-align="center"}
 
 This is the detailed issue page. Here you can see the description of the issue including the status, assigned personnel, possible attachments and comments made by other people in the project.
 
