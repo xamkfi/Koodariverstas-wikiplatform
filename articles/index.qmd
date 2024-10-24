@@ -5,10 +5,16 @@ author: Niko Laurila
 date-modified: last-modified
 toc: false
 listing:
-  contents: articles
+  exclude: 
+    filename: "index.qmd"
+
+  contents: "*.qmd"
   type: grid
   sort: 
-    - date
+    - title
+  
+    
+
   categories: true
   sort-ui: true
   filter-ui: true
