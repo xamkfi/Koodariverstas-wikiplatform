@@ -26,7 +26,7 @@ title: Koodariverstas Wikiplatform
 
 This site will act as your one-stop-shop to all of your needs during development in koodariverstas. Here you can find articles based on general project timeline. These articles will help you get started in your work, and guide you through the development process. **You can also use the search located in the top right of the wiki.**
 
-There are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use.
+There are also categories listed in the sidebar of the wiki. Take a look around the general category for more specific information regarding technologies we use. You can also visit the All articles section from [here.](https://xamkfi.github.io/Koodariverstas-wikiplatform/articles/)
 
 **Happy Coding!**
 
