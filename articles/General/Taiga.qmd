@@ -1,6 +1,6 @@
 ---
 title: "Guide to Taiga.io"
-categories: [General]
+categories: [General, During a project]
 date: "10.17.2024"
 author: Niko Laurila
 date-modified: last-modified

@@ -7,10 +7,14 @@ date: 09.01.2024
 image: https://cdn3.iconfinder.com/data/icons/seo-and-internet-marketing-12/512/80-512.png
 listing:
   contents: 
-   - "*.qmd"
-  sort: "date desc"
+    - ../During-a-project/*.qmd
+    - ../General/*.qmd
   type: grid
-  categories: false
+  sort: 
+    - date
+  include:
+    categories: [During a project]
+  categories: true
   sort-ui: true
   filter-ui: false
 ---

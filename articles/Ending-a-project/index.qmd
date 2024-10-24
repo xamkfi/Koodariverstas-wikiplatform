@@ -7,10 +7,14 @@ date: 09.01.2024
 image: https://cdn4.iconfinder.com/data/icons/basic-ui-2-line/32/check-mark-checklist-complete-done-512.png
 listing:
   contents: 
-   - "*.qmd"
-  sort: "date desc"
+    - ../Ending-a-project/*.qmd
+    - ../General/*.qmd
   type: grid
-  categories: false
+  sort: 
+    - date
+  include:
+    categories: [Ending a project]
+  categories: true
   sort-ui: true
   filter-ui: false
 ---
