@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -330,7 +330,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Beginning a project">Beginning a project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="During a project">During a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ending a project">Ending a project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="General">General <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -349,13 +349,227 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="General" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1729768923282" data-listing-date-modified-sort="1729768923000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1113">
+<a href="../articles/General/General adding test.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="General/images/EditingPNG2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Adding and Editing pages
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+This article will teach you how to add pages and edit existing pages in our Wiki. This might be useful when you want to document your findings or want to add a component you…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila
+</div>
+<div class="listing-date">
+Sep 25, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Ending a project" data-listing-file-modified-sort="1729768923278" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<a href="../articles/Ending-a-project/Gathering feedback.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gathering feedback
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ending a project'); return false;">
+Ending a project
+</div>
+</div>
+<div class="card-text listing-description">
+This post is about gathering feedback when ending a project
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="General,Beginning a project" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1729768923282" data-listing-date-modified-sort="1729768923000" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
+<a href="../articles/General/Github tutorial.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="General/images/Github tut1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GitHub in Koodariverstas
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Beginning a project'); return false;">
+Beginning a project
+</div>
+</div>
+<div class="card-text listing-description">
+Koodariverstas is a part of Xamk and as a result, all code developed in Koodariverstas should be documented on our GitHub.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila
+</div>
+<div class="listing-date">
+Oct 2, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="General,During a project" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1729768923282" data-listing-date-modified-sort="1729768923000" data-listing-reading-time-sort="4" data-listing-word-count-sort="792">
+<a href="../articles/General/Taiga.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="General/images/taigaLogo.png" alt="Taiga.io Logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Guide to Taiga.io
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('During a project'); return false;">
+During a project
+</div>
+</div>
+<div class="card-text listing-description">
+Taiga.io is our preferred project management tool. Taiga is fully <strong>open-source</strong> and has a generous &amp; unlimited free tier. Taiga also offers the ability to self host a taiga…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila
+</div>
+<div class="listing-date">
+Oct 17, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="During a project" data-listing-file-modified-sort="1729768923278" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="../articles/During-a-project/managing a workflow.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Managing a workflow
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('During a project'); return false;">
+During a project
+</div>
+</div>
+<div class="card-text listing-description">
+This is a page about managing a workflow during a project
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="General" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1729768923282" data-listing-date-modified-sort="1729768923000" data-listing-reading-time-sort="5" data-listing-word-count-sort="895">
+<a href="../articles/General/StackEditFormatGuide.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="General/images/paste-4.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+StackEdit Format guide
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+StackEdit is an open source browser based markdown editor. Your display is split between two different views. The panel on the left is your markdown side, where you can…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Terhi Patja
+</div>
+<div class="listing-date">
+Oct 2, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="General" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1729768923282" data-listing-date-modified-sort="1729768923000" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<a href="../articles/General/Tools.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tools
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+This article acts as a compiled list of different tools we use/recommend using in Koodariverstas. We use different tools for different parts of our work here in…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila
+</div>
+<div class="listing-date">
+Oct 3, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

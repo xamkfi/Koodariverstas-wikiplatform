@@ -18,7 +18,15 @@
   },
   {
     "listing": "/articles/index.html",
-    "items": []
+    "items": [
+      "/articles/General/General adding test.html",
+      "/articles/Ending-a-project/Gathering feedback.html",
+      "/articles/General/Github tutorial.html",
+      "/articles/General/Taiga.html",
+      "/articles/During-a-project/managing a workflow.html",
+      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/Tools.html"
+    ]
   },
   {
     "listing": "/articles/Ending-a-project/index.html",
