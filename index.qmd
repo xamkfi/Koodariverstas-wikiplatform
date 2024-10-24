@@ -19,6 +19,7 @@ title-block-style: default
 date: 9.9.2024
 date-format: long
 date-modified: last-modified
+title: Koodariverstas Wikiplatform
 ---
 
 # Welcome to the Wiki!
