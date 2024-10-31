@@ -470,6 +470,19 @@
     ]
   },
   {
+    "objectID": "articles/General/Taiga.html#workshops-1",
+    "href": "articles/General/Taiga.html#workshops-1",
+    "title": "Guide to Taiga.io",
+    "section": "Workshops",
+    "text": "Workshops\nThis is an example of a plan for a workshop. If you plan on having a workshop, you can use the information below as a template when filling in information of your workshop.\n\nDate:\ndd.mm.yyyy at 10.00 - 11.30\n\n\nParticipants:\nN. N., Company X, title or role\nM. M., Company X, title or role\nO. O., Student, role in the project\nP. P., Student, role in the project\n\n\nSubjects:\n\nCompany and Students introduction\nChecking that everybody has access the collaboration area & other relevant recourses/ services etc.\n(Open questions & task check here, after this first workshop)\nPurpose of the Customer feedback form\nWhy the feedback form is needed\nUser groups and their roles\nMetrics used for the feedback form\nHow the data should be stored\nGDRP checklist, Company’s privacy policy, or any other rules, and regulations?\nIs there changes to next workshop (as a result of this workshop)?\n\n\n\nMeeting notes\n\nNote: the information from the above bullet list is written here\n\n\n\nOpen questions & tasks:\n\n\n\n\n\n\n\n\nTask\nResponsible person\nDue date\n\n\n\n\nWhat is the Company’s privacy policy and GDPR\nN. N.\nTomorrow\n\n\nThis is going to change the privacy statement, find out who is responsible to do so, and update public web page\nM. M.\nBefore next workshop\n\n\nInvite M. M. to taiga.io\nO. O.\nTomorrow\n\n\n\n\n\nNext Workshop:\n\nxx.yy.yyyy\nChanges to be made\nDate, time, subjects, participant, etc.",
+    "crumbs": [
+      "GitHub",
+      "All articles",
+      "General articles",
+      "Guide to Taiga.io"
+    ]
+  },
+  {
     "objectID": "articles/Ending-a-project/Gathering feedback.html",
     "href": "articles/Ending-a-project/Gathering feedback.html",
     "title": "Gathering feedback",
