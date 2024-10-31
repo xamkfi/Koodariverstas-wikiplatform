@@ -451,3 +451,52 @@ Roles: the customer
 -   **User Story 4**: As a customer service person, I want to receive notifications of new feedback so that I can respond prompt
 
 > **Note:** As an example user stories 1 and 3 are expanded to the Backlog
+
+## Workshops
+
+***This is an example of a plan for a workshop. If you plan on having a workshop, you can use the information below as a template when filling in information of your workshop.***
+
+#### Date:
+
+dd.mm.yyyy at 10.00 - 11.30
+
+#### Participants:
+
+N. N., Company X, title or role
+
+M. M., Company X, title or role
+
+O. O., Student, role in the project
+
+P. P., Student, role in the project
+
+#### Subjects:
+
+-   Company and Students introduction
+-   Checking that everybody has access the collaboration area & other relevant recourses/ services etc.
+-   (Open questions & task check here, after this first workshop)
+-   Purpose of the Customer feedback form
+-   Why the feedback form is needed
+-   User groups and their roles
+-   Metrics used for the feedback form
+-   How the data should be stored
+-   GDRP checklist, Company's privacy policy, or any other rules, and regulations?
+-   Is there changes to next workshop (as a result of this workshop)?
+
+#### Meeting notes
+
+> **Note:** the information from the above bullet list is written here
+
+#### Open questions & tasks:
+
+| Task | Responsible person | Due date |
+|------------------------|------------------------|------------------------|
+| What is the Company's privacy policy and GDPR | N. N. | Tomorrow |
+| This is going to change the privacy statement, find out who is responsible to do so, and update public web page | M. M. | Before next workshop |
+| Invite M. M. to taiga.io | O. O. | Tomorrow |
+
+#### Next Workshop:
+
+-   xx.yy.yyyy
+-   Changes to be made
+-   Date, time, subjects, participant, etc.
