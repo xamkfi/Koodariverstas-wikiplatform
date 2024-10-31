@@ -112,9 +112,9 @@ Version history. *Only major edits listed here*
 
 ***Purpose of the project and objective(s)***
 
-This project was initiated because Company X adopted the ISO 9001 quality management system. As part of this system, customer feedback is an essential tool for improving service quality and maintaining customer loyalty. \[and so on.....\]
+This project was initiated because Company X adopted the ISO 9001 quality management system. As part of this system, customer feedback is an essential tool for improving service quality and maintaining customer loyalty and so on.....
 
-This project aims to create a customer feedback form that is easy to find and seamless to fill out. The form will include questions designed to meet CSAT (Customer Satisfaction) metrics, while also providing space for open feedback. Additionally, customers will have the option to provide their contact information, along with their preferred time and method for personal follow-up. \[...and so on\]
+This project aims to create a customer feedback form that is easy to find and seamless to fill out. The form will include questions designed to meet CSAT (Customer Satisfaction) metrics, while also providing space for open feedback. Additionally, customers will have the option to provide their contact information, along with their preferred time and method for personal follow-up ...and so on
 
 ### Terminology
 
@@ -207,7 +207,7 @@ Ways to reduce risks are:
 
 -   Majority of the meetings and workshops are planned to the Work Plan in advance
 -   Reporting to Koodariverstas and Teachers regularly
--   \[and all other relevant communication actions\]
+-   and all other relevant communication actions
 
 ### Monitoring and Evaluation
 
@@ -218,7 +218,7 @@ Achievement of objectives will be evaluated against the project's Work Plan.
 
 ## Work plan
 
-\[This is the detailed work plan how the project will actually meet it's objectives. Which tools, technologies, etc. It uses. How and by whom the testing is done and so on...\]
+This is a detailed work plan how the project will actually meet it's objectives. Which tools, technologies, etc. It uses. How and by whom the testing is done and so on...
 
 ### Used tools and technology
 
@@ -260,7 +260,7 @@ Objectives:
 -   Sprints are planned with detailed task lists
 -   Each sprint will have their own deadlines dates
 -   Work plan (this document) is approved dd.mm.yyyy
--   This document will be updated and re-approved if necessary (if there is major changes)
+-   This document will be updated and re-approved if necessary (if there arfe any major changes)
 -   Version which is ready for acceptance testing dd.mm.yyyy
 
 **Deployment phase**
@@ -326,13 +326,13 @@ Any observation and defects are listed in the Issues (Taiga.io)
 
 ### Deployment
 
-\[Fill this information based on you project\]
+***Fill this information based on you project***
 
 Installation date and time: dd.mm.yyyy
 
 #### Prerequisites
 
-\[what is needed for the application to be installed\]
+***What is needed for the application to be installed***
 
 -   Acceptance testing is successful
 -   The production environment is available and accessible
@@ -344,7 +344,7 @@ Installation date and time: dd.mm.yyyy
 -   Who needs the information that the site is down?
 -   Who will be responsible posting?
 -   Content
--   \[and so on\]
+-   and so on
 
 #### Installation schedule
 
