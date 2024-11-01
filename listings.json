@@ -12,7 +12,6 @@
       "/articles/General/Tools.html",
       "/articles/General/Taiga.html",
       "/articles/index.html",
-      "/articles/Beginning-a-project/Testi.html",
       "/articles/Ending-a-project/Gathering feedback.html",
       "/articles/During-a-project/managing a workflow.html"
     ]
@@ -26,15 +25,13 @@
       "/articles/General/Taiga.html",
       "/articles/During-a-project/managing a workflow.html",
       "/articles/General/StackEditFormatGuide.html",
-      "/articles/General/Tools.html",
-      "/articles/Beginning-a-project/Testi.html"
+      "/articles/General/Tools.html"
     ]
   },
   {
-    "listing": "/articles/During-a-project/index.html",
+    "listing": "/articles/Ending-a-project/index.html",
     "items": [
-      "/articles/General/Taiga.html",
-      "/articles/During-a-project/managing a workflow.html"
+      "/articles/Ending-a-project/Gathering feedback.html"
     ]
   },
   {
@@ -48,16 +45,16 @@
     ]
   },
   {
-    "listing": "/articles/Ending-a-project/index.html",
+    "listing": "/articles/During-a-project/index.html",
     "items": [
-      "/articles/Ending-a-project/Gathering feedback.html"
+      "/articles/General/Taiga.html",
+      "/articles/During-a-project/managing a workflow.html"
     ]
   },
   {
     "listing": "/articles/Beginning-a-project/index.html",
     "items": [
-      "/articles/General/Github tutorial.html",
-      "/articles/Beginning-a-project/Testi.html"
+      "/articles/General/Github tutorial.html"
     ]
   }
 ]
