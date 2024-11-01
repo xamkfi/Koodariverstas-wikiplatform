@@ -1,0 +1,13 @@
+---
+title: "testi"
+categories: [Beginning a project]
+date: "11.1.2024"
+author: Ville Rissanen
+date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
+toc: true ##this adds an automatic Table-Of-Content for your article.
+---
+# Otsikko
+
+## Alaotsikko
+
+![kiuva](https://th.bing.com/th/id/OIP.35HrRsx1YJxtGEsxqg3Q6wHaE6?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)
