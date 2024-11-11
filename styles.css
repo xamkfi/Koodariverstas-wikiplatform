@@ -4,7 +4,7 @@
     max-width: 250px;
   }
 
-  @media (max-width: 1090px) {
+  @media (max-width: 1200px) {
     .hide-on-mobile1 {
       display: none;
     }
