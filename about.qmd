@@ -2,7 +2,7 @@
 title: "About koodariverstas"
 about:
   template: jolla
-  image: ProfileLogo.png
+  image: Logo.png
   links:
     - icon: twitter
       text: Twitter
