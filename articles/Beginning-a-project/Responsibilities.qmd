@@ -41,7 +41,7 @@ We believe in equal opportunities and equal responsibilities. Every project in K
 
 ## Responsibilities of each party
 
-### **You** 
+### You 
 
 You are expected to work within the limits of the written contract you have agreed on. You are expected to work as a professional for the company whose project you have accepted.
 
@@ -49,7 +49,7 @@ Your responsibility is to finish the project in an acceptable manner. You are re
 
 You are also expected to keep track of your working hours and communicate with either Koodariverstas or the client.
 
-### **Koodariverstas**
+### Koodariverstas
 
 We are responsible for selecting suitable projects, and the candidates for completing the projects. We are also responsible for the possible mediation that might be needed in the case something goes horribly wrong.
 
@@ -61,7 +61,7 @@ Koodariverstas consists of teachers and expert personnel from XAMK, and is a pro
 
 We will also work closely with you and the client when drafting and signing the contracts and we will ensure that you are treated fairly and the clients needs are met.
 
-### **Client**
+### Client
 
 The client is responsible for the final product they receive from you. They act as the product owners for their project.
 
