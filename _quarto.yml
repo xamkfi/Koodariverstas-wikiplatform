@@ -29,7 +29,7 @@ website:
   
   title: Koodariverstas Wiki
 
-      [![](Logo.png){fig-alt="" class="hide-on-mobile3" width=200px height=200px margin=10px}](https://www.xamk.fi/hanke/koodariverstas/)
+      [![](Logo.png){fig-alt="" class="hide-on-mobile3" width=150px height=150px margin=10px}](https://www.xamk.fi/hanke/koodariverstas/)
       [![](EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
       [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
       [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=90px margin=10px}](https://www.xamk.fi/en/)
@@ -63,7 +63,7 @@ website:
     left: |
       [![](EUalt.png){fig-alt="Co-funded by the european union" width=255px height=70px}](https://european-union.europa.eu/index_en)
     center: |
-      [![](Logo.png){fig-alt="Koodariverstas logo" width=190px height=190px}](index.qmd)
+      [![](Logo.png){fig-alt="Koodariverstas logo" width=120px height=120px}](index.qmd)
       Koodariverstas 2024
     right: 
       - icon: patch-question
