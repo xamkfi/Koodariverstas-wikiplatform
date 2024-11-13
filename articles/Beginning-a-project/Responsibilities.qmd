@@ -7,6 +7,8 @@ date-modified: last-modified ## This adds an automatic last modified field to th
 toc: true ##this adds an automatic Table-Of-Content for your article.
 ---
 
+![](KVlogo.png){fig-align="center" width="308"}
+
 # Rules in Koodariverstas
 
 Koodariverstas has a set of standard rules for **everyone** working in a project through Koodariverstas. These rules are designed to keep the day to day operations running smoothly and protect the people working in and through Koodariverstas.
