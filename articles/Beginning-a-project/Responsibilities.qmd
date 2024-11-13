@@ -13,7 +13,7 @@ Koodariverstas has a set of standard rules for **everyone** working in a project
 
 You should have a clear understanding of these rules **before** you sign a contract with a company, they will help you understand your rights and commitment required by each party during the workflow.
 
-> **Note:** These rules are considered the general rules, and are therefore subject to change based on individual projects. Some of these rules might change based on the contract written by the employer, Koodariverstas and you. These changes in the rules have to be **accepted by each party** before officially signing a contract.
+> **Note:** These rules are considered as general rules, and are therefore subject to change based on individual projects. Some of these rules might change based on the contract written by the employer, Koodariverstas and you. These changes in the rules have to be **accepted by each party** before officially signing a contract.
 
 ## Here are the general rules
 
@@ -41,7 +41,7 @@ We believe in equal opportunities and equal responsibilities. Every project in K
 
 ## Responsibilities of each party
 
-### You 
+### You
 
 You are expected to work within the limits of the written contract you have agreed on. You are expected to work as a professional for the company whose project you have accepted.
 
