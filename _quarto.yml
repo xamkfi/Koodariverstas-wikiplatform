@@ -44,7 +44,7 @@ website:
   favicon: Logo.png
   
   navbar: 
-    background: '#7141fd'
+    background: '#3997bd'
     right:
       - text: GitHub
         href: https://github.com/xamkfi/Koodariverstas-wikiplatform
