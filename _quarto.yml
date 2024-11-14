@@ -18,7 +18,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Alert** - This page is currently under construction. Please report any issues through the report an issue button in the footer."
+    content: "**Alert** - This page is currently under construction. Please report any issues you come across through the "report an issue" button."
     type: primary
     position: below-navbar
 
