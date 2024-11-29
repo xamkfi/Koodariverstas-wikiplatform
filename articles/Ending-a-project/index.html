@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -277,7 +277,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../articles/Ending-a-project/Gathering feedback.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gathering feedback</span></a>
+ <span class="menu-text">Gathering and receiving feedback</span></a>
   </div>
 </li>
       </ul>
@@ -358,6 +358,12 @@ window.Quarto = {
          <option value="listing-title" data-direction="asc">
           Title
         </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
          <option value="listing-author" data-direction="asc">
           Author
         </option>
@@ -365,13 +371,13 @@ window.Quarto = {
   </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-file-modified-sort="1732872473163" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="g-col-1" data-index="0" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1731456000000" data-listing-file-modified-sort="1732874907816" data-listing-date-modified-sort="1732874907000" data-listing-reading-time-sort="4" data-listing-word-count-sort="617">
 <a href="../../articles/Ending-a-project/Gathering feedback.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Gathering feedback
+Gathering and receiving feedback
 </h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('RW5kaW5nJTIwYSUyMHByb2plY3Q='); return false;">
@@ -379,11 +385,14 @@ Ending a project
 </div>
 </div>
 <div class="card-text listing-description">
-This post is about gathering feedback when ending a project
+After you have completed a project it’s time to start looking for improvements for the future! We encourage the process of collecting and learning from all feedback, this…
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Niko Laurila
+</div>
+<div class="listing-date">
+Nov 13, 2024
 </div>
 </div>
 </div>
