@@ -9,6 +9,8 @@ toc: true ##this adds an automatic Table-Of-Content for your article.
 
 # Basics of Open-Source projects
 
+![](images/Open_Source_Initiative.png){fig-align="center" width="410"}
+
 We believe in the importance of open-source software in the future of software development. Open-source projects give everyone a chance to get involved in software development regardless of their social status or country of origin. A typical open-source project consists of three major pillars. We will dive deeper into the depths of open-source in this article. There are also
 
 ## Pillars of open-source
