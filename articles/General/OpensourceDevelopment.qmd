@@ -1,0 +1,36 @@
+---
+title: "Software development in open source projects"
+categories: [General] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)
+date: "01.07.2025" ## date and time format is MM.DD.YYYY
+author: Niko Laurila ## Author/authors of the article. 
+date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
+toc: true ##this adds an automatic Table-Of-Content for your article.
+---
+
+# Community based development
+
+Open source software is developed by a community of developers that form a community around the project. Every projects community is its own ecosystem with its own rules and regulations.
+
+Communities usually have people from all walks of life from around the world, for example there might be developers from United States, Argentina, Brazil, Finland, China, Japan, Turkey, Greece and Vietnam all working together in the same community developing the same software for everyone to use.
+
+Every community is its own entity, but their workflow and project management usually fits in one of the four most common community types.
+
+1.  **Single Vendor Open Source Project:**
+
+    These projects are usually ran by corporations looking to expand their product development capabilities using open source communities. The corporation own the legal rights to the specific version of software being developed in the project.
+
+    These projects are generally not considered "Fully open source" since a single entity holds the legal right to sell the software. If the community is unhappy with the direction the corporation is taking the project, the community has the legal right to fork the project and create their own competing product based on the work done by the corporation and the community.
+
+    This creates a power balance, where the owner of the product gets more development resources, and the community gets to work on a real product and keep the corporation in check with the existing threat of creating a competitor without the corporation having the ability to intervene.
+
+2.  **Developer communities:**
+
+    These are your "typical" open source projects. Usually a project is created by a single developer or a small team of developers with a goal to solve a problem or create a new solution to replace an existing solution. The lead developers are the legal owners of the software, but usually the lead developers choose a license that gives the rights to everyone who wants them. These communities have multiple different methods to managing the project.
+
+    These communities have two main ways to manage the project the community is working on. The first method has the original creator/creators be the sole deciding factor. This means that the people who started the project, get the final say on what gets implemented and what doesn't. They can also appoint community members to a board of directors that makes decisions as a group.
+
+    The second method is a democratic voting system. This method makes all the changes and proposals visible to anyone to vote on, the code that the community likes the most gets added to the project where the less popular changes might get ignored.
+
+    Both of these methods have their positives and negatives, and community founders usually struggle to stick with a single method for directing the project. Thats why when the project grows older, they start to grow their own customs and methods specific to the project they are working on. This makes every open source community its own unique ecosystem.
+
+    *This article is Under Construction. More*
