@@ -15,6 +15,7 @@
       "/articles/Ending-a-project/Gathering feedback.html",
       "/articles/Beginning-a-project/Responsibilities.html",
       "/articles/General/opensource.html",
+      "/articles/General/OpensourceDevelopment.html",
       "/articles/During-a-project/managing a workflow.html"
     ]
   },
@@ -28,6 +29,7 @@
       "/articles/During-a-project/managing a workflow.html",
       "/articles/General/opensource.html",
       "/articles/Beginning-a-project/Responsibilities.html",
+      "/articles/General/OpensourceDevelopment.html",
       "/articles/General/StackEditFormatGuide.html",
       "/articles/General/Tools.html"
     ]
@@ -41,6 +43,7 @@
   {
     "listing": "/articles/General/index.html",
     "items": [
+      "/articles/General/OpensourceDevelopment.html",
       "/articles/General/opensource.html",
       "/articles/General/Taiga.html",
       "/articles/General/Tools.html",
