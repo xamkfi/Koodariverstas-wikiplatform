@@ -33,4 +33,18 @@ Every community is its own entity, but their workflow and project management usu
 
     Both of these methods have their positives and negatives, and community founders usually struggle to stick with a single method for directing the project. Thats why when the project grows older, they start to grow their own customs and methods specific to the project they are working on. This makes every open source community its own unique ecosystem.
 
-    *This article is Under Construction. More*
+3.  **User Communities**
+
+    User communities share similarities with developer communities, the key difference being that in user communities the end users retain the copyright of the software. This means that the community acts as a "Vendor" for the users of the software, but has no copyright of the usage or distribution of the software itself. These projects are usually based on corporations internal tools, that were open-sourced and distributed to everyone for free.
+
+    In most of these cases, the original corporation who developed the software in-house, is no longer interested in further development of their software, and releases it to the wider world instead of silently sun setting it. User communities also enable multiple corporations to collaborate on a shared project with the benefits shared among all participating companies. An example of this kind of community is the GENIVI Alliance, a group of vehicle manufacturers (BMW, Renault, General Motors, Honda, Jaguar etc.). These corporations use a user community driven approach to share development costs of their infotainment systems.
+
+4.  **Open Source competence centers**
+
+    These are centers for open source software. Koodariverstas fits best into this category. An open source competence center is a center that focuses on helping its clients and users utilizing open source solutions. Sometimes this might be suggesting a suitable open source solution for a problem a client has, or maybe customizing an existing open source solution to feed the needs of a client.
+
+    These centers combine the know-how and connections to match users with solutions and developers with suitable projects. Successfully managed open source competence centers exist all over the world. The initiating organization, the membership structure, the activities and size may vary. However, they all work with the common goal of improving the environment and general conditions to use and develop open source software.
+
+    Source used in this article: <https://opensource.com/business/13/6/four-types-organizational-structures-within-open-source-communities>
+
+This article is under construction.
