@@ -6,33 +6,45 @@ editor:
   branch: "gh-pages"
   repo: "xamkfi/Koodariverstas-wikiplatform"
   
-
- 
-
-
 execute:
   freeze: auto
 
-website:
-
+website: 
+  bread-crumbs: true
   announcement: 
     icon: info-circle
     dismissable: true
     content: "**Alert** - This page is currently under construction. Please report any issues you come across through the report an issue button."
-    type: primary
+    type: info
     position: below-navbar
 
-  reader-mode: false
+  reader-mode: true
   cookie-consent: false
   
   back-to-top-navigation: true
-  
-  title: Koodariverstas Wiki
 
-      [![](Logo.png){fig-alt="" class="hide-on-mobile3" width=150px height=150px margin=10px}](https://www.xamk.fi/hanke/koodariverstas/)
-      [![](EU.png){fig-alt="Co-funded by the european union" class="hide-on-mobile3" width=280px height=70px margin=10px}](https://european-union.europa.eu/index_en)
-      [![](ELY.png){fig-alt="ELY-center" class="hide-on-mobile2" width=270px height=88px margin=10px}](https://www.ely-keskus.fi/en/web/ely-en)
-      [![](XAMK.png){fig-alt="XAMK" class="hide-on-mobile1" width=145px height=90px margin=10px}](https://www.xamk.fi/en/)
+  search: 
+    type: textbox
+
+  navbar: 
+    title: Koodariverstas Wiki
+    tools: 
+      - icon: github
+        href: https://github.com/xamkfi/Koodariverstas-wikiplatform
+      - icon: twitter-x
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://linkedin.com
+
+  sidebar: 
+    style: "floating"
+    logo: "Logo.png"
+    border: false
+    contents: auto
+
+
+
+
   
   repo-url: https://github.com/xamkfi/Koodariverstas-wikiplatform
   issue-url: https://github.com/xamkfi/Koodariverstas-wikiplatform/issues
@@ -42,30 +54,10 @@ website:
 
     
   favicon: Logo.png
-  
-  navbar: 
-    background: '#3997bd'
-    right:
-      - text: GitHub
-        href: https://github.com/xamkfi/Koodariverstas-wikiplatform
-      - text: Twitter(X)
-        href: https://twitter.com
-      - text: LinkedIn
-        href: https://linkedin.com
-  sidebar:
-    style: "floating"
-    text: "Articles"
-    contents: auto
-     
-    
+
 
   page-footer: 
-    left: |
-      [![](EUalt.png){fig-alt="Co-funded by the european union" width=260px height=70px}](https://european-union.europa.eu/index_en)
-    center: |
-      [![](Logo.png){fig-alt="Koodariverstas logo" width=120px height=120px}](index.qmd)
-      Koodariverstas 2024
-    right: 
+    center: 
       - icon: patch-question
       - text: About Us
         href: about.qmd
@@ -76,17 +68,45 @@ website:
         href: https://quarto.org/
       - text: Images from Iconfinder.
         href: https://www.iconfinder.com/
+    right: 
+      - icon: github
+        href: https://github.com/xamkfi/Koodariverstas-wikiplatform
+      - icon: twitter-x
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://linkedin.com
 
+#Logot sivun oikealla 
 
+margin-footer: |
+      ::: {.xamkLogo}
+      [![](/xamk_logo_laaja2_eng_kehys_rgb.png){fig-alt="XAMK" class="side-margin" width="40%" height="40%"}](https://www.xamk.fi/en/)
+      :::
+      
+      [![](/EUalt.png){fig-alt="Co-funded by the european union" class="side-margin" width="100%" height="100%}](https://european-union.europa.eu/index_en)
+      
+      ::: {.elyLogo}
+      [![](/elyfi.png){fig-alt="ELY-center" class="side-margin" width="70%" height="70%}](https://www.ely-keskus.fi/en/web/ely-en)
+      :::
+      
+      ![](/Koodariverstas_br%C3%A4ndielementti_kursori.png){fig-alt="ELY-center" class="side-margin" width="50%" height="50%"}
 
-  
 format: 
   html:
     theme:
-      light: flatly
-      dark: darkly
-     
+      light: [flatly, theme-light.scss]
+      dark: [superhero, theme-dark.scss]
+     #Kummallekkin tyylille omat tyylitiedostot
     css: styles.css
+    title-block-style: default
+    title-block-categories: false
+    title-block-banner: false
+    toc: true
+    toc-location: right
+    grid:
+      body-width: 2500px #Max width
+      gutter-width: 5%
+
 
 
 

@@ -14,8 +14,8 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-style: default
+  fields: [image, title, description]
+page-layout: article
 date: 9.9.2024
 date-format: long
 date-modified: last-modified
