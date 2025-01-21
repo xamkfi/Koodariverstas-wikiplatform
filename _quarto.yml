@@ -79,15 +79,15 @@ website:
 #Logot sivun oikealla 
 
 margin-footer: |
-      ::: {.xamkLogo}
+      
       [![](/xamk_logo_laaja2_eng_kehys_rgb.png){fig-alt="XAMK" class="side-margin" width="40%" height="40%"}](https://www.xamk.fi/en/)
-      :::
+      
       
       [![](/EUalt.png){fig-alt="Co-funded by the european union" class="side-margin" width="100%" height="100%}](https://european-union.europa.eu/index_en)
       
-      ::: {.elyLogo}
+      
       [![](/elyfi.png){fig-alt="ELY-center" class="side-margin" width="70%" height="70%}](https://www.ely-keskus.fi/en/web/ely-en)
-      :::
+      
       
       ![](/Koodariverstas_br%C3%A4ndielementti_kursori.png){fig-alt="ELY-center" class="side-margin" width="50%" height="50%"}
 
