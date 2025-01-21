@@ -15,4 +15,8 @@ about:
       href: https://github.com/xamkfi/Koodariverstas-wikiplatform
 ---
 
-Welcome to koodariverstas! Our mission is to bridge the gap between education and corporations. We believe that everyone has the right to prove their skills and be recognized for their work, that's why we want to provide students the opportunity to work in real projects for companies.
+## Welcome to koodariverstas! 
+
+Our mission is to bridge the gap between education and corporations. We believe that everyone has the right to prove their skills and be recognized for their work, that's why we want to provide students the opportunity to work in real projects for companies.
+
+Koodariverstas provides a platform that is beneficial for both companies and students. Our students get the opportunity to gain first hand experience in working with companies and learn the correct ways of working in a professional environment. The companies gain the ability to get their noncritical projects under way faster and with a smaller upfront cost.

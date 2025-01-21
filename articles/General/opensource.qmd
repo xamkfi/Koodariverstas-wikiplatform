@@ -1,0 +1,38 @@
+---
+title: "Open-Source projects"
+categories: [General] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)
+date: "12.17.2024" ## date and time format is MM.DD.YYYY
+author: Niko Laurila ## Author/authors of the article. 
+date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
+toc: true ##this adds an automatic Table-Of-Content for your article.
+---
+
+# Basics of Open-Source projects
+
+![](images/Open_Source_Initiative.png){fig-align="center" width="410"}
+
+We believe in the importance of open-source software in the future of software development. Open-source projects give everyone a chance to get involved in software development regardless of their social status or country of origin. A typical open-source project consists of three major pillars. We will dive deeper into the depths of open-source in this article. There are also
+
+## Pillars of open-source
+
+1.   **Access to all:** By their very nature, open-source projects are always publicly available to see for everyone interested. For a project to be considered an open-source project the majority of its code and resources are to be made publicly available for everyone to see and study.
+
+2.  **Communities:** Open-source projects live and die by their communities. Many open-source communities consist of people from every walk of life and every country on the planet. For example: some projects might be managed by industry professionals, and developed in co-operation with hobbyist programmers from around the world.
+
+3.  **Licenses and agreements:** Open-source projects use generous licenses with a few key restrictions to make sure that the derivative works are also kept open to everyone. The most common open-source licenses are GPL and Apache 2. These two licenses give everyone the right to do whatever they want with the software developed in the community. Both of these licenses emphasize that any derivative work retains its open nature, but their direct approach differs quite a bit.
+
+> We have also compiled some free courses for anyone interested in open-source. You need to register for an edufication account, but the courses themselves are free.
+
+Course 1: [Fundamentals of open-source](https://www.edufication.com/courses/fundamentals-of-open-source/)
+
+Course 2: [Open-source licensing](https://www.edufication.com/courses/open-source-licensing/)
+
+Course 3: [Open-source business models](https://www.edufication.com/courses/open-source-business-models/)
+
+Course 4: [Open-source communities and networks](https://www.edufication.com/courses/open-source-communities-and-networks/)
+
+Course 5: [Software development in open-source projects](https://www.edufication.com/courses/open-source-development/)
+
+Course 6: [Open-source solutions for small to medium enterprises](https://www.edufication.com/courses/open-source-solutions-for-smes/)
+
+*This article is **under construction.** More content will be added at a later date.*
