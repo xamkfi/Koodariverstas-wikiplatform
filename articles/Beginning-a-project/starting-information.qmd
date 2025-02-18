@@ -37,17 +37,21 @@ You can access the EURA2021 system through this link: <http://www.eura2021.fi/os
 
 ## Filling in your information
 
-After you have logged in, you are required to fill in the following information.
+After you have logged in, you are required to fill in some basic information about your current situation. Here are the basics you need to know when entering information to EURA.
 
--   When you are filling out your starting information, you will be asked for the project id. This projects id is: **S30794.** If you scanned the qr code, this information is automatically filled and you will not be asked to provide a project id.
+When you are filling out your starting information, you will be asked for the project id.
 
--   Fill in the required fields, use the table below for reference when filling in your information.
+**This projects id is: S30794.**
 
-    | Question | Anwser |
-    |----|----|
-    | Beginning date | This is the date you started working in the project |
-    | Highest education of the participant | This is the highest level of education you have reached **before** beginning in the project. (Only degrees you have a diploma from are valid). |
-    | Current employment status | Student |
-    | Did you graduate after your participation | Usually when you end your work with us, you are still a student. If you however find employment with the help of Koodariverstas, you should mention it here. If you graduate you can also fill in that you have graduated. |
+If you scanned the qr code, this information is automatically filled and you will not be asked to provide a project id.
 
-    You are also required to fill in information about your current status when your participation in the project ends. Guidance to fill in the ending information can be found from the "Ending a project" category of this wiki.
+Fill in the required fields, use the table below for reference when filling in your information.
+
+| Question | Anwser |
+|----|----|
+| Beginning date | This is the date you started working in the project |
+| Highest education of the participant | This is the highest level of education you have reached **before** beginning in the project. (Only degrees you have a diploma from are valid). |
+| Current employment status | Student |
+| Did you graduate after your participation | Usually when you end your work with us, you are still a student. If you however find employment with the help of Koodariverstas, you should mention it here. If you graduate you can also fill in that you have graduated. |
+
+You are also required to fill in information about your current status when your participation in the project ends. Guidance to fill in the ending information can be found from the "Ending a project" category of this wiki.
