@@ -17,7 +17,7 @@ Koodariverstas will not collect any data on the participants outside the legal r
 
 > **Note:** The collection of personal data is based on Article 69 of the Common Provisions Regulation of the European Union (EU 1060/2021) and the national Act on the Financing of European Union Regional Development and Structural Policy Projects 757/2021.
 >
-> The personal data are processed in compliance with the European Union's General Data Protection Regulation (EU 679/2016) and the national Data Protection Act 1050/2018.
+> The personal data is processed in compliance with the European Union's General Data Protection Regulation (EU 679/2016) and the national Data Protection Act 1050/2018.
 >
 > You can learn more about the laws mentioned [here.](https://www.traficom.fi/en/regulations?group=digitalanddata&limit=20&offset=0&query=&sort=created)
 
