@@ -25,7 +25,7 @@ Koodariverstas will not collect any data on the participants outside the legal r
 
 You can access the EURA2021 system through this link: <http://www.eura2021.fi/osallistuja>. You can also scan the qr-code provided below.
 
-![qr code for EURA2021](image001.png)
+![qr code for EURA2021](image001.png){fig-align="left"}
 
 -   When you access the site, you are required to accept the terms and conditions before you can go further. You can select your preferred language from the top right of the page.
 
