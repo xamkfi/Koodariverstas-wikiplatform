@@ -1,0 +1,67 @@
+/*-- scss:defaults --*/
+// yllä olevat kommentit pitää olla olemassa, jotta quarto tunnistaa koodin
+//base document colors
+$tausta: #F5F4F5;
+$vaaleansininen: #49C1F0;
+$violetti: #7141FD;
+$tummansininen: #030098;
+$vihrea: #0FF7B5;
+$tummanharmaa: #222222;
+$tummanharmaasininen: #04212f;
+$vaaleanharmaa:  #28343e;
+$tummanvihrea: #011912;
+$tummanvioletti: #070019;
+$tummanvaaleansininen:  #021118;
+$tummanvaaleansininen2: #04232f;
+
+
+$body-color: $tausta; 
+$link-color: $vaaleansininen; 
+$sidebar-fg: white; 
+$navbar-bg: $tummanvaaleansininen;
+$navbar-fg: $tausta;
+$footer-fg: $tausta;
+$footer-bg: $tummanvaaleansininen;
+$toc-color: $vaaleansininen;
+$toc-active-border: $vaaleansininen;
+$sidebar-bg: $vaaleanharmaa;
+/*-- scss:rules --*/
+// yllä olevat kommentit pitää olla olemassa, jotta quarto tunnistaa koodin
+//Tästä alaspäin kaikki css
+
+h1, h2, h3, h4, h5, h6 {
+    color: $tausta;
+}
+body{
+    background-color: $vaaleanharmaa;
+}
+//Dark mode logo
+.xamkLogo{
+    width: 0px;
+    height: 0px;
+    margin-top: 60px;
+    padding: 20%;
+    background: url("/XAMK.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+.elyLogo{
+        width: 0px;
+        height: 00px;
+        margin-top: 40px;
+        margin-bottom: -95px;
+        padding: 35%;
+        background: url("/ELY.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+//Breadcrumbs bg pois
+.breadcrumb{
+        background-color: $vaaleanharmaa;
+}
+
+.card{
+    background-color: $tummanvaaleansininen2;
+}
+    
+    

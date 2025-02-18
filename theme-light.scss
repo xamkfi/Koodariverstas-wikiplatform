@@ -1,0 +1,30 @@
+/*-- scss:defaults --*/
+//base document colors
+$tausta: #F5F4F5;
+$vaaleansininen: #49C1F0;
+$violetti: #7141FD;
+$tummansininen: #030098;
+$vihrea: #0FF7B5;
+
+// yllä olevat kommentit pitää olla olemassa, jotta quarto tunnistaa koodin
+$body-color: black; 
+$link-color: $tummansininen; 
+$sidebar-fg: black; 
+$sidebar-bg: $tausta;
+$navbar-bg: $tummansininen; 
+$footer-bg: $tummansininen; 
+$footer-fg: white; 
+$navbar-fg: white; 
+$toc-color: $tummansininen; 
+$toc-active-border: $tummansininen; 
+
+/*-- scss:rules --*/
+// yllä olevat kommentit pitää olla olemassa, jotta quarto tunnistaa koodin
+//Tästä alaspäin kaikki css
+
+h1, h2, h3, h4, h5, h6 {
+    color: $tummansininen;
+}
+body{
+    background-color: $tausta;
+}
