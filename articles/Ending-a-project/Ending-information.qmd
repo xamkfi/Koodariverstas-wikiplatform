@@ -1,0 +1,16 @@
+---
+title: "Filling in your ending information"
+categories: [Ending a project] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)
+date: "02.18.2025" ## date and time format is MM.DD.YYYY
+author: Niko Laurila ## Author/authors of the article. 
+date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
+toc: true ##this adds an automatic Table-Of-Content for your article.
+---
+
+# Filling in your ending information in EURA2021
+
+When your participation in a project is coming to an end, you are required to fill out the ending information for the European Union. This information is used to track the overall success of Koodariverstas and it's impact on participants employment status.
+
+> **Note:** If you need a refresher on how to log in to EURA, you can find it from our previous article [here.](https://xamkfi.github.io/Koodariverstas-wikiplatform/articles/Beginning-a-project/starting-information.html)
+
+***!This page is currently under construction and will be filled at a later date!***
