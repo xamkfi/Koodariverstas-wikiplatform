@@ -16,6 +16,7 @@
       "/articles/Beginning-a-project/Responsibilities.html",
       "/articles/General/opensource.html",
       "/articles/General/OpensourceDevelopment.html",
+      "/articles/Ending-a-project/Ending-information.html",
       "/articles/Beginning-a-project/starting-information.html",
       "/articles/During-a-project/managing a workflow.html"
     ]
@@ -24,6 +25,7 @@
     "listing": "/articles/index.html",
     "items": [
       "/articles/General/General adding test.html",
+      "/articles/Ending-a-project/Ending-information.html",
       "/articles/Beginning-a-project/starting-information.html",
       "/articles/Ending-a-project/Gathering feedback.html",
       "/articles/General/Github tutorial.html",
@@ -47,7 +49,8 @@
   {
     "listing": "/articles/Ending-a-project/index.html",
     "items": [
-      "/articles/Ending-a-project/Gathering feedback.html"
+      "/articles/Ending-a-project/Gathering feedback.html",
+      "/articles/Ending-a-project/Ending-information.html"
     ]
   },
   {
