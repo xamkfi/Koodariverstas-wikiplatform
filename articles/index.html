@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.41">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-71390cc8b9bae10139428574d3aab2c6.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-edaed37414d6b22b6cc1eac34205483b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -83,7 +83,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -211,8 +212,44 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/Clean-architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clean architecture</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/Commenting-and-Documentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Commenting &amp; Documentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/DRY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DRY</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/KISS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">KISS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/Naming-Conventions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Naming conventions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../articles/Beginning-a-project/Responsibilities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rules and responsibilities in Koodariverstas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/Beginning-a-project/SOLID.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Principles of SOLID</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -236,6 +273,24 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../articles/During-a-project/managing a workflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Managing a workflow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/During-a-project/Modular-and-Reusable-code.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Modular &amp; Reusable code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/During-a-project/Readability-and-Maintainability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Readability &amp; Maintainability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../articles/During-a-project/YAGNI.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">YAGNI</span></a>
   </div>
 </li>
       </ul>
@@ -324,7 +379,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q=">Beginning a project <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RHVyaW5nJTIwYSUyMHByb2plY3Q=">During a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RW5kaW5nJTIwYSUyMHByb2plY3Q=">Ending a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VuZXJhbA==">General <span class="quarto-category-count">(8)</span></div></div><div class="quarto-margin-footer"><div class="margin-footer-item">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q=">Beginning a project <span class="quarto-category-count">(9)</span></div><div class="category" data-category="RHVyaW5nJTIwYSUyMHByb2plY3Q=">During a project <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RW5kaW5nJTIwYSUyMHByb2plY3Q=">Ending a project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2VuZXJhbA==">General <span class="quarto-category-count">(17)</span></div></div><div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://www.xamk.fi/en/"><img src="../xamk_logo_laaja2_eng_kehys_rgb.png" class="side-margin" style="width:55.0%;height:50.0%" alt="XAMK"></a></p>
 <p><a href="https://european-union.europa.eu/index_en"><img src="../EUalt.png" class="side-margin" style="width:100.0%;height:100.0%" alt="Co-funded by the european union"></a></p>
 <p><a href="https://www.ely-keskus.fi/en/web/ely-en"><img src="../elyfi.png" class="side-margin" style="width:80.0%;height:80.0%" alt="ELY-center"></a></p>
@@ -359,7 +414,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 18, 2025</p>
+      <p class="date-modified">February 24, 2025</p>
     </div>
   </div>
     
@@ -406,7 +461,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1739883949561" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1113">
+<div class="g-col-1" data-index="0" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727222400000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1113">
 <a href="../articles/General/General adding test.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="General/images/EditingPNG2.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -434,7 +489,101 @@ Sep 25, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1739883949559" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<div class="g-col-1" data-index="1" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157213" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="10" data-listing-word-count-sort="1817">
+<a href="../articles/Beginning-a-project/Clean-architecture.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="Beginning-a-project/architecture.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Clean architecture
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Clean Architecture</strong> is a layered architectural style that organizes software into concentric circles (or layers). Each layer has a well-defined role, and <strong>all dependencies…</strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157214" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="862">
+<a href="../articles/Beginning-a-project/Commenting-and-Documentation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Commenting &amp; Documentation
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Comments</strong> are in-code annotations that clarify <em>why</em> or <em>how</em> certain logic works, without altering the program’s runtime behavior.<br>
+<strong>Documentation</strong> refers to more formal or…<strong></strong><strong></strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157214" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="825">
+<a href="../articles/Beginning-a-project/DRY.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DRY
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>DRY</strong> stands for <strong>Don’t Repeat Yourself</strong>. It’s a core software development principle stating that <strong>every piece of knowledge or logic must have a single, unambiguous…</strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1740396157222" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <a href="../articles/Ending-a-project/Ending-information.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -462,7 +611,7 @@ Feb 18, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1739883949555" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
+<div class="g-col-1" data-index="5" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1740396157218" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
 <a href="../articles/Beginning-a-project/starting-information.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="Beginning-a-project/image001.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -490,7 +639,7 @@ Feb 18, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1731456000000" data-listing-file-modified-sort="1739883949559" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="4" data-listing-word-count-sort="617">
+<div class="g-col-1" data-index="6" data-categories="RW5kaW5nJTIwYSUyMHByb2plY3Q=" data-listing-date-sort="1731456000000" data-listing-file-modified-sort="1740396157222" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="4" data-listing-word-count-sort="617">
 <a href="../articles/Ending-a-project/Gathering feedback.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -518,7 +667,7 @@ Nov 13, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="R2VuZXJhbCUyQ0JlZ2lubmluZyUyMGElMjBwcm9qZWN0" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1739883949561" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
+<div class="g-col-1" data-index="7" data-categories="R2VuZXJhbCUyQ0JlZ2lubmluZyUyMGElMjBwcm9qZWN0" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
 <a href="../articles/General/Github tutorial.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="General/images/Github tut1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -549,7 +698,7 @@ Oct 2, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="R2VuZXJhbCUyQ0R1cmluZyUyMGElMjBwcm9qZWN0" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1739883949562" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="16" data-listing-word-count-sort="3002">
+<div class="g-col-1" data-index="8" data-categories="R2VuZXJhbCUyQ0R1cmluZyUyMGElMjBwcm9qZWN0" data-listing-date-sort="1729123200000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="16" data-listing-word-count-sort="3002">
 <a href="../articles/General/Taiga.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="General/images/taigaLogo.png" alt="Taiga.io Logo" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -580,7 +729,38 @@ Oct 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="RHVyaW5nJTIwYSUyMHByb2plY3Q=" data-listing-file-modified-sort="1739883949557" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="9" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157215" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="912">
+<a href="../articles/Beginning-a-project/KISS.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+KISS
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+KISS stands for <strong>Keep It Simple, Stupid</strong> (sometimes stated as “Keep It Simple and Straightforward”). It emphasizes that most systems—and individual components—work best when…<strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="RHVyaW5nJTIwYSUyMHByb2plY3Q=" data-listing-file-modified-sort="1740396157220" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <a href="../articles/During-a-project/managing a workflow.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -605,7 +785,69 @@ This is a page about managing a workflow during a project
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="R2VuZXJhbA==" data-listing-date-sort="1734393600000" data-listing-file-modified-sort="1739883949570" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="2" data-listing-word-count-sort="305">
+<div class="g-col-1" data-index="11" data-categories="RHVyaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157219" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1203">
+<a href="../articles/During-a-project/Modular-and-Reusable-code.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modular &amp; Reusable code
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RHVyaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+During a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Modular code</strong> is structured into <strong>independent</strong>, <strong>self-contained</strong> modules or components. Each module <strong>focuses on a specific functionality</strong> or a coherent set of responsibilities.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157216" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="4" data-listing-word-count-sort="771">
+<a href="../articles/Beginning-a-project/Naming-Conventions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Naming conventions
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Naming conventions</strong> are agreed-upon rules and styles that guide how you name <strong>variables</strong>, <strong>functions/methods</strong>, <strong>classes</strong>, <strong>files</strong>, and other entities in a codebase. They typically…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="R2VuZXJhbA==" data-listing-date-sort="1734393600000" data-listing-file-modified-sort="1740396157231" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="2" data-listing-word-count-sort="305">
 <a href="../articles/General/opensource.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="General/images/Open_Source_Initiative.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -633,7 +875,69 @@ Dec 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1731456000000" data-listing-file-modified-sort="1739883949555" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="5" data-listing-word-count-sort="816">
+<div class="g-col-1" data-index="14" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157216" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1397">
+<a href="../articles/Beginning-a-project/SOLID.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Principles of SOLID
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('QmVnaW5uaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+Beginning a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+SOLID is an acronym that represents five foundational design principles in object-oriented programming (OOP). These principles help create software that is more…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="RHVyaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157219" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1337">
+<a href="../articles/During-a-project/Readability-and-Maintainability.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Readability &amp; Maintainability
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RHVyaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+During a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Readability</strong> refers to how easy it is for a person to read and understand a piece of source code. Readable code is clear, concise, and well-organized. It should convey its…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="QmVnaW5uaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1731456000000" data-listing-file-modified-sort="1740396157216" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="816">
 <a href="../articles/Beginning-a-project/Responsibilities.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="Beginning-a-project/KVlogo.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -664,7 +968,7 @@ Nov 13, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="R2VuZXJhbA==" data-listing-date-sort="1736208000000" data-listing-file-modified-sort="1739883949562" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="5" data-listing-word-count-sort="836">
+<div class="g-col-1" data-index="17" data-categories="R2VuZXJhbA==" data-listing-date-sort="1736208000000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="836">
 <a href="../articles/General/OpensourceDevelopment.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -692,10 +996,10 @@ Jan 7, 2025
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1739883949562" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="5" data-listing-word-count-sort="895">
+<div class="g-col-1" data-index="18" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727827200000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="895">
 <a href="../articles/General/StackEditFormatGuide.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="General/images/paste-4.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="General/images/paste-4.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 StackEdit Format guide
@@ -720,7 +1024,7 @@ Oct 2, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1739883949562" data-listing-date-modified-sort="1739883949000" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="g-col-1" data-index="19" data-categories="R2VuZXJhbA==" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1740396157224" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <a href="../articles/General/Tools.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -748,10 +1052,44 @@ Oct 3, 2024
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="20" data-categories="RHVyaW5nJTIwYSUyMHByb2plY3QlMkNHZW5lcmFs" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1740396157220" data-listing-date-modified-sort="1740396157000" data-listing-reading-time-sort="5" data-listing-word-count-sort="919">
+<a href="../articles/During-a-project/YAGNI.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+YAGNI
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RHVyaW5nJTIwYSUyMHByb2plY3Q='); return false;">
+During a project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhbA=='); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>YAGNI</strong> stands for <strong>You Aren’t Gonna Need It</strong>. It is a principle often associated with <strong>Extreme Programming (XP)</strong> and <strong>Agile</strong> methodologies, which states that you should <strong>not</strong> add…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Niko Laurila, Miika Reijonen
+</div>
+<div class="listing-date">
+Feb 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

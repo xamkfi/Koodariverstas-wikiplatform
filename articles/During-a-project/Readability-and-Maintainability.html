@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Niko Laurila">
-<meta name="dcterms.date" content="2024-10-17">
+<meta name="author" content="Niko Laurila, Miika Reijonen">
+<meta name="dcterms.date" content="2025-02-24">
 
-<title>Guide to Taiga.io</title>
+<title>Readability &amp; Maintainability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -105,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/Taiga.html">Guide to Taiga.io</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">During a project</a></li><li class="breadcrumb-item"><a href="../../articles/During-a-project/Readability-and-Maintainability.html">Readability &amp; Maintainability</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -203,11 +237,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../articles/During-a-project/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">During a project</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../articles/During-a-project/managing a workflow.html" class="sidebar-item-text sidebar-link">
@@ -222,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/During-a-project/Readability-and-Maintainability.html" class="sidebar-item-text sidebar-link">
+  <a href="../../articles/During-a-project/Readability-and-Maintainability.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Readability &amp; Maintainability</span></a>
   </div>
 </li>
@@ -261,11 +295,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../articles/General/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">General articles</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../articles/General/General adding test.html" class="sidebar-item-text sidebar-link">
@@ -298,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/General/Taiga.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../articles/General/Taiga.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guide to Taiga.io</span></a>
   </div>
 </li>
@@ -322,51 +356,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#your-guide-to-taiga.io" id="toc-your-guide-to-taiga.io" class="nav-link active" data-scroll-target="#your-guide-to-taiga.io">Your guide to Taiga.io</a>
+  <li><a href="#readability" id="toc-readability" class="nav-link active" data-scroll-target="#readability">Readability</a>
   <ul class="collapse">
-  <li><a href="#what-is-taiga.io" id="toc-what-is-taiga.io" class="nav-link" data-scroll-target="#what-is-taiga.io">What is Taiga.io?</a></li>
-  <li><a href="#account-management" id="toc-account-management" class="nav-link" data-scroll-target="#account-management">Account management</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  <li><a href="#scrum" id="toc-scrum" class="nav-link" data-scroll-target="#scrum">Scrum</a></li>
-  <li><a href="#kanban" id="toc-kanban" class="nav-link" data-scroll-target="#kanban">Kanban</a></li>
-  <li><a href="#issues" id="toc-issues" class="nav-link" data-scroll-target="#issues">Issues</a></li>
+  <li><a href="#definition" id="toc-definition" class="nav-link" data-scroll-target="#definition">Definition</a></li>
+  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
+  <li><a href="#example-in-c" id="toc-example-in-c" class="nav-link" data-scroll-target="#example-in-c">Example in C</a></li>
+  <li><a href="#guidelines-for-improving-readability" id="toc-guidelines-for-improving-readability" class="nav-link" data-scroll-target="#guidelines-for-improving-readability">Guidelines for Improving Readability</a></li>
   </ul></li>
-  <li><a href="#filling-information-in-taiga" id="toc-filling-information-in-taiga" class="nav-link" data-scroll-target="#filling-information-in-taiga">Filling information in Taiga</a>
+  <li><a href="#maintainability" id="toc-maintainability" class="nav-link" data-scroll-target="#maintainability">Maintainability</a>
   <ul class="collapse">
-  <li><a href="#customer-feedback-form-in-project" id="toc-customer-feedback-form-in-project" class="nav-link" data-scroll-target="#customer-feedback-form-in-project">Customer feedback form in Project</a>
-  <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
-  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
-  <li><a href="#project-scope" id="toc-project-scope" class="nav-link" data-scroll-target="#project-scope">Project scope</a></li>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#risk-management" id="toc-risk-management" class="nav-link" data-scroll-target="#risk-management">Risk Management</a></li>
-  <li><a href="#communication-plan" id="toc-communication-plan" class="nav-link" data-scroll-target="#communication-plan">Communication Plan</a></li>
-  <li><a href="#monitoring-and-evaluation" id="toc-monitoring-and-evaluation" class="nav-link" data-scroll-target="#monitoring-and-evaluation">Monitoring and Evaluation</a></li>
+  <li><a href="#definition-1" id="toc-definition-1" class="nav-link" data-scroll-target="#definition-1">Definition</a></li>
+  <li><a href="#why-it-matters-1" id="toc-why-it-matters-1" class="nav-link" data-scroll-target="#why-it-matters-1">Why It Matters</a></li>
+  <li><a href="#example-in-c-1" id="toc-example-in-c-1" class="nav-link" data-scroll-target="#example-in-c-1">Example in C</a></li>
+  <li><a href="#guidelines-for-improving-maintainability" id="toc-guidelines-for-improving-maintainability" class="nav-link" data-scroll-target="#guidelines-for-improving-maintainability">Guidelines for Improving Maintainability</a></li>
   </ul></li>
-  <li><a href="#work-plan" id="toc-work-plan" class="nav-link" data-scroll-target="#work-plan">Work plan</a>
+  <li><a href="#bringing-it-all-together" id="toc-bringing-it-all-together" class="nav-link" data-scroll-target="#bringing-it-all-together">Bringing It All Together</a>
   <ul class="collapse">
-  <li><a href="#used-tools-and-technology" id="toc-used-tools-and-technology" class="nav-link" data-scroll-target="#used-tools-and-technology">Used tools and technology</a></li>
-  <li><a href="#environments" id="toc-environments" class="nav-link" data-scroll-target="#environments">Environments</a></li>
-  <li><a href="#schedule-1" id="toc-schedule-1" class="nav-link" data-scroll-target="#schedule-1">Schedule</a></li>
-  <li><a href="#workshops" id="toc-workshops" class="nav-link" data-scroll-target="#workshops">Workshops</a></li>
-  <li><a href="#follow-up" id="toc-follow-up" class="nav-link" data-scroll-target="#follow-up">Follow-up</a></li>
-  <li><a href="#development-process" id="toc-development-process" class="nav-link" data-scroll-target="#development-process">Development process</a></li>
-  <li><a href="#sprints" id="toc-sprints" class="nav-link" data-scroll-target="#sprints">Sprints</a></li>
-  <li><a href="#testing" id="toc-testing" class="nav-link" data-scroll-target="#testing">Testing</a></li>
-  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a></li>
-  </ul></li>
-  <li><a href="#requirement-specification-for-online-feedback-form" id="toc-requirement-specification-for-online-feedback-form" class="nav-link" data-scroll-target="#requirement-specification-for-online-feedback-form">Requirement Specification for Online Feedback Form</a>
-  <ul class="collapse">
-  <li><a href="#requirements-list" id="toc-requirements-list" class="nav-link" data-scroll-target="#requirements-list">Requirements list</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
-  <li><a href="#user-personas" id="toc-user-personas" class="nav-link" data-scroll-target="#user-personas">User Personas</a></li>
-  <li><a href="#user-stories" id="toc-user-stories" class="nav-link" data-scroll-target="#user-stories">User stories</a></li>
-  </ul></li>
-  <li><a href="#workshops-1" id="toc-workshops-1" class="nav-link" data-scroll-target="#workshops-1">Workshops</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/General/Taiga.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/During-a-project/Readability-and-Maintainability.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://www.xamk.fi/en/"><img src="../../xamk_logo_laaja2_eng_kehys_rgb.png" class="side-margin" style="width:55.0%;height:50.0%" alt="XAMK"></a></p>
 <p><a href="https://european-union.europa.eu/index_en"><img src="../../EUalt.png" class="side-margin" style="width:100.0%;height:100.0%" alt="Co-funded by the european union"></a></p>
@@ -376,9 +385,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/index.html">General articles</a></li><li class="breadcrumb-item"><a href="../../articles/General/Taiga.html">Guide to Taiga.io</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/During-a-project/index.html">During a project</a></li><li class="breadcrumb-item"><a href="../../articles/During-a-project/Readability-and-Maintainability.html">Readability &amp; Maintainability</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Guide to Taiga.io</h1>
+<h1 class="title">Readability &amp; Maintainability</h1>
   </div>
 
 
@@ -388,14 +397,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Niko Laurila </p>
+             <p>Niko Laurila, Miika Reijonen </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 17, 2024</p>
+      <p class="date">February 24, 2025</p>
     </div>
   </div>
   
@@ -413,783 +422,260 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="your-guide-to-taiga.io" class="level1">
-<h1>Your guide to Taiga.io</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/taigaLogo.png" class="img-fluid figure-img" alt="Taiga.io Logo" width="708"></p>
-<figcaption>Taiga.io Logo</figcaption>
-</figure>
-</div>
-<section id="what-is-taiga.io" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-taiga.io">What is Taiga.io?</h2>
-<p><a href="https://taiga.io/">Taiga.io</a> is our preferred project management tool. Taiga is fully <strong>open-source</strong> and has a generous &amp; unlimited free tier. Taiga also offers the ability to self host a taiga instance on your own machines, we use taiga to manage the projects students are working on in Koodariverstas.</p>
-<p>We recommend that you get to know the platform and its layout when you begin working in your first project.</p>
-</section>
-<section id="account-management" class="level2">
-<h2 class="anchored" data-anchor-id="account-management">Account management</h2>
-<p>Taiga has multiple ways of logging-in, we recommend using the <strong>same GitHub account</strong> you use in your projects in Koodariverstas. This makes it easy to attribute changes and credit directly to you when the names on both platforms are identical.</p>
-<p>You can sign in with <strong>GitHub</strong> directly through the login prompt.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/TaigaLogin.png" class="img-fluid figure-img"></p>
-<figcaption>Taiga.io Login window</figcaption>
-</figure>
-</div>
-<p>After logging in you can head to the account settings and change your profile picture, name, and password. You can also directly download your account information or fully delete your account from the account settings.</p>
-<p>When entering names <strong>please use your real legal names</strong> so that we know who is who when attributing work and credits.</p>
-</section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<p>When you login you are thrown directly into the “projects” view. This view will show you the projects you have created or collaborate on. You can view and manage all your projects from this view.</p>
-<p>The project view lets you quickly see the issues you are working on and the tasks you are following that are being assigned to others.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/TaigaProjectsview.png" class="img-fluid figure-img"></p>
-<figcaption>This is your project view.</figcaption>
-</figure>
-</div>
-<p>This page will help you understand the current to-do on a glance. You can follow others issues and coordinate your work with others and their timelines. If you don’t currently have any projects when logging in, this page will let guide you through creating a new project or joining a existing project.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga img 1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>When clicking on a project you will find a page that looks like this. Here you can see the team assigned to the project, action history, scrum and kanban, project wiki and current Issues.</p>
-</section>
-<section id="scrum" class="level2">
-<h2 class="anchored" data-anchor-id="scrum">Scrum</h2>
-<p>Scrum is a standard way to follow and plan development processes.</p>
-<p>Taiga has a fully functional scrum management system that lets you follow tasks and check assigned workflows.</p>
-<p>Here you can see which tasks are allocated to you or other members in your team. You can also track the progress of all tasks here.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga scrum.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>Different tasks require different amounts of work and resources. Scrum let’s us assign the correct resources per task and track their progress in real time.</p>
-<p>This also helps developers stay focused on their own work, and eases the workload of big projects by cutting it to bite sized bits.</p>
+<section id="readability" class="level1">
+<h1>Readability</h1>
+<section id="definition" class="level3">
+<h3 class="anchored" data-anchor-id="definition">Definition</h3>
+<p><strong>Readability</strong> refers to how easy it is for a person to read and understand a piece of source code. Readable code is clear, concise, and well-organized. It should convey its intention (the “what” and “why”) without forcing readers to decipher unnecessarily complex or obscure constructs.</p>
 <blockquote class="blockquote">
-<p><strong>TL;DR:</strong> Scrum makes it easy to follow smaller tasks and assign resources to said tasks. Enabling developers to focus on their own tasks.</p>
+<p>“Code is read much more often than it is written.” – Guido van Rossum</p>
 </blockquote>
 </section>
-<section id="kanban" class="level2">
-<h2 class="anchored" data-anchor-id="kanban">Kanban</h2>
-<p>Kanban works in the same manner as scrum, the difference being that kanban focuses on the “bigger picture”. Where scrum concentrates on tasks as a part of a bigger picture, kanban focuses more on user stories. User stories are bigger sized entities that consist of the smaller scrum tasks.</p>
-<p>You can think of it as a poster, where different parts of the whole poster consists of smaller parts of the poster to make a complete comprehensive poster.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga kanban.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>This is the kanban view. Each user story consists of tasks that are managed in Scrum. When work is started on a task that is a part of a story, the story is updated to reflect the changes.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga kanban2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>Here for example, I have “started working” on a task in user story 1. I have been assigned to the development to tasks for story 1. To reflect this change I have updated the kanban view to reflect the current state of the entire story.</p>
-<blockquote class="blockquote">
-<p><strong>TL;DR:</strong> Kanban enables the following of the bigger picture of the project. This helps in planning for bigger features and keeping track of the entire project.</p>
-</blockquote>
-</section>
-<section id="issues" class="level2">
-<h2 class="anchored" data-anchor-id="issues">Issues</h2>
-<p>Taiga has also a built in issues system. We use this to track known issues such as bugs, problems, requests or additional requirements. You can see all the current issues on the projects issues page.</p>
-<p>The issues page shows you the Type, Severity and priority of the issue listed. You can also see the status, when the issue was posted and who it’s assigned to.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga issues.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>This is the issues page, you can search issues by subject or reference. Here you can also add new issues and see the overall state of issues in the current project.</p>
-<p>When you click on an issue, it will open the detailed issue page.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Taiga issue2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>This is the detailed issue page. Here you can see the description of the issue including the status, assigned personnel, possible attachments and comments made by other people in the project.</p>
-<p>Usage of issues helps everyone keep track of the problems that may occur during development.</p>
-</section>
-</section>
-<section id="filling-information-in-taiga" class="level1">
-<h1>Filling information in Taiga</h1>
-<p>This section is can be used as a template to fill your own Taiga projects Wiki section. Information provided below will prove to be useful when filling in information about your own project in Taigas project Wiki.</p>
-<section id="customer-feedback-form-in-project" class="level2">
-<h2 class="anchored" data-anchor-id="customer-feedback-form-in-project">Customer feedback form in Project</h2>
-<p>Version history. <em>Only major edits listed here</em></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Version</th>
-<th>Date</th>
-<th>Creator</th>
-<th>Content</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0.1</td>
-<td>dd.mm.yyyy</td>
-<td>O. O.</td>
-<td>First draft</td>
-</tr>
-<tr class="even">
-<td>0.2</td>
-<td>dd.mm.yyyy</td>
-<td>O. O.</td>
-<td>All chapters. Sent for review.</td>
-</tr>
-<tr class="odd">
-<td>0.9</td>
-<td>dd.mm.yyyy</td>
-<td>O. O.</td>
-<td>Tweaks based on Company feedback, ready for approval</td>
-</tr>
-<tr class="even">
-<td>1.0</td>
-<td>dd.mm.yyyy</td>
-<td>O. O.</td>
-<td>Company approved</td>
-</tr>
-</tbody>
-</table>
-<section id="general" class="level3">
-<h3 class="anchored" data-anchor-id="general">General</h3>
-<p><strong><em>Purpose of the project and objective(s)</em></strong></p>
-<p>This project was initiated because Company X adopted the ISO 9001 quality management system. As part of this system, customer feedback is an essential tool for improving service quality and maintaining customer loyalty and so on…..</p>
-<p>This project aims to create a customer feedback form that is easy to find and seamless to fill out. The form will include questions designed to meet CSAT (Customer Satisfaction) metrics, while also providing space for open feedback. Additionally, customers will have the option to provide their contact information, along with their preferred time and method for personal follow-up …and so on</p>
-</section>
-<section id="terminology" class="level3">
-<h3 class="anchored" data-anchor-id="terminology">Terminology</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Term</th>
-<th>Explanation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CSAT</td>
-<td>Customer satisfaction score. It is a commonly used metric that indicates how satisfied customers are with a company’s products or services.</td>
-</tr>
-<tr class="even">
-<td>It’s measured through customer feedback and expressed as a percentage (best 100% to worst 0%).</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="project-scope" class="level3">
-<h3 class="anchored" data-anchor-id="project-scope">Project scope</h3>
-<p>The project scope is:</p>
-<ul>
-<li>Design and development of the feedback form.</li>
-<li>Testing and validation to ensure all requirements.</li>
-<li>Implementation of the form on the company’s website or other relevant platforms.</li>
-<li>Written instructions how to use, manage and maintain the feedback form.</li>
-</ul>
-<p>Out of the scope are:</p>
-<ul>
-<li>Developing any other customer service feedback tools (such as reporting for the form, CRM integration, chat boxes, etc.).</li>
-<li>Maintaining or redesigning Company’s web page</li>
-<li>This means that the Company is responsible to add the link to the web page or other relevant places</li>
-</ul>
-</section>
-<section id="schedule" class="level3">
-<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
-<p>Project start date - Project end date</p>
-<p>Major milestones:</p>
-<ul>
-<li>Specification ready dd.mm.yyyy</li>
-<li>Implementation ready dd.mm.yyyy</li>
-<li>Rollout day dd.mm.yyyy</li>
-</ul>
-</section>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<p><strong>Personnel:</strong> Who does what?</p>
-<p>N. N., Company X, Title</p>
-<ul>
-<li>Role in the project</li>
-<li>Is responsible for….</li>
-</ul>
-<p>M. M., Company X, Title</p>
-<ul>
-<li>Role in the project</li>
-<li>Is responsible for….</li>
-</ul>
-<p>O. O., Student</p>
-<ul>
-<li>Role in the project</li>
-<li>Is responsible for….</li>
-</ul>
-<p>P. P., Student</p>
-<ul>
-<li>Role in the project</li>
-<li>Is responsible for….</li>
-</ul>
-<p><strong>Tools and services:</strong></p>
-<ul>
-<li>For development</li>
-<li>Visual Studio Code (free)</li>
-<li>Microsoft SQL Server Management Studio (SSMS) (free)</li>
-<li>Communication</li>
-<li>Zoom, teams, emails</li>
-<li>Taiga.io</li>
-<li>Documentation</li>
-<li>Company’s Google drive</li>
-<li>Taiga.io</li>
-<li>Miro (for diagrams)</li>
-</ul>
-</section>
-<section id="risk-management" class="level3">
-<h3 class="anchored" data-anchor-id="risk-management">Risk Management</h3>
-<p>Top 3 (to 5) risks</p>
-<ul>
-<li>range is high - medium - low for impact and likelihood</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Risk</th>
-<th>Impact</th>
-<th>Likelihood</th>
-<th>Mitigation plan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Delays on project schedule</td>
-<td>High</td>
-<td>Medium</td>
-<td>Set more realistic schedule and deadlines.</td>
-</tr>
-<tr class="even">
-<td>Chosen technology is not suitable</td>
-<td>High</td>
-<td>Low</td>
-<td>Change more suitable technology. Will most likely delay the schedule.</td>
-</tr>
-<tr class="odd">
-<td>Chosen technology is too difficult</td>
-<td>Medium</td>
-<td>Low</td>
-<td>More training and support from the Teachers</td>
-</tr>
-</tbody>
-</table>
-<p>Ways to reduce risks are:</p>
-<ul>
-<li>Risks will be monitored regularly</li>
-<li>Schedule is flexible by default</li>
-<li>Active communication between the project participants</li>
-</ul>
-</section>
-<section id="communication-plan" class="level3">
-<h3 class="anchored" data-anchor-id="communication-plan">Communication Plan</h3>
-<ul>
-<li>Majority of the meetings and workshops are planned to the Work Plan in advance</li>
-<li>Reporting to Koodariverstas and Teachers regularly</li>
-<li>and all other relevant communication actions</li>
-</ul>
-</section>
-<section id="monitoring-and-evaluation" class="level3">
-<h3 class="anchored" data-anchor-id="monitoring-and-evaluation">Monitoring and Evaluation</h3>
-<ul>
-<li>All follow-up checkpoints are integrated into the Work Plan.</li>
-<li>Koodariverstas will monitor the project in accordance with the Koodariverstas assignment process.</li>
-</ul>
-<p>Achievement of objectives will be evaluated against the project’s Work Plan.</p>
-</section>
-</section>
-<section id="work-plan" class="level2">
-<h2 class="anchored" data-anchor-id="work-plan">Work plan</h2>
-<p>This is a detailed work plan how the project will actually meet it’s objectives. Which tools, technologies, etc. It uses. How and by whom the testing is done and so on…</p>
-<section id="used-tools-and-technology" class="level3">
-<h3 class="anchored" data-anchor-id="used-tools-and-technology">Used tools and technology</h3>
-<ul>
-<li>Development tools</li>
-<li>Version control</li>
-<li>What database to use</li>
-</ul>
-</section>
-<section id="environments" class="level3">
-<h3 class="anchored" data-anchor-id="environments">Environments</h3>
-<p>Development environment is…</p>
-<ul>
-<li>Where is it and how to access it</li>
-</ul>
-<p>Testing environment</p>
-<ul>
-<li>Where is it and how to access it</li>
-</ul>
-</section>
-<section id="schedule-1" class="level3">
-<h3 class="anchored" data-anchor-id="schedule-1">Schedule</h3>
-<p><strong>Planning phase</strong></p>
-<p>mm.dd - mm.dd</p>
-<p>Objectives:</p>
-<ul>
-<li>There will be at least 3 workshops</li>
-<li>Final documentation approved by mm.dd.yyyy</li>
-<li>User stories with tentative task list approved by mm.dd.yyyy</li>
-<li>Technology and tools are chosen</li>
-<li>Work plan is updated</li>
-</ul>
-<p><strong>Implementation phase</strong></p>
-<p>mm.dd - mm.dd</p>
-<p>Objectives:</p>
-<ul>
-<li>Development / testing environments are available by dd.mm.yyyy</li>
-<li>Sprints are planned with detailed task lists</li>
-<li>Each sprint will have their own deadlines dates</li>
-<li>Work plan (this document) is approved dd.mm.yyyy</li>
-<li>This document will be updated and re-approved if necessary (if there arfe any major changes)</li>
-<li>Version which is ready for acceptance testing dd.mm.yyyy</li>
-</ul>
-<p><strong>Deployment phase</strong></p>
-<p>mm.dd - mm.dd</p>
-<p>Objectives:</p>
-<ul>
-<li>Acceptance testing done by dd.mm.yyyy</li>
-<li>Installation dd.mm.yyyy</li>
-</ul>
-</section>
-<section id="workshops" class="level3">
-<h3 class="anchored" data-anchor-id="workshops">Workshops</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Number</th>
-<th>Date</th>
-<th>Participants</th>
-<th>Subject(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>mm.dd.yyy</td>
-<td>List of necessary persons</td>
-<td>General information, Basic requirements</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>mm.dd.yyy</td>
-<td>List of necessary persons,</td>
-<td>Graphical design requirements, Mandatory and optional fields</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="follow-up" class="level3">
-<h3 class="anchored" data-anchor-id="follow-up">Follow-up</h3>
-<p>Planning</p>
-<ul>
-<li>Workshop meetings are also follow-up meetings</li>
-<li>At the beginning of each workshop the previous tasks, questions, possible documentation is checked over.</li>
-</ul>
-<p>Implementation</p>
-<ul>
-<li>Weekly meeting</li>
-<li>Progress and plans</li>
-<li>What was done</li>
-<li>What will be done</li>
-<li>Open questions</li>
-<li>Task list</li>
-<li>Issues list</li>
-<li>Any other relevant information</li>
-</ul>
-</section>
-<section id="development-process" class="level3">
-<h3 class="anchored" data-anchor-id="development-process">Development process</h3>
-<p>Description about the process</p>
-<p><em>More detailed information about the sprints, how, when and by whom the sprints are created</em></p>
-</section>
-<section id="sprints" class="level3">
-<h3 class="anchored" data-anchor-id="sprints">Sprints</h3>
+<section id="why-it-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h3>
 <ol type="1">
-<li>Basic scenario: Functional feedback form with few fields</li>
-<li>Add the rest of the fields, email responses, etc.</li>
-<li>Add Brand layout, fine tuning</li>
-<li>Fixes and update (only if needed)</li>
+<li><strong>Collaboration</strong>: Multiple developers (and future you) will need to read and modify the code. Readable code fosters better teamwork and reduces ramp-up time.<br>
+</li>
+<li><strong>Bug Reduction</strong>: When code’s logic is transparent and straightforward, misunderstandings and errors are less likely.<br>
+</li>
+<li><strong>Maintainability</strong>: Readable code is the first step toward easy maintenance. If you can’t <em>understand</em> it, you can’t <em>effectively fix or enhance</em> it.</li>
 </ol>
+</section>
+<section id="example-in-c" class="level3">
+<h3 class="anchored" data-anchor-id="example-in-c">Example in C</h3>
+<section id="before-poor-readability" class="level4">
+<h4 class="anchored" data-anchor-id="before-poor-readability">Before (Poor Readability)</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">int</span> <span class="fu">CmpStrs</span><span class="op">(</span><span class="dt">string</span> a<span class="op">,</span> <span class="dt">string</span> b<span class="op">)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// This method returns 1 if a is "larger", -1 if b is "larger", or 0 if they are equal</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">if</span> <span class="op">(</span>a<span class="op">.</span><span class="fu">Length</span> <span class="op">==</span> b<span class="op">.</span><span class="fu">Length</span><span class="op">)</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">else</span> <span class="kw">if</span> <span class="op">(</span>a<span class="op">.</span><span class="fu">Length</span> <span class="op">&gt;</span> b<span class="op">.</span><span class="fu">Length</span><span class="op">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">else</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Based on Company’s feedback after installation</li>
-<li>Is something was left out from the main sprints, it will be done in this sprint</li>
+<li><strong>What’s wrong?</strong>
+<ul>
+<li>The method name <code>CmpStrs</code> is cryptic (hard to guess it compares string lengths).<br>
+</li>
+<li>The comment clarifies the method’s purpose, but the code itself doesn’t telegraph <em>what</em> or <em>why</em> without reading the comment.</li>
+</ul></li>
 </ul>
 </section>
-<section id="testing" class="level3">
-<h3 class="anchored" data-anchor-id="testing">Testing</h3>
+<section id="after-improved-readability" class="level4">
+<h4 class="anchored" data-anchor-id="after-improved-readability">After (Improved Readability)</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">int</span> <span class="fu">CompareStringLengths</span><span class="op">(</span><span class="dt">string</span> first<span class="op">,</span> <span class="dt">string</span> second<span class="op">)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// If both strings are of equal length, return 0</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">if</span> <span class="op">(</span>first<span class="op">.</span><span class="fu">Length</span> <span class="op">==</span> second<span class="op">.</span><span class="fu">Length</span><span class="op">)</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">// If the first string is longer, return 1; otherwise, return -1</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="op">(</span>first<span class="op">.</span><span class="fu">Length</span> <span class="op">&gt;</span> second<span class="op">.</span><span class="fu">Length</span><span class="op">)</span> <span class="op">?</span> <span class="dv">1</span> <span class="op">:</span> <span class="op">-</span><span class="dv">1</span><span class="op">;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Unit testing done by the students as a part of the development process</li>
-<li>Each sprint is tested by the Customer and must be approved before the next sprint</li>
-<li>Acceptance testing</li>
-<li>How, who and in which environment?</li>
-<li>Issues list cannot have any unsolved critical issues</li>
-</ul>
-<p>Any observation and defects are listed in the Issues (Taiga.io)</p>
-</section>
-<section id="deployment" class="level3">
-<h3 class="anchored" data-anchor-id="deployment">Deployment</h3>
-<p><strong><em>Fill this information based on you project</em></strong></p>
-<p>Installation date and time: dd.mm.yyyy</p>
-<section id="prerequisites" class="level4">
-<h4 class="anchored" data-anchor-id="prerequisites">Prerequisites</h4>
-<p><strong><em>What is needed for the application to be installed</em></strong></p>
+<li><strong>What changed?</strong>
 <ul>
-<li>Acceptance testing is successful</li>
-<li>The production environment is available and accessible</li>
-<li>Application server</li>
-<li>Database</li>
-<li>What ever is needed…?</li>
-<li>Who will test the connection, accounts, etc.</li>
-<li>Post notice about the installation a week before the installation day</li>
-<li>Who needs the information that the site is down?</li>
-<li>Who will be responsible posting?</li>
-<li>Content</li>
-<li>and so on</li>
+<li><strong>Clearer Method Name</strong>: <code>CompareStringLengths</code> leaves no doubt about its function.<br>
+</li>
+<li><strong>Variable Names</strong>: <code>first</code>, <code>second</code> are more descriptive.<br>
+</li>
+<li><strong>Inline Explanation</strong>: Comments are direct and minimal, supporting the code’s clarity.</li>
+</ul></li>
 </ul>
 </section>
-<section id="installation-schedule" class="level4">
-<h4 class="anchored" data-anchor-id="installation-schedule">Installation schedule</h4>
-<ul>
-<li>Put the web page in a maintenance state</li>
-<li>Who will do it</li>
-<li>8.00 - 8.30 (give a time frame)</li>
-<li>Installation of the feedback form</li>
-<li>Who will do it</li>
-<li>8.30-9.00</li>
-<li>Installation testing</li>
-<li>Who will do it?</li>
-<li>9.00-9.30</li>
-<li>Open the web site</li>
-<li>Post notice that the site is up and running</li>
-</ul>
 </section>
-<section id="responsible-persons" class="level4">
-<h4 class="anchored" data-anchor-id="responsible-persons">Responsible persons</h4>
-<ul>
-<li>ISP Host technical support: Name, phone</li>
-<li>Customer</li>
-<li>N. N.. phone</li>
-<li>N. M., phone</li>
-<li>Students</li>
-<li>Name, phone</li>
-<li>Any other essential contact person &amp; phone</li>
-</ul>
+<section id="guidelines-for-improving-readability" class="level3">
+<h3 class="anchored" data-anchor-id="guidelines-for-improving-readability">Guidelines for Improving Readability</h3>
+<ol type="1">
+<li><strong>Meaningful Names</strong>: Use descriptive variable/method/class names that reveal intent.<br>
+</li>
+<li><strong>Consistent Formatting</strong>: Follow a consistent style guide (indentation, spacing, etc.).<br>
+</li>
+<li><strong>Short, Focused Methods</strong>: Each method should perform a single, clear task.<br>
+</li>
+<li><strong>Use Comments Sparingly</strong>: Explain <em>why</em> the code does something if it’s not obvious—avoid restating <em>what</em> is already clear in the code.<br>
+</li>
+<li><strong>Avoid Deep Nesting</strong>: Too many nested loops/conditions reduce clarity. Refactor or extract methods when logic grows complex.</li>
+</ol>
+<hr>
 </section>
-<section id="communication" class="level4">
-<h4 class="anchored" data-anchor-id="communication">Communication</h4>
-<ul>
-<li><p>Normal communication is done by email</p></li>
-<li><p>Emergency communication is done by phone</p></li>
-<li><p>Each participant is invited to the Company’s Slack channel,</p></li>
-<li><p>Slack channel is used on normal communication</p></li>
-<li><p>Emergency communication is done by phone and posted to the Slack channel</p></li>
-</ul>
 </section>
-<section id="rollback-plan" class="level4">
-<h4 class="anchored" data-anchor-id="rollback-plan">Rollback plan</h4>
-<p>in case something goes wrong</p>
+<section id="maintainability" class="level1">
+<h1>Maintainability</h1>
+<section id="definition-1" class="level3">
+<h3 class="anchored" data-anchor-id="definition-1">Definition</h3>
+<p><strong>Maintainability</strong> refers to how easily software can be <strong>modified</strong>, <strong>improved</strong>, or <strong>fixed</strong> over time. Maintainable code is adaptable to new requirements, straightforward to test, and resilient against unintended side effects when changed.</p>
 <blockquote class="blockquote">
-<p><em><strong>Info:</strong> For smaller project this page may be enough, but if it is not, you can create new wiki pages, or link external document or add attachments in the Taiga Wiki.</em></p>
+<p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
 </blockquote>
 </section>
+<section id="why-it-matters-1" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-matters-1">Why It Matters</h3>
+<ol type="1">
+<li><strong>Longevity</strong>: Most projects evolve long after initial release. Code that’s <em>easy to maintain</em> avoids becoming a “legacy mess.”<br>
+</li>
+<li><strong>Cost-Effectiveness</strong>: Maintenance often represents the largest cost in a software’s lifecycle. Reducing friction in updates saves time and money.<br>
+</li>
+<li><strong>Reliability</strong>: When code is well-structured, applying bug fixes or enhancements is less risky—fewer ripple effects across the system.</li>
+</ol>
 </section>
-</section>
-<section id="requirement-specification-for-online-feedback-form" class="level2">
-<h2 class="anchored" data-anchor-id="requirement-specification-for-online-feedback-form">Requirement Specification for Online Feedback Form</h2>
-<section id="requirements-list" class="level3">
-<h3 class="anchored" data-anchor-id="requirements-list">Requirements list</h3>
-<section id="business-requirements" class="level4">
-<h4 class="anchored" data-anchor-id="business-requirements">Business requirements</h4>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Title</th>
-<th>Priority</th>
-<th>State</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>BR 1</td>
-<td>Customers can give feed back easily</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>BR2</td>
-<td>Feedback back form will strengthen Company’s brand</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="odd">
-<td>BR 3</td>
-<td>Company can have simple access to analyze given data</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>BR 4</td>
-<td>The results must be measurable using CSAT/NPS/CES</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="functional-requirements" class="level4">
-<h4 class="anchored" data-anchor-id="functional-requirements">Functional requirements</h4>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Title</th>
-<th>Priority</th>
-<th>State</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>FR 1</td>
-<td>Submit the form anonymously, or optionally with contact information</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>FR 2</td>
-<td>The form must be responsive and work seamlessly on various devices</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="odd">
-<td>FR 3</td>
-<td>Multilingual (mandatory FIN, SWE, ENG languages)</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>FR 4</td>
-<td>Basic form fields are in use and can be mandatory (marked with *) or optional</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="odd">
-<td>FR 5</td>
-<td>Automatic email response</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>FR 6</td>
-<td>Integrate with our CRM</td>
-<td>Optional</td>
-<td>New</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="other-requirements" class="level4">
-<h4 class="anchored" data-anchor-id="other-requirements">Other requirements</h4>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Title</th>
-<th>Priority</th>
-<th>State</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>OR 1</td>
-<td>Must follow our ISO 9001 standard</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>OR 2</td>
-<td>Must be GDPR compliance</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-<tr class="odd">
-<td>OR 3</td>
-<td>Must follow WCAG guidelines</td>
-<td>Moderate</td>
-<td>Approved</td>
-</tr>
-<tr class="even">
-<td>OR 4</td>
-<td>Must follow your Brand guidelines</td>
-<td>Mandatory</td>
-<td>Approved</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="requirements" class="level3">
-<h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
-<p>More detailed information about each requirement /OR Extend the tables above</p>
-<section id="fr-1-submit-the-form-anonymously-or-optionally-with-contact-information" class="level4">
-<h4 class="anchored" data-anchor-id="fr-1-submit-the-form-anonymously-or-optionally-with-contact-information">FR 1 Submit the form anonymously, or optionally with contact information</h4>
-<p>The customer must be able to fill the feedback form anonymously but if needed the customer can give their contact information: Name, phone and email-address, also preferably choice of contact method and time.</p>
-<p>Links to other requirements:</p>
+<section id="example-in-c-1" class="level3">
+<h3 class="anchored" data-anchor-id="example-in-c-1">Example in C</h3>
+<section id="before-hard-to-maintain" class="level4">
+<h4 class="anchored" data-anchor-id="before-hard-to-maintain">Before (Hard to Maintain)</h4>
+<div class="sourceCode" id="cb3"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> UserManager</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// This class does many things: manages users, sends emails, logs activities, etc.</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">CreateUser</span><span class="op">(</span><span class="dt">string</span> username<span class="op">,</span> <span class="dt">string</span> email<span class="op">)</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 1. Insert user into database</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 2. Send welcome email</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 3. Log user creation activity</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">DisableUser</span><span class="op">(</span><span class="dt">int</span> userId<span class="op">)</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 1. Mark user as disabled in database</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 2. Send account closure email</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>        <span class="co">// 3. Log disabling activity</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>        <span class="co">// ...</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>OR 1</li>
-<li>OR 2</li>
-</ul>
-<p>Roles: the customer</p>
-</section>
-</section>
-<section id="user-personas" class="level3">
-<h3 class="anchored" data-anchor-id="user-personas">User Personas</h3>
+<li><strong>What’s wrong?</strong>
 <ul>
-<li>Meet Customer Matti, who has opinions about the services they use</li>
-<li>Meet Customer service person Saara, who read sand responds to all customer feedbacks</li>
-<li>Meet Business analytics Kaisa, who wants to have metrics about the feedback, so the Company can improve improve business</li>
-<li>Meet Developer Myrsky, who is responsible for developing the feedback form</li>
+<li><strong>Multiple Responsibilities</strong>: This class is updating the database, sending emails, and logging. A single change in emailing or logging can force multiple modifications here, risking errors.<br>
+</li>
+<li>Harder to test each aspect in isolation (database, email, logging logic are all tangled).</li>
+</ul></li>
 </ul>
 </section>
-<section id="user-stories" class="level3">
-<h3 class="anchored" data-anchor-id="user-stories">User stories</h3>
+<section id="after-improved-maintainability" class="level4">
+<h4 class="anchored" data-anchor-id="after-improved-maintainability">After (Improved Maintainability)</h4>
+<div class="sourceCode" id="cb4"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">interface</span> IUserRepository</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">AddUser</span><span class="op">(</span>User user<span class="op">);</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">DisableUser</span><span class="op">(</span><span class="dt">int</span> userId<span class="op">);</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Other user-related data operations</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">interface</span> IEmailService</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">SendEmail</span><span class="op">(</span><span class="dt">string</span> to<span class="op">,</span> <span class="dt">string</span> subject<span class="op">,</span> <span class="dt">string</span> body<span class="op">);</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">interface</span> ILogger</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">Log</span><span class="op">(</span><span class="dt">string</span> message<span class="op">);</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> UserManager</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="kw">readonly</span> IUserRepository _userRepository<span class="op">;</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="kw">readonly</span> IEmailService _emailService<span class="op">;</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="kw">readonly</span> ILogger _logger<span class="op">;</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">UserManager</span><span class="op">(</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>        IUserRepository userRepository<span class="op">,</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>        IEmailService emailService<span class="op">,</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>        ILogger logger<span class="op">)</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>        _userRepository <span class="op">=</span> userRepository<span class="op">;</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        _emailService <span class="op">=</span> emailService<span class="op">;</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>        _logger <span class="op">=</span> logger<span class="op">;</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">CreateUser</span><span class="op">(</span><span class="dt">string</span> username<span class="op">,</span> <span class="dt">string</span> email<span class="op">)</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>        _userRepository<span class="op">.</span><span class="fu">AddUser</span><span class="op">(</span><span class="kw">new</span> User <span class="op">{</span> UserName <span class="op">=</span> username<span class="op">,</span> Email <span class="op">=</span> email <span class="op">});</span></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>        _emailService<span class="op">.</span><span class="fu">SendEmail</span><span class="op">(</span>email<span class="op">,</span> <span class="st">"Welcome!"</span><span class="op">,</span> <span class="st">"Welcome to our platform!"</span><span class="op">);</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>        _logger<span class="op">.</span><span class="fu">Log</span><span class="op">(</span>$<span class="st">"User created: {username}"</span><span class="op">);</span></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">DisableUser</span><span class="op">(</span><span class="dt">int</span> userId<span class="op">)</span></span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>        _userRepository<span class="op">.</span><span class="fu">DisableUser</span><span class="op">(</span>userId<span class="op">);</span></span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>        _emailService<span class="op">.</span><span class="fu">SendEmail</span><span class="op">(</span><span class="st">"admin@example.com"</span><span class="op">,</span> <span class="st">"User Disabled"</span><span class="op">,</span> $<span class="st">"User {userId} was disabled."</span><span class="op">);</span></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>        _logger<span class="op">.</span><span class="fu">Log</span><span class="op">(</span>$<span class="st">"User disabled: {userId}"</span><span class="op">);</span></span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><strong>User Story 1</strong>: As a Customer, I want to give feedback easily so that my opinions can help improve the service.</li>
-<li><strong>User Story 2</strong>: As a Business analytics, I want to have a report of the feedbacks, so I can analyze the data effectively.</li>
-<li><strong>User Story 3</strong>: As a developer, I want the form to be responsive so that it works on all devices.</li>
-<li><strong>User Story 4</strong>: As a customer service person, I want to receive notifications of new feedback so that I can respond prompt</li>
+<li><strong>What changed?</strong>
+<ul>
+<li><strong>Single Responsibility</strong>: <code>UserManager</code> focuses on orchestrating operations, delegating work to <code>IUserRepository</code>, <code>IEmailService</code>, and <code>ILogger</code>.<br>
+</li>
+<li><strong>Dependency Injection</strong>: Makes it easy to swap out implementations (e.g., a MockEmailService for tests).<br>
+</li>
+<li><strong>Testing &amp; Flexibility</strong>: Each concern (data access, email, logging) can be tested or replaced independently.</li>
+</ul></li>
 </ul>
-<blockquote class="blockquote">
-<p><strong>Note:</strong> As an example user stories 1 and 3 are expanded to the Backlog</p>
-</blockquote>
 </section>
 </section>
-<section id="workshops-1" class="level2">
-<h2 class="anchored" data-anchor-id="workshops-1">Workshops</h2>
-<p><strong><em>This is an example of a plan for a workshop. If you plan on having a workshop, you can use the information below as a template when filling in information of your workshop.</em></strong></p>
-<section id="date" class="level4">
-<h4 class="anchored" data-anchor-id="date">Date:</h4>
-<p>dd.mm.yyyy at 10.00 - 11.30</p>
+<section id="guidelines-for-improving-maintainability" class="level3">
+<h3 class="anchored" data-anchor-id="guidelines-for-improving-maintainability">Guidelines for Improving Maintainability</h3>
+<ol type="1">
+<li><strong>Modular Design</strong>: Separate concerns into distinct classes or modules (SRP from SOLID).<br>
+</li>
+<li><strong>Use Abstractions</strong>: Depend on interfaces, not concrete implementations (DIP from SOLID).<br>
+</li>
+<li><strong>Automated Testing</strong>: Write unit tests and integration tests to catch regressions quickly.<br>
+</li>
+<li><strong>Refactor Regularly</strong>: Continuously simplify and improve the code structure as requirements evolve.<br>
+</li>
+<li><strong>Documentation</strong>: Maintain up-to-date documentation for architecture, major components, and usage patterns (helps future developers).</li>
+</ol>
+<hr>
 </section>
-<section id="participants" class="level4">
-<h4 class="anchored" data-anchor-id="participants">Participants:</h4>
-<p>N. N., Company X, title or role</p>
-<p>M. M., Company X, title or role</p>
-<p>O. O., Student, role in the project</p>
-<p>P. P., Student, role in the project</p>
 </section>
-<section id="subjects" class="level4">
-<h4 class="anchored" data-anchor-id="subjects">Subjects:</h4>
+<section id="bringing-it-all-together" class="level1">
+<h1>Bringing It All Together</h1>
+<p><strong>Readability</strong> and <strong>Maintainability</strong> go hand in hand:</p>
 <ul>
-<li>Company and Students introduction</li>
-<li>Checking that everybody has access the collaboration area &amp; other relevant recourses/ services etc.</li>
-<li>(Open questions &amp; task check here, after this first workshop)</li>
-<li>Purpose of the Customer feedback form</li>
-<li>Why the feedback form is needed</li>
-<li>User groups and their roles</li>
-<li>Metrics used for the feedback form</li>
-<li>How the data should be stored</li>
-<li>GDRP checklist, Company’s privacy policy, or any other rules, and regulations?</li>
-<li>Is there changes to next workshop (as a result of this workshop)?</li>
+<li><strong>Readable code</strong> is simpler to <strong>modify</strong> because everyone understands it better.<br>
+</li>
+<li><strong>Maintainable code</strong> keeps changes organized, which in turn keeps <strong>readability</strong> high.</li>
 </ul>
-</section>
-<section id="meeting-notes" class="level4">
-<h4 class="anchored" data-anchor-id="meeting-notes">Meeting notes</h4>
-<blockquote class="blockquote">
-<p><strong>Note:</strong> the information from the above bullet list is written here</p>
-</blockquote>
-</section>
-<section id="open-questions-tasks" class="level4">
-<h4 class="anchored" data-anchor-id="open-questions-tasks">Open questions &amp; tasks:</h4>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Task</th>
-<th>Responsible person</th>
-<th>Due date</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>What is the Company’s privacy policy and GDPR</td>
-<td>N. N.</td>
-<td>Tomorrow</td>
-</tr>
-<tr class="even">
-<td>This is going to change the privacy statement, find out who is responsible to do so, and update public web page</td>
-<td>M. M.</td>
-<td>Before next workshop</td>
-</tr>
-<tr class="odd">
-<td>Invite M. M. to taiga.io</td>
-<td>O. O.</td>
-<td>Tomorrow</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="next-workshop" class="level4">
-<h4 class="anchored" data-anchor-id="next-workshop">Next Workshop:</h4>
+<p>When you focus on both, you create a codebase that’s:</p>
+<ol type="1">
+<li><strong>Welcoming</strong> to new contributors.<br>
+</li>
+<li><strong>Resilient</strong> to new requirements.<br>
+</li>
+<li><strong>Easier</strong> to test, debug, and extend over the software’s lifetime.</li>
+</ol>
+<hr>
+<section id="final-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h3>
 <ul>
-<li>xx.yy.yyyy</li>
-<li>Changes to be made</li>
-<li>Date, time, subjects, participant, etc.</li>
+<li>Writing <strong>readable</strong> code requires consistency, clarity, and straightforward logic.<br>
+</li>
+<li>Ensuring <strong>maintainability</strong> demands good architecture, modular design, and ongoing refactoring.<br>
+</li>
+<li>Striking a balance between these aspects fosters a <strong>robust, long-lived</strong>, and <strong>developer-friendly</strong> software system.</li>
 </ul>
 
 
-</section>
 </section>
 </section>
 
@@ -1792,7 +1278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/General/Taiga.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/During-a-project/Readability-and-Maintainability.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
