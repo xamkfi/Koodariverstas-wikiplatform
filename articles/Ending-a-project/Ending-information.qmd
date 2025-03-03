@@ -13,4 +13,46 @@ When your participation in a project is coming to an end, you are required to fi
 
 > **Note:** If you need a refresher on how to log in to EURA, you can find it from our previous article [here.](https://xamkfi.github.io/Koodariverstas-wikiplatform/articles/Beginning-a-project/starting-information.html)
 
-***This page is currently under construction and will be filled at a later date!***
+You an find the fields for entering your ending information when opening the project page in EURA.
+
+![](Article images/Picture1.png){fig-align="center"}
+
+Use the button for providing information to access the form required for providing your information.
+
+![](Article images/Picture2.png){fig-align="center"}
+
+> **Note:** EURA asks you to provide the ending information every time you participate in a project ran by koodariverstas. This is **not** necessary since you can edit your previously submitted information at a later date.
+
+## Providing the correct information
+
+There are different ways to provide your information depending on the circumstances of your participation.
+
+1.  If this is your first and only time of participating in a project ran by koodariverstas
+
+    -   Fill in your ending information like normal and add the date your participation ends.
+
+2.  If you have previously participated and submitted the information already.
+
+    -   You can go back to your original submission and edit the ending date to match the end of your latest project.
+
+3.  You have 2 back-to-back projects with koodariverstas.
+
+    -   In the case you know that you are participating in two different cases with different ending dates. Provide the ending date of the later project.
+
+    > **Note:** The important part of submitting the information is to correctly mark the entire duration of your participation whether it's just for one short project or multiple longer ones. **You can always edit your ending information to reflect your current circumstances.**
+
+## Information form
+
+The image below shows you the form you need to fill.
+
+This information consists of:
+
+-   Ending date
+
+-   Employment status when your participation ends
+
+-   Did you finish your diploma or other relevant professional certificates thanks to your participation
+
+![](Article images/Picture3.png){fig-align="center"}
+
+This wraps up the information collection of your participation. Remember that if you end up participating in another project with us, you can always edit your ending date.
