@@ -15,11 +15,11 @@ When your participation in a project is coming to an end, you are required to fi
 
 You an find the fields for entering your ending information when opening the project page in EURA.
 
-![](Article images/Picture1.png){fig-align="center"}
+![](Article images/ending 1 eng.jpg){fig-align="center"}
 
-Use the button for providing information to access the form required for providing your information.
+Use the button located at the bottom of the page to provide your ending information and access the form.
 
-![](Article images/Picture2.png){fig-align="center"}
+![](Article images/ending 2 eng.jpg){fig-align="center"}
 
 > **Note:** EURA asks you to provide the ending information every time you participate in a project ran by koodariverstas. This is **not** necessary since you can edit your previously submitted information at a later date.
 
@@ -53,6 +53,6 @@ This information consists of:
 
 -   Did you finish your diploma or other relevant professional certificates thanks to your participation
 
-![](Article images/Picture3.png){fig-align="center"}
+![](Article images/ending 3 eng.jpg){fig-align="center"}
 
 This wraps up the information collection of your participation. Remember that if you end up participating in another project with us, you can always edit your ending date.
