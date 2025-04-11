@@ -4,14 +4,18 @@ about:
   template: jolla
   image: Logo.png
   links:
-  
+
     - icon: github
       text: Github
       href: https://github.com/xamkfi/Koodariverstas-wikiplatform
 ---
 
-## Welcome to koodariverstas! 
+## Welcome to koodariverstas!
 
 Our mission is to bridge the gap between education and corporations. We believe that everyone has the right to prove their skills and be recognized for their work, that's why we want to provide students the opportunity to work in real projects for companies.
 
 Koodariverstas provides a platform that is beneficial for both companies and students. Our students get the opportunity to gain first hand experience in working with companies and learn the correct ways of working in a professional environment. The companies gain the ability to get their noncritical projects under way faster and with a smaller upfront cost.
+
+We have already completed several projects for companies in Eastern-Finland and are constantly looking to provide students the opportunity to prove their determination and knowledge for potential future employers.
+
+*Koodariverstas is co-funded by the European Union and is managed by South-Eastern Finlands University of Applied Sciences (Xamk).*
