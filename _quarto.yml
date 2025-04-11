@@ -31,10 +31,7 @@ website:
     tools: 
       - icon: github
         href: https://github.com/xamkfi/Koodariverstas-wikiplatform
-      - icon: twitter-x
-        href: https://twitter.com
-      - icon: linkedin
-        href: https://linkedin.com
+
 
   sidebar: 
     style: "floating"
