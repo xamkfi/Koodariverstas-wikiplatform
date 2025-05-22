@@ -1,6 +1,6 @@
 ---
 title: "Simple react frontend"
-categories: [Ending a project, General] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)
+categories: [Beginning a project, General] ## Current categories are: Beginning a project, During a project, Ending a project, General (Categories are case sensitive)
 date: "5.22.2025" ## date and time format is MM.DD.YYYY
 author: Miika Reijonen, Niko Laurila ## Author/authors of the article. 
 date-modified: last-modified ## This adds an automatic last modified field to the article, last-modified function will automatically add the correct date when a modification is made to the article.
