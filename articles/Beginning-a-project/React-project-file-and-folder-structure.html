@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Niko Laurila, Miika Reijonen">
-<meta name="dcterms.date" content="2025-02-24">
+<meta name="author" content="Miika Reijonen, Niko Laurila">
+<meta name="dcterms.date" content="2025-05-22">
 
-<title>Clean architecture</title>
+<title>React files and folder structure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,41 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -303,7 +268,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/index.html">Beginning a project</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/Clean-architecture.html">Clean architecture</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/index.html">Beginning a project</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/React-project-file-and-folder-structure.html">React files and folder structure</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -349,7 +314,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/Beginning-a-project/Clean-architecture.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../articles/Beginning-a-project/Clean-architecture.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Clean architecture</span></a>
   </div>
 </li>
@@ -385,7 +350,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../articles/Beginning-a-project/React-project-file-and-folder-structure.html" class="sidebar-item-text sidebar-link">
+  <a href="../../articles/Beginning-a-project/React-project-file-and-folder-structure.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">React files and folder structure</span></a>
   </div>
 </li>
@@ -532,22 +497,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
-  <li><a href="#key-principles" id="toc-key-principles" class="nav-link" data-scroll-target="#key-principles">Key Principles</a></li>
-  <li><a href="#conceptual-c-example" id="toc-conceptual-c-example" class="nav-link" data-scroll-target="#conceptual-c-example">Conceptual C# Example</a>
-  <ul class="collapse">
-  <li><a href="#entities-domain-layer" id="toc-entities-domain-layer" class="nav-link" data-scroll-target="#entities-domain-layer">1. Entities (Domain Layer)</a></li>
-  <li><a href="#use-cases-application-layer" id="toc-use-cases-application-layer" class="nav-link" data-scroll-target="#use-cases-application-layer">2. Use Cases (Application Layer)</a></li>
-  <li><a href="#interface-adapters" id="toc-interface-adapters" class="nav-link" data-scroll-target="#interface-adapters">3. Interface Adapters</a></li>
-  <li><a href="#frameworks-and-drivers-ui-composition-root" id="toc-frameworks-and-drivers-ui-composition-root" class="nav-link" data-scroll-target="#frameworks-and-drivers-ui-composition-root">4. Frameworks and Drivers (UI / Composition Root)</a></li>
-  </ul></li>
-  <li><a href="#benefits-of-clean-architecture" id="toc-benefits-of-clean-architecture" class="nav-link" data-scroll-target="#benefits-of-clean-architecture">Benefits of Clean Architecture</a></li>
-  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions">Common Misconceptions</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul></li>
+  <li><a href="#react-project-file-and-folder-structure" id="toc-react-project-file-and-folder-structure" class="nav-link active" data-scroll-target="#react-project-file-and-folder-structure">React Project File and Folder structure</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/Beginning-a-project/Clean-architecture.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/Beginning-a-project/React-project-file-and-folder-structure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://european-union.europa.eu/index_en"><img src="../../EUalt.png" class="side-margin" style="width:100.0%;height:100.0%" alt="Co-funded by the european union"></a></p>
 <p><a href="https://www.ely-keskus.fi/en/web/ely-en"><img src="../../elyfi.png" class="side-margin" style="width:80.0%;height:80.0%" alt="ELY-center"></a></p>
@@ -558,9 +510,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/index.html">Beginning a project</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/Clean-architecture.html">Clean architecture</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../articles/index.html">All articles</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/index.html">Beginning a project</a></li><li class="breadcrumb-item"><a href="../../articles/Beginning-a-project/React-project-file-and-folder-structure.html">React files and folder structure</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Clean architecture</h1>
+<h1 class="title">React files and folder structure</h1>
   </div>
 
 
@@ -570,14 +522,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Niko Laurila, Miika Reijonen </p>
+             <p>Miika Reijonen, Niko Laurila </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 24, 2025</p>
+      <p class="date">May 22, 2025</p>
     </div>
   </div>
   
@@ -595,256 +547,152 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="architecture.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
-<p><strong>Clean Architecture</strong> is a layered architectural style that organizes software into concentric circles (or layers). Each layer has a well-defined role, and <strong>all dependencies point inwards</strong>—toward the most critical part of the system: the <strong>core business logic</strong> (or domain). The outer layers handle implementation details (e.g., frameworks, databases, user interfaces) that can change over time without affecting the domain logic.</p>
-<p>At a high level, Clean Architecture looks like this (from innermost to outermost layer):</p>
-<ol type="1">
-<li><strong>Entities (Domain Model)</strong>
+<section id="react-project-file-and-folder-structure" class="level1">
+<h1>React Project File and Folder structure</h1>
+<p>A well-organized file and folder structure is crucial for the maintainability, scalability, and readability of a React frontend project. While React itself doesn’t enforce a specific structure, adopting a logical and consistent approach is highly recommended. Here’s a breakdown of common practices and guidelines:</p>
+<p><strong>Core Principles:</strong></p>
 <ul>
-<li>Encapsulate enterprise-wide, core business rules and data.<br>
-</li>
-<li>Typically, these are <strong>plain</strong> objects with minimal dependencies (no direct database or framework references).</li>
-</ul></li>
-<li><strong>Use Cases (Application Layer / Interactors)</strong>
-<ul>
-<li>Contain application-specific business rules and orchestrate how data flows between entities and other parts of the system.<br>
-</li>
-<li>Coordinate tasks (e.g., “Create Order,” “Process Payment”) using domain entities.<br>
-</li>
-<li>No knowledge of UI, database, or external services; only deals with abstractions.</li>
-</ul></li>
-<li><strong>Interface Adapters (Adapters / Gateways / Presenters)</strong>
-<ul>
-<li>Translate data between <strong>Use Cases</strong> and <strong>Frameworks/Drivers</strong>.<br>
-</li>
-<li>Could include <strong>repositories</strong>, <strong>DTOs</strong> (Data Transfer Objects), <strong>presenters</strong>, <strong>controllers</strong>, etc.<br>
-</li>
-<li>Responsible for <strong>input/output formatting</strong>: parsing incoming requests, formatting outgoing responses.</li>
-</ul></li>
-<li><strong>Frameworks and Drivers (Infrastructure Layer)</strong>
-<ul>
-<li>Outer layer containing <strong>databases</strong>, <strong>web frameworks</strong>, <strong>UI frameworks</strong>, <strong>third-party services</strong>, etc.<br>
-</li>
-<li>Operates through adapters (interfaces) defined in the more central layers.<br>
-</li>
-<li>Should contain <strong>no business logic</strong>—if possible, only implementation details of the system’s boundaries.</li>
-</ul></li>
-</ol>
-<hr>
-<section id="key-principles" class="level2">
-<h2 class="anchored" data-anchor-id="key-principles">Key Principles</h2>
-<ol type="1">
-<li><p><strong>Dependency Rule</strong>:<br>
-All source code dependencies point <strong>inward</strong>, toward higher-level policies (business rules). Inner layers know nothing about outer layers.</p></li>
-<li><p><strong>Separation of Concerns</strong>:<br>
-Each layer focuses on a distinct set of responsibilities (domain logic, application orchestration, data access, presentation).</p></li>
-<li><p><strong>Testability</strong>:<br>
-Since business rules reside in framework-agnostic layers, they can be tested <strong>without</strong> spinning up databases or web servers.</p></li>
-<li><p><strong>Flexibility &amp; Maintainability</strong>:<br>
-When changing a database, UI, or external API, the inner layers remain unaffected. This reduces coupling and makes large-scale refactors safer.</p></li>
-</ol>
-<hr>
-</section>
-<section id="conceptual-c-example" class="level2">
-<h2 class="anchored" data-anchor-id="conceptual-c-example">Conceptual C# Example</h2>
-<p>Below is a <em>simplified</em> example of how you might structure a Clean Architecture in C#. Real-world scenarios tend to be more complex but follow these core ideas.</p>
-<section id="entities-domain-layer" class="level3">
-<h3 class="anchored" data-anchor-id="entities-domain-layer">1. Entities (Domain Layer)</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> CleanArchitecture<span class="op">.</span><span class="fu">Domain</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Core domain object</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">class</span> Order</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">int</span> Id <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">private</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">decimal</span> Total <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">private</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">bool</span> IsPaid <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">private</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="fu">Order</span><span class="op">(</span><span class="dt">int</span> id<span class="op">,</span> <span class="dt">decimal</span> total<span class="op">)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>            Id <span class="op">=</span> id<span class="op">;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>            Total <span class="op">=</span> total<span class="op">;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>            IsPaid <span class="op">=</span> <span class="kw">false</span><span class="op">;</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">void</span> <span class="fu">Pay</span><span class="op">()</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>            <span class="co">// Business rule: you can only pay if the order is not already paid</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>            <span class="kw">if</span> <span class="op">(</span>IsPaid<span class="op">)</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                <span class="kw">throw</span> <span class="kw">new</span> <span class="fu">InvalidOperationException</span><span class="op">(</span><span class="st">"Order is already paid."</span><span class="op">);</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>            IsPaid <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><strong>Purpose</strong>: Contains the <strong>enterprise-wide</strong> business rules (<code>Order</code>).</li>
-<li><strong>No</strong> references to frameworks, databases, or UI.</li>
+<li><strong>Clarity and Readability:</strong> The structure should be intuitive and easy for any developer to understand, even if they are new to the project.</li>
+<li><strong>Scalability:</strong> The structure should accommodate the growth of the application without becoming a tangled mess.</li>
+<li><strong>Maintainability:</strong> It should be easy to find and modify code, introduce new features, and refactor existing ones.</li>
+<li><strong>Separation of Concerns:</strong> Grouping related files together based on their purpose or feature helps keep the codebase organized.</li>
+<li><strong>Consistency:</strong> Once a structure is chosen, stick to it throughout the project.</li>
 </ul>
-</section>
-<section id="use-cases-application-layer" class="level3">
-<h3 class="anchored" data-anchor-id="use-cases-application-layer">2. Use Cases (Application Layer)</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> CleanArchitecture<span class="op">.</span><span class="fu">Application</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">interface</span> IOrderRepository</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        Order <span class="fu">GetById</span><span class="op">(</span><span class="dt">int</span> orderId<span class="op">);</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="dt">void</span> <span class="fu">Save</span><span class="op">(</span>Order order<span class="op">);</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">class</span> PayOrderUseCase</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">private</span> <span class="kw">readonly</span> IOrderRepository _orderRepository<span class="op">;</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="fu">PayOrderUseCase</span><span class="op">(</span>IOrderRepository orderRepository<span class="op">)</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>            _orderRepository <span class="op">=</span> orderRepository<span class="op">;</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">void</span> <span class="fu">Execute</span><span class="op">(</span><span class="dt">int</span> orderId<span class="op">)</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>            <span class="co">// 1. Get the order from a repository</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>            <span class="dt">var</span> order <span class="op">=</span> _orderRepository<span class="op">.</span><span class="fu">GetById</span><span class="op">(</span>orderId<span class="op">);</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>            <span class="co">// 2. Perform the domain action</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>            order<span class="op">.</span><span class="fu">Pay</span><span class="op">();</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>            <span class="co">// 3. Persist the changes</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>            _orderRepository<span class="op">.</span><span class="fu">Save</span><span class="op">(</span>order<span class="op">);</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><strong>Purpose</strong>: Implements application-specific business rules (use cases).<br>
-</li>
-<li><strong>No</strong> knowledge of <em>how</em> <code>IOrderRepository</code> is implemented (database, in-memory, etc.).<br>
-</li>
-<li>Coordinates domain actions (<code>order.Pay()</code>).</li>
-</ul>
-</section>
-<section id="interface-adapters" class="level3">
-<h3 class="anchored" data-anchor-id="interface-adapters">3. Interface Adapters</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> CleanArchitecture<span class="op">.</span><span class="fu">Infrastructure</span><span class="op">.</span><span class="fu">Persistence</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> CleanArchitecture<span class="op">.</span><span class="fu">Application</span><span class="op">;</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> CleanArchitecture<span class="op">.</span><span class="fu">Domain</span><span class="op">;</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> System<span class="op">.</span><span class="fu">Collections</span><span class="op">.</span><span class="fu">Generic</span><span class="op">;</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> System<span class="op">.</span><span class="fu">Linq</span><span class="op">;</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">// A simple in-memory repository for demonstration</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">class</span> InMemoryOrderRepository <span class="op">:</span> IOrderRepository</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="kw">private</span> <span class="kw">readonly</span> List<span class="op">&lt;</span>Order<span class="op">&gt;</span> _orders <span class="op">=</span> <span class="kw">new</span> List<span class="op">&lt;</span>Order<span class="op">&gt;();</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> Order <span class="fu">GetById</span><span class="op">(</span><span class="dt">int</span> orderId<span class="op">)</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> _orders<span class="op">.</span><span class="fu">FirstOrDefault</span><span class="op">(</span>o <span class="op">=&gt;</span> o<span class="op">.</span><span class="fu">Id</span> <span class="op">==</span> orderId<span class="op">);</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">void</span> <span class="fu">Save</span><span class="op">(</span>Order order<span class="op">)</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>            <span class="co">// If order doesn't exist, add it; if it does, update it</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>            <span class="dt">var</span> existingOrder <span class="op">=</span> <span class="fu">GetById</span><span class="op">(</span>order<span class="op">.</span><span class="fu">Id</span><span class="op">);</span></span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>            <span class="kw">if</span> <span class="op">(</span>existingOrder <span class="op">==</span> <span class="kw">null</span><span class="op">)</span></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>                _orders<span class="op">.</span><span class="fu">Add</span><span class="op">(</span>order<span class="op">);</span></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>            <span class="kw">else</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>            <span class="op">{</span></span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>                <span class="co">// For simplicity, do nothing extra here</span></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>            <span class="op">}</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><strong>Purpose</strong>: Concrete implementation of <code>IOrderRepository</code> that interfaces with some form of storage (in this case, <strong>in-memory</strong> for demo).<br>
-</li>
-<li>Real-world scenario: A repository that uses EF Core, Dapper, or any other data access technology—<strong>outer details</strong> that the core application logic need not know.</li>
-</ul>
-</section>
-<section id="frameworks-and-drivers-ui-composition-root" class="level3">
-<h3 class="anchored" data-anchor-id="frameworks-and-drivers-ui-composition-root">4. Frameworks and Drivers (UI / Composition Root)</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode csharp code-with-copy"><code class="sourceCode cs"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> CleanArchitecture<span class="op">.</span><span class="fu">Web</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> CleanArchitecture<span class="op">.</span><span class="fu">Application</span><span class="op">;</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> CleanArchitecture<span class="op">.</span><span class="fu">Domain</span><span class="op">;</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> CleanArchitecture<span class="op">.</span><span class="fu">Infrastructure</span><span class="op">.</span><span class="fu">Persistence</span><span class="op">;</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">using</span> Microsoft<span class="op">.</span><span class="fu">AspNetCore</span><span class="op">.</span><span class="fu">Mvc</span><span class="op">;</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">[</span><span class="fu">Route</span><span class="op">(</span><span class="st">"api/[controller]"</span><span class="op">)]</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">[</span>ApiController<span class="op">]</span></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">class</span> OrdersController <span class="op">:</span> ControllerBase</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>        <span class="kw">private</span> <span class="kw">readonly</span> PayOrderUseCase _payOrderUseCase<span class="op">;</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">private</span> <span class="kw">readonly</span> IOrderRepository _orderRepository<span class="op">;</span>  <span class="co">// For demonstration only</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Composition root: wiring up dependencies</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="fu">OrdersController</span><span class="op">()</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>            _orderRepository <span class="op">=</span> <span class="kw">new</span> <span class="fu">InMemoryOrderRepository</span><span class="op">();</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>            _payOrderUseCase <span class="op">=</span> <span class="kw">new</span> <span class="fu">PayOrderUseCase</span><span class="op">(</span>_orderRepository<span class="op">);</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>            <span class="co">// In a real-world app, a DI container (like .NET Core's built-in) </span></span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>            <span class="co">// would typically handle instantiations and injections.</span></span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>        <span class="op">[</span><span class="fu">HttpPost</span><span class="op">(</span><span class="st">"pay/{orderId}"</span><span class="op">)]</span></span>
-<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> ActionResult <span class="fu">PayOrder</span><span class="op">(</span><span class="dt">int</span> orderId<span class="op">)</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
-<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>            _payOrderUseCase<span class="op">.</span><span class="fu">Execute</span><span class="op">(</span>orderId<span class="op">);</span></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>            <span class="kw">return</span> <span class="fu">Ok</span><span class="op">(</span><span class="st">"Order paid successfully."</span><span class="op">);</span></span>
-<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Additional endpoints could be added here</span></span>
-<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><strong>Purpose</strong>: The <strong>outermost layer</strong>, containing the <strong>web or UI</strong> framework code (<code>ASP.NET</code> in this example).<br>
-</li>
-<li>Responsible for <strong>receiving</strong> HTTP requests, <strong>instantiating</strong> use cases (and repositories), and <strong>coordinating</strong> responses.<br>
-</li>
-<li><strong>No</strong> domain or core logic here. It simply orchestrates calls to the Application Layer.</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="benefits-of-clean-architecture" class="level2">
-<h2 class="anchored" data-anchor-id="benefits-of-clean-architecture">Benefits of Clean Architecture</h2>
+<p><strong>Common Folder Structures:</strong></p>
+<p>Two prevalent approaches for organizing React projects are:</p>
 <ol type="1">
-<li><strong>Framework Independence</strong>: Business logic doesn’t rely on any particular framework. You can switch to a different UI, database, or library without rewriting core rules.<br>
-</li>
-<li><strong>Testability</strong>: With dependencies inverted (toward abstractions), you can plug in test doubles or mocks for repositories and services easily.<br>
-</li>
-<li><strong>Maintainability</strong>: By separating concerns, changes in UI or data storage affect only the outer layers, not the domain or use cases.<br>
-</li>
-<li><strong>Decoupled Code</strong>: The domain model and application rules remain unaffected by outside concerns (databases, APIs, UI frameworks).</li>
+<li><strong>Grouping by File Type: (should start by this)</strong>
+<ul>
+<li>Organizes files based on their technical role (e.g., all components in a <code>components</code> folder, all pages in a <code>pages</code> folder).</li>
+<li>Simple and easy to grasp for smaller to medium-sized applications.</li>
+<li>Can become harder to manage in large applications as feature logic is spread across different folders.</li>
+</ul>
+<pre><code>src/
+├── assets/ # images, fonts, icons
+├── components/ # reusable UI components
+├── pages/ # route-level components
+├── utils/ # helper functions
+├── hooks/ # custom React composables
+├── tests/ # shared test utilities
+├── App.ts
+├── index.ts
+└── ...</code></pre></li>
+<li><strong>Grouping by Feature (Domain-Based):</strong>
+<ul>
+<li>Organizes files based on the features or domains of the application (e.g., all files related to user authentication in an <code>auth</code> folder, all files related to products in a <code>products</code> folder).</li>
+<li>More suitable for larger and complex applications.</li>
+<li>Keeps feature-related logic and components together, improving maintainability and understanding of specific parts of the application.</li>
+</ul>
+<pre><code>src/
+├── features/
+│   ├── auth/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── utils/
+│   │   └── ...
+│   └── products/
+│       ├── components/
+│       ├── pages/
+│       ├── hooks/
+│       ├── utils/
+│       └── ...
+├── components/ (for shared/global components)
+├── assets/
+├── utils/ (for shared utilities)
+├── App.ts
+└── index.ts</code></pre></li>
 </ol>
-<hr>
-</section>
-<section id="common-misconceptions" class="level2">
-<h2 class="anchored" data-anchor-id="common-misconceptions">Common Misconceptions</h2>
-<ol type="1">
-<li><strong>It’s Not Just Folder Structure</strong>: Clean Architecture is more about <strong>dependency flow</strong> than merely having “nice folders.” You can have well-labeled directories but still violate dependency rules.<br>
-</li>
-<li><strong>It’s Not Just for Large Apps</strong>: Even smaller projects benefit from layered boundaries if they anticipate future growth or complexity.<br>
-</li>
-<li><strong>It Doesn’t Require a Particular Tech Stack</strong>: Clean Architecture is language/framework-agnostic. Whether in C#, Java, Python, or JavaScript, the principles remain the same.</li>
-</ol>
-<hr>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p><strong>Clean Architecture</strong> structures your application around the <strong>core business logic</strong>, shielding it from implementation details. By inverting dependencies, you <strong>minimize coupling</strong> and maximize the <strong>testability</strong> and <strong>flexibility</strong> of your system. This approach is particularly valuable in large, evolving projects where requirements, frameworks, and technologies may change over time, but the core business rules remain consistent and stable.</p>
+<p>Many projects adopt a hybrid approach, combining aspects of both, which often proves effective for balancing simplicity and scalability.</p>
+<p><strong>Key Folders and their Organization:</strong></p>
+<p>Within the chosen structure, here’s a breakdown of common folders and how to organize files within them:</p>
+<ul>
+<li><strong><code>src/</code>:</strong> This is the main directory for your application’s source code. Most of your development will happen here.</li>
+<li><strong><code>components/</code>:</strong>
+<ul>
+<li>Houses reusable UI components that can be used across different parts of your application.</li>
+<li>Can be further organized into subfolders for better grouping (e.g., <code>components/buttons</code>, <code>components/forms</code>, <code>components/ui</code>).</li>
+<li>For feature-based structures, this folder is typically for truly global or shared components. Feature-specific components reside within the feature’s folder.</li>
+<li>Consider grouping component-related files (component file, CSS/styled-components, tests) within a single folder named after the component (e.g., <code>components/Button/Button.ts</code>, <code>components/Button/Button.module.css</code>, <code>components/Button/Button.test.ts</code>).</li>
+</ul></li>
+<li><strong><code>pages/</code> (or <code>routes/</code>):</strong>
+<ul>
+<li>Contains top-level components that represent different pages or routes in your application.</li>
+<li>These components typically compose smaller components from the <code>components</code> folder to form a complete page layout.</li>
+<li>In frameworks like Next.ts, this folder has a specific meaning for file-system based routing. In create-react-app or similar setups using React Router, these are simply components rendered at specific routes.</li>
+</ul></li>
+<li><strong><code>assets/</code>:</strong>
+<ul>
+<li>Stores static assets like images, fonts, and other media files.</li>
+<li>Can be further categorized into subfolders like <code>assets/images</code>, <code>assets/fonts</code>, etc.</li>
+</ul></li>
+<li><strong><code>utils/</code>:</strong>
+<ul>
+<li>Contains utility functions or helper modules that perform common tasks and are used across the application.</li>
+<li>Examples include date formatting, API helpers, validation functions, etc.</li>
+</ul></li>
+<li><strong><code>hooks/</code>:</strong>
+<ul>
+<li>Dedicated folder for custom React hooks.</li>
+<li>Organizing custom hooks here makes them easily discoverable and reusable.</li>
+</ul></li>
+<li><strong><code>context/</code>:</strong>
+<ul>
+<li>If you are using React’s Context API for state management, store your context providers and consumers here.</li>
+</ul></li>
+<li><strong><code>redux/</code> or <code>store/</code>:</strong>
+<ul>
+<li>If using Redux or another state management library, this folder will contain your store configuration, reducers, actions, and selectors.</li>
+<li>Can be organized by feature or module within this folder.</li>
+</ul></li>
+<li><strong><code>styles/</code>:</strong>
+<ul>
+<li>Contains global styles, CSS variables, theme files, or shared styling configurations.</li>
+<li>If using CSS modules or styled-components, component-specific styles often live with the component files.</li>
+</ul></li>
+<li><strong><code>api/</code> or <code>services/</code>:</strong>
+<ul>
+<li>Houses modules responsible for interacting with backend APIs or external services.</li>
+<li>Separating API logic makes it easier to manage data fetching and mutations.</li>
+</ul></li>
+<li><strong><code>constants/</code>:</strong>
+<ul>
+<li>Stores application-wide constants.</li>
+</ul></li>
+<li><strong><code>types/</code> (for TypeScript projects):</strong>
+<ul>
+<li>Contains TypeScript type definitions and interfaces.</li>
+</ul></li>
+</ul>
+<p><strong>Organizing Pages and Routes:</strong></p>
+<ul>
+<li><strong>Route Configuration:</strong> If you are using a routing library like React Router, the main route configuration can reside in your <code>App.ts</code> or in a dedicated <code>routes.ts</code> file within the <code>src</code> folder or a <code>routes/</code> subfolder.</li>
+<li><strong>Page Components:</strong> As mentioned, place components that represent full pages in the <code>pages/</code> folder (or within feature folders in a feature-based structure).</li>
+<li><strong>Nested Routes:</strong> For nested routes, the corresponding components can be organized hierarchically within the <code>pages/</code> or feature folders to mirror the route structure.</li>
+</ul>
+<p><strong>Guidelines for File Naming:</strong></p>
+<ul>
+<li><strong>Components:</strong> Use PascalCase (e.g., <code>Button.ts</code>, <code>UserProfilePage.ts</code>).</li>
+<li><strong>Other Files:</strong> Use camelCase or kebab-case depending on your team’s preference (e.g., <code>utils.ts</code>, <code>api-client.ts</code>).</li>
+<li><strong>Index Files:</strong> Using <code>index.ts</code> within a folder allows for cleaner imports (e.g., <code>import Button from './components/Button'</code>) instead of <code>import Button from './components/Button/Button'</code>). However, this can make it harder to find specific files when searching in an editor. Choose one approach and stick to it.</li>
+<li><strong>Test Files:</strong> Colocate test files with the code they are testing, using a consistent naming convention (e.g., <code>Button.test.ts</code>, <code>useAuth.test.ts</code>).</li>
+</ul>
+<p><strong>Avoiding Common Pitfalls:</strong></p>
+<ul>
+<li><strong>Too Much Nesting:</strong> Deeply nested folders can make navigation and imports cumbersome. Aim for a relatively flat structure where possible.</li>
+<li><strong>Inconsistent Naming:</strong> Lack of consistent naming conventions for files and folders can lead to confusion.</li>
+<li><strong>Mixing Concerns:</strong> Avoid putting unrelated logic or components in the same folder.</li>
+<li><strong>Over-engineering:</strong> Don’t create overly complex structures for small projects. Start simple and refactor as the project grows.</li>
+</ul>
+<p><strong>Choosing the Right Structure:</strong></p>
+<p>The “best” structure depends on the size and complexity of your project, as well as the preferences of your development team.</p>
+<ul>
+<li>For small projects or those just starting, a file-type based structure is often sufficient and easy to get started with.</li>
+<li>For medium to large projects with distinct features, a feature-based or hybrid approach generally provides better organization and scalability.</li>
+</ul>
+<p>Discuss and agree on a structure with your team early in the project and document it. This ensures everyone is on the same page and helps maintain consistency as the project evolves.</p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -1297,7 +1145,7 @@ When changing a database, UI, or external API, the inner layers remain unaffecte
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/Beginning-a-project/Clean-architecture.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/edit/main/articles/Beginning-a-project/React-project-file-and-folder-structure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/xamkfi/Koodariverstas-wikiplatform/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

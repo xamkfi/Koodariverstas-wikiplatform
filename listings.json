@@ -1,46 +1,14 @@
 [
   {
-    "listing": "/articles/During-a-project/index.html",
+    "listing": "/articles/General/index.html",
     "items": [
-      "/articles/General/Taiga.html",
-      "/articles/During-a-project/Modular-and-Reusable-code.html",
-      "/articles/During-a-project/Readability-and-Maintainability.html",
-      "/articles/During-a-project/YAGNI.html",
-      "/articles/During-a-project/managing a workflow.html"
-    ]
-  },
-  {
-    "listing": "/articles/Ending-a-project/index.html",
-    "items": [
-      "/articles/Ending-a-project/Gathering feedback.html",
-      "/articles/Ending-a-project/Ending-information.html"
-    ]
-  },
-  {
-    "listing": "/articles/index.html",
-    "items": [
-      "/articles/General/General adding test.html",
-      "/articles/Beginning-a-project/Clean-architecture.html",
-      "/articles/Beginning-a-project/Commenting-and-Documentation.html",
-      "/articles/Beginning-a-project/DRY.html",
-      "/articles/Ending-a-project/Ending-information.html",
-      "/articles/Beginning-a-project/starting-information.html",
-      "/articles/Ending-a-project/Gathering feedback.html",
-      "/articles/General/Github tutorial.html",
-      "/articles/General/Taiga.html",
-      "/articles/Beginning-a-project/KISS.html",
-      "/articles/During-a-project/managing a workflow.html",
-      "/articles/During-a-project/Modular-and-Reusable-code.html",
-      "/articles/Beginning-a-project/Naming-Conventions.html",
-      "/articles/General/opensource.html",
-      "/articles/Beginning-a-project/SOLID.html",
-      "/articles/During-a-project/Readability-and-Maintainability.html",
-      "/articles/Beginning-a-project/Responsibilities.html",
-      "/articles/Beginning-a-project/React-frontend-template.html",
       "/articles/General/OpensourceDevelopment.html",
-      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/opensource.html",
+      "/articles/General/Taiga.html",
       "/articles/General/Tools.html",
-      "/articles/During-a-project/YAGNI.html"
+      "/articles/General/Github tutorial.html",
+      "/articles/General/StackEditFormatGuide.html",
+      "/articles/General/General adding test.html"
     ]
   },
   {
@@ -71,20 +39,54 @@
       "/articles/Beginning-a-project/SOLID.html",
       "/articles/During-a-project/Readability-and-Maintainability.html",
       "/articles/During-a-project/YAGNI.html",
+      "/articles/Beginning-a-project/React-project-file-and-folder-structure.html",
       "/articles/Beginning-a-project/React-frontend-template.html",
       "/articles/During-a-project/managing a workflow.html"
     ]
   },
   {
-    "listing": "/articles/General/index.html",
+    "listing": "/articles/index.html",
     "items": [
-      "/articles/General/OpensourceDevelopment.html",
-      "/articles/General/opensource.html",
-      "/articles/General/Taiga.html",
-      "/articles/General/Tools.html",
+      "/articles/General/General adding test.html",
+      "/articles/Beginning-a-project/Clean-architecture.html",
+      "/articles/Beginning-a-project/Commenting-and-Documentation.html",
+      "/articles/Beginning-a-project/DRY.html",
+      "/articles/Ending-a-project/Ending-information.html",
+      "/articles/Beginning-a-project/starting-information.html",
+      "/articles/Ending-a-project/Gathering feedback.html",
       "/articles/General/Github tutorial.html",
+      "/articles/General/Taiga.html",
+      "/articles/Beginning-a-project/KISS.html",
+      "/articles/During-a-project/managing a workflow.html",
+      "/articles/During-a-project/Modular-and-Reusable-code.html",
+      "/articles/Beginning-a-project/Naming-Conventions.html",
+      "/articles/General/opensource.html",
+      "/articles/Beginning-a-project/SOLID.html",
+      "/articles/Beginning-a-project/React-project-file-and-folder-structure.html",
+      "/articles/During-a-project/Readability-and-Maintainability.html",
+      "/articles/Beginning-a-project/Responsibilities.html",
+      "/articles/Beginning-a-project/React-frontend-template.html",
+      "/articles/General/OpensourceDevelopment.html",
       "/articles/General/StackEditFormatGuide.html",
-      "/articles/General/General adding test.html"
+      "/articles/General/Tools.html",
+      "/articles/During-a-project/YAGNI.html"
+    ]
+  },
+  {
+    "listing": "/articles/Ending-a-project/index.html",
+    "items": [
+      "/articles/Ending-a-project/Gathering feedback.html",
+      "/articles/Ending-a-project/Ending-information.html"
+    ]
+  },
+  {
+    "listing": "/articles/During-a-project/index.html",
+    "items": [
+      "/articles/General/Taiga.html",
+      "/articles/During-a-project/Modular-and-Reusable-code.html",
+      "/articles/During-a-project/Readability-and-Maintainability.html",
+      "/articles/During-a-project/YAGNI.html",
+      "/articles/During-a-project/managing a workflow.html"
     ]
   },
   {
