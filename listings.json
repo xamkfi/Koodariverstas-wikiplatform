@@ -100,7 +100,9 @@
       "/articles/Beginning-a-project/DRY.html",
       "/articles/Beginning-a-project/KISS.html",
       "/articles/Beginning-a-project/Naming-Conventions.html",
-      "/articles/Beginning-a-project/SOLID.html"
+      "/articles/Beginning-a-project/SOLID.html",
+      "/articles/Beginning-a-project/React-frontend-template.html",
+      "/articles/Beginning-a-project/React-project-file-and-folder-structure.html"
     ]
   }
 ]
