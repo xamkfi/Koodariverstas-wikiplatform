@@ -7,7 +7,7 @@ date-modified: last-modified ## This adds an automatic last modified field to th
 toc: true ##this adds an automatic Table-Of-Content for your article.
 ---
 
-# Filling in your information for the European Union. 
+# Filling in your information for the European Union.
 
 When you begin work within Koodariverstas, or in a project that is managed by Koodariverstas, you are required to fill in your information for the European Union. Since Koodariverstas is funded in part by the EU, the EU has the legal right to ask for every participants information.
 
@@ -31,7 +31,7 @@ You can access the EURA2021 system through this link: <http://www.eura2021.fi/os
 
 -   Citizens of Finland can use their preferred bank of choice to complete their login. After logging in, make sure the information shown to you is correct.
 
--   If you are a citizen of a different country, and don't have a Finnish bank account, you can use the "Ulkomaalaisen tunnistustavat" button located at the bottom of the page (Red arrows). ![Foreign login](Euralogin 1.png){width="832"}
+-   If you are a citizen of a different country, and don't have a Finnish bank account, you can use the "Ulkomaalaisen tunnistustavat" button located at the bottom of the page (Red arrows). ![Foreign login](Euralogin%201.png){width="832"}
 
     After you have logged in, make sure the information you are provided with is correct.
 
@@ -48,10 +48,9 @@ If you scanned the qr code, this information is automatically filled and you wil
 Fill in the required fields, use the table below for reference when filling in your information.
 
 | Question | Anwser |
-|----|----|
+|------------------------------------|------------------------------------|
 | Beginning date | This is the date you started working in the project |
 | Highest education of the participant | This is the highest level of education you have reached **before** beginning in the project. (Only degrees you have a diploma from are valid). |
 | Current employment status | Student |
-| Did you graduate after your participation | Usually when you end your work with us, you are still a student. If you however find employment with the help of Koodariverstas, you should mention it here. If you graduate you can also fill in that you have graduated. |
 
-You are also required to fill in information about your current status when your participation in the project ends. Guidance to fill in the ending information can be found from the "Ending a project" category of this wiki.
+You are also required to fill in information about your current status when your participation in the project ends. Guidance to fill in the ending information can be found from the "Ending a project" category of this wiki. You can also access the article from [this link](https://xamkfi.github.io/Koodariverstas-wikiplatform/articles/Ending-a-project/Ending-information.html).
